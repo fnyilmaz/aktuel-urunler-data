@@ -1,0 +1,31 @@
+{
+  "name": "aktuel-urunler-veri-yonetimi",
+  "version": "1.0.0",
+  "description": "BİM, A101 ve ŞOK Aktüel Broşür & Ürün Veri Çekme, Doğrulama ve Canlı GitHub Yayınlama Aracı",
+  "main": "scripts/catalog_manager.js",
+  "scripts": {
+    "status": "node scripts/catalog_manager.js status",
+    "validate": "node scripts/catalog_manager.js validate",
+    "publish": "node scripts/catalog_manager.js publish",
+    "backup": "node scripts/catalog_manager.js backup",
+    "scrape:bim": "node scripts/scrapers/bim_scraper.js",
+    "scrape:sok": "node scripts/scrapers/sok_scraper.js",
+    "scrape:a101": "node scripts/scrapers/a101_scraper.js",
+    "scrape:all": "node scripts/scrape_all_catalogs.js",
+    "daily-update": "node scripts/daily_update.js"
+  },
+  "keywords": [
+    "aktuel-urunler",
+    "scraper",
+    "bim",
+    "a101",
+    "sok",
+    "catalog",
+    "brochure"
+  ],
+  "author": "fnyilmaz",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^25.11.0"
+  }
+}
