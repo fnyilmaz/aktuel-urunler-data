@@ -25,7 +25,8 @@ async function fetchHtml(url) {
             'User-Agent': USER_AGENT,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7'
-        }
+        },
+        signal: AbortSignal.timeout(10000)
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}: ${url}`);
     return await res.text();
