@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "lastUpdated": "2026-09-20T11:48:09.883Z",
+  "version": 7,
+  "lastUpdated": "2026-09-20T12:19:11.513Z",
   "markets": [
     {
       "id": "bim",
@@ -10,7 +10,7 @@
       "logoUrl": "https://cdn2.bim.com.tr/templates/images/header-aktuel.png",
       "category": "Süpermarket",
       "description": "Toptan Fiyatına Perakende Satış",
-      "catalogCount": 2
+      "catalogCount": 10
     },
     {
       "id": "a101",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 2
+      "catalogCount": 3
     },
     {
       "id": "sok",
@@ -30,7 +30,7 @@
       "logoUrl": "https://images.ceptesok.com/cdn-cgi/image/width=120,height=120,fit=pad,quality=80,format=webp/logos/service-types/market-logo.svg",
       "category": "Süpermarket",
       "description": "Yeter de Artar",
-      "catalogCount": 1
+      "catalogCount": 3
     }
   ],
   "catalogs": [
@@ -42,7 +42,7 @@
       "badge": "Cuma Başlıyor",
       "startDate": "2026-09-25",
       "endDate": "2026-10-01",
-      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/a4b31d0d-6c91-489c-94e9-35b9be5c3147.jpg",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c23f0841-be01-4682-8c2f-ad89462f164c.jpg",
       "pageCount": 4,
       "status": "UPCOMING",
       "isFeatured": true,
@@ -50,8 +50,8 @@
       "pages": [
         {
           "pageNumber": 1,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/a4b31d0d-6c91-489c-94e9-35b9be5c3147.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_a4b31d0d-6c91-489c-94e9-35b9be5c3147.jpg",
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c23f0841-be01-4682-8c2f-ad89462f164c.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_c23f0841-be01-4682-8c2f-ad89462f164c.jpg",
           "productIds": [
             "prod_bim_pasabahce_mesrubat",
             "prod_bim_pasabahce_su",
@@ -60,8 +60,8 @@
         },
         {
           "pageNumber": 2,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/308bff35-51f2-4383-be36-d94275ca5386.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_308bff35-51f2-4383-be36-d94275ca5386.jpg",
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c89dc6a1-913d-46fe-8024-4984173e4f51.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_c89dc6a1-913d-46fe-8024-4984173e4f51.jpg",
           "productIds": [
             "prod_bim_emsan_lale",
             "prod_bim_glass_love",
@@ -70,8 +70,8 @@
         },
         {
           "pageNumber": 3,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/62c1621f-83cc-411c-9d84-18acdabf25d2.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_62c1621f-83cc-411c-9d84-18acdabf25d2.jpg",
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/d7fc906d-6d75-474f-9aad-7813c50cb892.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d7fc906d-6d75-474f-9aad-7813c50cb892.jpg",
           "productIds": [
             "prod_bim_moka_pot",
             "prod_bim_espresso_bardak"
@@ -79,8 +79,8 @@
         },
         {
           "pageNumber": 4,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/3f9920aa-1e62-4fd4-be98-c6c66009484a.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_3f9920aa-1e62-4fd4-be98-c6c66009484a.jpg",
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/2ad3b01b-839a-4646-b825-b7d2b288f3e3.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_2ad3b01b-839a-4646-b825-b7d2b288f3e3.jpg",
           "productIds": [
             "prod_bim_termos"
           ]
@@ -92,19 +92,19 @@
       "marketId": "bim",
       "title": "22 Eylül Salı Haftanın Önerileri",
       "subtitle": "Temel Gıda, Kahvaltılık ve Temizlik Ürünleri",
-      "badge": "Bugün Başladı",
+      "badge": "Salı Başlıyor",
       "startDate": "2026-09-22",
       "endDate": "2026-09-28",
-      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
-      "pageCount": 2,
-      "status": "ACTIVE",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/fdec0464-9b28-4a43-97a9-1e078ff40818.jpg",
+      "pageCount": 3,
+      "status": "UPCOMING",
       "isFeatured": true,
       "remainingDays": 2,
       "pages": [
         {
           "pageNumber": 1,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/fdec0464-9b28-4a43-97a9-1e078ff40818.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_fdec0464-9b28-4a43-97a9-1e078ff40818.jpg",
           "productIds": [
             "prod_bim_turna_yag",
             "prod_bim_otat_kasar",
@@ -115,13 +115,19 @@
         },
         {
           "pageNumber": 2,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/e70ad847-5271-4d5f-addd-48dc399587e0.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e70ad847-5271-4d5f-addd-48dc399587e0.jpg",
           "productIds": [
             "prod_bim_aynes_sut",
             "prod_bim_aynes_kidy",
             "prod_bim_persil_deterjan"
           ]
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/ef850cef-f5f8-4994-a1da-986cc74b17be.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_ef850cef-f5f8-4994-a1da-986cc74b17be.jpg",
+          "productIds": []
         }
       ]
     },
@@ -130,11 +136,11 @@
       "marketId": "a101",
       "title": "24 Eylül Aldın Aldın!",
       "subtitle": "Samsung 4K TV, Onvo QLED, Halı Yıkama & Mutfak Gereçleri",
-      "badge": "Perşembe Fırsatı",
+      "badge": "Aldın Aldın!",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/1Z5hyshvpk_3840x3840.png",
-      "pageCount": 3,
+      "pageCount": 1,
       "status": "UPCOMING",
       "isFeatured": true,
       "remainingDays": 4,
@@ -146,25 +152,6 @@
           "productIds": [
             "prod_a101_samsung_tv",
             "prod_a101_onvo_qled"
-          ]
-        },
-        {
-          "pageNumber": 2,
-          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b1I7mfa6XC_3840x3840.png",
-          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b1I7mfa6XC_3840x3840.png",
-          "productIds": [
-            "prod_a101_hali_yikama",
-            "prod_a101_arzum_supurge",
-            "prod_a101_stand_mikser"
-          ]
-        },
-        {
-          "pageNumber": 3,
-          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
-          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
-          "productIds": [
-            "prod_a101_celik_saklama",
-            "prod_a101_tava_sahan"
           ]
         }
       ]
@@ -178,9 +165,9 @@
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/rMlzBNwHAH_3840x3840.png",
-      "pageCount": 2,
-      "status": "EXPIRING_SOON",
-      "isFeatured": false,
+      "pageCount": 3,
+      "status": "ACTIVE",
+      "isFeatured": true,
       "remainingDays": 1,
       "pages": [
         {
@@ -202,6 +189,12 @@
             "prod_a101_tarabya_kasar",
             "prod_a101_sleepy_bebek"
           ]
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/qlfB8ipOON_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/qlfB8ipOON_3840x3840.png",
+          "productIds": []
         }
       ]
     },
@@ -238,6 +231,317 @@
             "prod_sok_celik_termos",
             "prod_sok_evin_yag"
           ]
+        }
+      ]
+    },
+    {
+      "id": "bim_15_eyl_l_sal__2026_09_15",
+      "marketId": "bim",
+      "title": "15 Eylül Salı BİM Aktüel",
+      "subtitle": "15 Eylül Salı Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Salı Fırsatları",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-21",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
+      "pageCount": 3,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/b17d08b3-71ab-42a6-94cd-585bef6a7b20.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_b17d08b3-71ab-42a6-94cd-585bef6a7b20.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/1d80fad2-024a-45e3-866c-212f2c965c07.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_1d80fad2-024a-45e3-866c-212f2c965c07.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "bim_16_eyl_l_ar_amba_2026_09_16",
+      "marketId": "bim",
+      "title": "16 Eylül Çarşamba BİM Aktüel",
+      "subtitle": "16 Eylül Çarşamba Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Fırsat Ürünleri",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-22",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
+      "pageCount": 2,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/e886ec98-8b23-427f-9d41-319644381e2e.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e886ec98-8b23-427f-9d41-319644381e2e.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "bim_18_eyl_l_cuma_2026_09_18",
+      "marketId": "bim",
+      "title": "18 Eylül Cuma BİM Aktüel",
+      "subtitle": "18 Eylül Cuma Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Fırsat Ürünleri",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-21",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "pageCount": 5,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 4,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/cb18a838-21d1-45a2-be23-7a3c5d793f7c.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_cb18a838-21d1-45a2-be23-7a3c5d793f7c.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 5,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "bim_20_eyl_l_pazar_2026_09_20",
+      "marketId": "bim",
+      "title": "20 Eylül Pazar BİM Aktüel",
+      "subtitle": "20 Eylül Pazar Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Fırsat Ürünleri",
+      "startDate": "2026-09-20",
+      "endDate": "2026-09-26",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "pageCount": 2,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "bim_23_eyl_l_ar_amba_2026_09_23",
+      "marketId": "bim",
+      "title": "23 Eylül Çarşamba BİM Aktüel",
+      "subtitle": "23 Eylül Çarşamba Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Yakında",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-29",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/8992808c-5761-4b6d-b7d7-bf5014f7a778.jpg",
+      "pageCount": 1,
+      "status": "UPCOMING",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/8992808c-5761-4b6d-b7d7-bf5014f7a778.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_8992808c-5761-4b6d-b7d7-bf5014f7a778.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "bim_27_eyl_l_pazar_2026_09_27",
+      "marketId": "bim",
+      "title": "27 Eylül Pazar BİM Aktüel",
+      "subtitle": "27 Eylül Pazar Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Yakında",
+      "startDate": "2026-09-27",
+      "endDate": "2026-10-03",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/96eacc2b-c5d2-417a-b20e-edbeec442e68.jpg",
+      "pageCount": 3,
+      "status": "UPCOMING",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/96eacc2b-c5d2-417a-b20e-edbeec442e68.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_96eacc2b-c5d2-417a-b20e-edbeec442e68.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/38826899-b711-40e6-a9a5-283537a9ab32.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_38826899-b711-40e6-a9a5-283537a9ab32.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/bf21d6b1-e5c7-4630-bac4-e6f44b23b5cd.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf21d6b1-e5c7-4630-bac4-e6f44b23b5cd.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "bim_01_28_eyl_l_2026_09_01",
+      "marketId": "bim",
+      "title": "01-28 Eylül BİM Aktüel",
+      "subtitle": "01-28 Eylül Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Fırsat Ürünleri",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-28",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg",
+      "pageCount": 1,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "bim_19_25_eyl_l_2026_09_19",
+      "marketId": "bim",
+      "title": "19-25 Eylül BİM Aktüel",
+      "subtitle": "19-25 Eylül Haftanın Fırsatları ve İndirimli Ürün Kataloğu",
+      "badge": "Fırsat Ürünleri",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/06dc4f64-544a-47f6-8661-c69558be64fb.jpg",
+      "pageCount": 2,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/06dc4f64-544a-47f6-8661-c69558be64fb.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_06dc4f64-544a-47f6-8661-c69558be64fb.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/361f99e7-f6b2-4865-9a5b-0b71ad9db1b3.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_361f99e7-f6b2-4865-9a5b-0b71ad9db1b3.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "a101_17_20_eyl_l_2026_09_17",
+      "marketId": "a101",
+      "title": "17-20 Eylül A101 Haftanın Yıldızları",
+      "subtitle": "17-20 Eylül Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "badge": "Aldın Aldın",
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-23",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
+      "pageCount": 2,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ycD-SqUkoT_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ycD-SqUkoT_3840x3840.png",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "sok_carsamba_2026_09_16",
+      "marketId": "sok",
+      "title": "16 - 22 Eylül ŞOK Fırsatları",
+      "subtitle": "Çarşamba Başlayan Haftanın Fırsatları Kataloğu",
+      "badge": "Aman Kaçırma!",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-22",
+      "coverImageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809413148561.jpg",
+      "pdfUrl": "https://kurumsal.sokmarket.com.tr/firsatlar/carsamba/",
+      "pageCount": 2,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809413148561.jpg",
+          "thumbnailUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809413148561.jpg",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412535734273.jpg",
+          "thumbnailUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412535734273.jpg",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "sok_haftasonu_2026_09_19",
+      "marketId": "sok",
+      "title": "19 - 22 Eylül ŞOK Hafta Sonu",
+      "subtitle": "Cumartesi - Salı Fırsatları Kataloğu",
+      "badge": "Hafta Sonu",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-22",
+      "coverImageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412562148568.jpg",
+      "pdfUrl": "https://kurumsal.sokmarket.com.tr/firsatlar/hafta-sonu/",
+      "pageCount": 1,
+      "status": "ACTIVE",
+      "isFeatured": false,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412562148568.jpg",
+          "thumbnailUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412562148568.jpg",
+          "productIds": []
         }
       ]
     }
