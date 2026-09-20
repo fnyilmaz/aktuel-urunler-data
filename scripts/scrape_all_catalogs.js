@@ -16,9 +16,7 @@ const { getA101Data } = require('./scrapers/a101_scraper');
 const { getSokData } = require('./scrapers/sok_scraper');
 const { readData, writeData, backupData, validateData } = require('./catalog_manager');
 
-const FOLDER_DATA = path.join(__dirname, '..', 'data', 'catalogs.json');
-const ROOT_DATA = path.join(__dirname, '..', 'catalogs.json');
-const DATA_PATH = fs.existsSync(FOLDER_DATA) ? FOLDER_DATA : (fs.existsSync(ROOT_DATA) ? ROOT_DATA : FOLDER_DATA);
+const DATA_PATH = path.join(__dirname, '..', 'catalogs.json');
 
 async function scrapeAll(options = {}) {
     const isSync = options.sync || process.argv.includes('--sync');
@@ -95,7 +93,7 @@ async function scrapeAll(options = {}) {
     console.log('===============================================================\n');
 
     if (isSync) {
-        console.log('🔄 [SENKRONİZASYON] data/catalogs.json güncelleniyor...');
+        console.log('🔄 [SENKRONİZASYON] catalogs.json güncelleniyor...');
 
         const scrapedCatalogs = [...results.bim.catalogs, ...results.a101.catalogs, ...results.sok.catalogs];
         const scrapedProducts = [...results.bim.products, ...results.a101.products, ...results.sok.products];
@@ -174,7 +172,7 @@ async function scrapeAll(options = {}) {
 
         backupData();
         writeData(DATA_PATH, currentData);
-        console.log(`💾 data/catalogs.json başarıyla güncellendi!`);
+        console.log(`💾 catalogs.json başarıyla güncellendi!`);
         console.log(`📦 Toplam kayıtlı katalog: ${currentData.catalogs.length}`);
         console.log(`📦 Toplam kayıtlı ürün:    ${currentData.products.length}`);
         
