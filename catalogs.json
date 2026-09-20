@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "lastUpdated": "2026-09-20T14:40:00Z",
+  "version": 6,
+  "lastUpdated": "2026-09-20T11:48:09.883Z",
   "markets": [
     {
       "id": "bim",
@@ -52,25 +52,38 @@
           "pageNumber": 1,
           "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/a4b31d0d-6c91-489c-94e9-35b9be5c3147.jpg",
           "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_a4b31d0d-6c91-489c-94e9-35b9be5c3147.jpg",
-          "productIds": ["prod_bim_pasabahce_mesrubat", "prod_bim_pasabahce_su", "prod_bim_lg_tv"]
+          "productIds": [
+            "prod_bim_pasabahce_mesrubat",
+            "prod_bim_pasabahce_su",
+            "prod_bim_lg_tv"
+          ]
         },
         {
           "pageNumber": 2,
           "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/308bff35-51f2-4383-be36-d94275ca5386.jpg",
           "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_308bff35-51f2-4383-be36-d94275ca5386.jpg",
-          "productIds": ["prod_bim_emsan_lale", "prod_bim_glass_love", "prod_bim_rakle_su"]
+          "productIds": [
+            "prod_bim_emsan_lale",
+            "prod_bim_glass_love",
+            "prod_bim_rakle_su"
+          ]
         },
         {
           "pageNumber": 3,
           "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/62c1621f-83cc-411c-9d84-18acdabf25d2.jpg",
           "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_62c1621f-83cc-411c-9d84-18acdabf25d2.jpg",
-          "productIds": ["prod_bim_moka_pot", "prod_bim_espresso_bardak"]
+          "productIds": [
+            "prod_bim_moka_pot",
+            "prod_bim_espresso_bardak"
+          ]
         },
         {
           "pageNumber": 4,
           "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/3f9920aa-1e62-4fd4-be98-c6c66009484a.jpg",
           "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_3f9920aa-1e62-4fd4-be98-c6c66009484a.jpg",
-          "productIds": ["prod_bim_termos"]
+          "productIds": [
+            "prod_bim_termos"
+          ]
         }
       ]
     },
@@ -92,13 +105,23 @@
           "pageNumber": 1,
           "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
           "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_64fdbd0e-f7c1-4355-8a80-cc0154a1190b.jpg",
-          "productIds": ["prod_bim_turna_yag", "prod_bim_otat_kasar", "prod_bim_pinar_beyaz_peynir", "prod_bim_pinar_surulebilir", "prod_bim_torku_yogurt"]
+          "productIds": [
+            "prod_bim_turna_yag",
+            "prod_bim_otat_kasar",
+            "prod_bim_pinar_beyaz_peynir",
+            "prod_bim_pinar_surulebilir",
+            "prod_bim_torku_yogurt"
+          ]
         },
         {
           "pageNumber": 2,
           "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
           "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
-          "productIds": ["prod_bim_aynes_sut", "prod_bim_aynes_kidy", "prod_bim_persil_deterjan"]
+          "productIds": [
+            "prod_bim_aynes_sut",
+            "prod_bim_aynes_kidy",
+            "prod_bim_persil_deterjan"
+          ]
         }
       ]
     },
@@ -120,19 +143,29 @@
           "pageNumber": 1,
           "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/1Z5hyshvpk_3840x3840.png",
           "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/1Z5hyshvpk_3840x3840.png",
-          "productIds": ["prod_a101_samsung_tv", "prod_a101_onvo_qled"]
+          "productIds": [
+            "prod_a101_samsung_tv",
+            "prod_a101_onvo_qled"
+          ]
         },
         {
           "pageNumber": 2,
           "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b1I7mfa6XC_3840x3840.png",
           "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b1I7mfa6XC_3840x3840.png",
-          "productIds": ["prod_a101_hali_yikama", "prod_a101_arzum_supurge", "prod_a101_stand_mikser"]
+          "productIds": [
+            "prod_a101_hali_yikama",
+            "prod_a101_arzum_supurge",
+            "prod_a101_stand_mikser"
+          ]
         },
         {
           "pageNumber": 3,
           "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
           "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
-          "productIds": ["prod_a101_celik_saklama", "prod_a101_tava_sahan"]
+          "productIds": [
+            "prod_a101_celik_saklama",
+            "prod_a101_tava_sahan"
+          ]
         }
       ]
     },
@@ -154,13 +187,21 @@
           "pageNumber": 1,
           "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/rMlzBNwHAH_3840x3840.png",
           "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/rMlzBNwHAH_3840x3840.png",
-          "productIds": ["prod_a101_birsah_yogurt", "prod_a101_kebir_tereyag", "prod_a101_vera_yag"]
+          "productIds": [
+            "prod_a101_birsah_yogurt",
+            "prod_a101_kebir_tereyag",
+            "prod_a101_vera_yag"
+          ]
         },
         {
           "pageNumber": 2,
           "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/jHwzyg9Gps_3840x3840.png",
           "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/jHwzyg9Gps_3840x3840.png",
-          "productIds": ["prod_a101_fairy_kapsul", "prod_a101_tarabya_kasar", "prod_a101_sleepy_bebek"]
+          "productIds": [
+            "prod_a101_fairy_kapsul",
+            "prod_a101_tarabya_kasar",
+            "prod_a101_sleepy_bebek"
+          ]
         }
       ]
     },
@@ -182,13 +223,21 @@
           "pageNumber": 1,
           "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809395934267.jpg",
           "thumbnailUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809395934267.jpg",
-          "productIds": ["prod_sok_alpina_ankastre", "prod_sok_altus_mikrodalga", "prod_sok_buharli_temizlik"]
+          "productIds": [
+            "prod_sok_alpina_ankastre",
+            "prod_sok_altus_mikrodalga",
+            "prod_sok_buharli_temizlik"
+          ]
         },
         {
           "pageNumber": 2,
           "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412535734273.jpg",
           "thumbnailUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412535734273.jpg",
-          "productIds": ["prod_sok_piranha_kulaklik", "prod_sok_celik_termos", "prod_sok_evin_yag"]
+          "productIds": [
+            "prod_sok_piranha_kulaklik",
+            "prod_sok_celik_termos",
+            "prod_sok_evin_yag"
+          ]
         }
       ]
     }
@@ -201,8 +250,8 @@
       "pageNumber": 1,
       "name": "Paşabahçe Dunes Meşrubat Bardağı 3'lü ~410 cc",
       "brand": "Paşabahçe",
-      "price": 199.00,
-      "originalPrice": 249.00,
+      "price": 199,
+      "originalPrice": 249,
       "unit": "3'lü Paket",
       "category": "Züccaciye",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1667_kucuk_543X467_7017_25_eylu-l_cuma_0050_vector-smart-object.jpg",
@@ -217,8 +266,8 @@
       "pageNumber": 1,
       "name": "Paşabahçe Dunes Su Bardağı 3'lü ~335 cc",
       "brand": "Paşabahçe",
-      "price": 179.00,
-      "originalPrice": 229.00,
+      "price": 179,
+      "originalPrice": 229,
       "unit": "3'lü Paket",
       "category": "Züccaciye",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1667_kucuk_543X467_3826_25_eylu-l_cuma_0049_vector-smart-object.jpg",
@@ -233,11 +282,11 @@
       "pageNumber": 1,
       "name": "LG 55'' 4K Ultra HD HDR10 Nanocell Smart TV",
       "brand": "LG",
-      "price": 30990.00,
-      "originalPrice": 34990.00,
+      "price": 30990,
+      "originalPrice": 34990,
       "unit": "Adet",
       "category": "Elektronik",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/a4b31d0d-6c91-489c-94e9-35b9be5c3147.jpg",
+      "imageUrl": "https://www.lg.com/content/dam/channel/wcms/tr/images/tvs/55nano81t6a/Lv-01.jpg/_jcr_content/renditions/thum-1600x1062.jpeg",
       "startDate": "2026-09-25",
       "endDate": "2026-10-01",
       "isPopular": true
@@ -249,8 +298,8 @@
       "pageNumber": 2,
       "name": "Emsan İstanbul Porselen Lale Model Kahve Fincan Takımı ~90 cc",
       "brand": "Emsan",
-      "price": 999.00,
-      "originalPrice": 1390.00,
+      "price": 999,
+      "originalPrice": 1390,
       "unit": "Set",
       "category": "Züccaciye",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1667_kucuk_543X467_8006_25_eylu-l_cuma_0048_vector-smart-object.jpg",
@@ -265,8 +314,8 @@
       "pageNumber": 2,
       "name": "Glass in Love Boncuk Detaylı Cam Kahve Fincan Seti ~110 ml",
       "brand": "Glass in Love",
-      "price": 229.00,
-      "originalPrice": 289.00,
+      "price": 229,
+      "originalPrice": 289,
       "unit": "Set",
       "category": "Züccaciye",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1667_kucuk_543X467_6648_25_eylu-l_cuma_0047_vector-smart-object.jpg",
@@ -281,8 +330,8 @@
       "pageNumber": 2,
       "name": "Rakle Lüsterli Ayaklı Kahve Yanı Su Bardağı ~210 cc",
       "brand": "Rakle",
-      "price": 199.00,
-      "originalPrice": 249.00,
+      "price": 199,
+      "originalPrice": 249,
       "unit": "Set",
       "category": "Züccaciye",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1667_kucuk_543X467_1309_25_eylu-l_cuma_0046_vector-smart-object.jpg",
@@ -297,8 +346,8 @@
       "pageNumber": 3,
       "name": "İtalyan Tipi Moka Pot Kahve Demlik",
       "brand": "Barista",
-      "price": 269.00,
-      "originalPrice": 349.00,
+      "price": 269,
+      "originalPrice": 349,
       "unit": "Adet",
       "category": "Züccaciye",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1667_kucuk_543X467_1639_25_eylu-l_cuma_0045_vector-smart-object.jpg",
@@ -313,8 +362,8 @@
       "pageNumber": 3,
       "name": "Porselen Espresso Bardağı ~90 cc",
       "brand": "Porselen",
-      "price": 219.00,
-      "originalPrice": 279.00,
+      "price": 219,
+      "originalPrice": 279,
       "unit": "Adet",
       "category": "Züccaciye",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1667_kucuk_543X467_6068_25_eylu-l_cuma_0044_vector-smart-object.jpg",
@@ -329,11 +378,11 @@
       "pageNumber": 4,
       "name": "Buzluklu Çift Katmanlı Paslanmaz Termos 1 L",
       "brand": "Outdoor",
-      "price": 999.00,
-      "originalPrice": 1250.00,
+      "price": 999,
+      "originalPrice": 1250,
       "unit": "Adet",
       "category": "Mutfak",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/3f9920aa-1e62-4fd4-be98-c6c66009484a.jpg",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1661_kucuk_543X467_7060_3_0021_vector-smart-object.jpg",
       "startDate": "2026-09-25",
       "endDate": "2026-10-01",
       "isPopular": true
@@ -345,8 +394,8 @@
       "pageNumber": 1,
       "name": "Turna Ayçiçek Yağı Pet Şişe 5 L",
       "brand": "Turna",
-      "price": 449.00,
-      "originalPrice": 489.00,
+      "price": 449,
+      "originalPrice": 489,
       "unit": "5 L",
       "category": "Gıda",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_7969_22_eylul_sali_0081_vector-smart-object.jpg",
@@ -361,8 +410,8 @@
       "pageNumber": 1,
       "name": "Otat Yarım Yağlı Tost Peyniri 1500g",
       "brand": "Otat",
-      "price": 399.00,
-      "originalPrice": 449.00,
+      "price": 399,
+      "originalPrice": 449,
       "unit": "1500g",
       "category": "Gıda",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_834_22_eylul_sali_0079_vector-smart-object.jpg",
@@ -377,8 +426,8 @@
       "pageNumber": 1,
       "name": "Pınar Az Yağlı Taze Beyaz Peynir 900g",
       "brand": "Pınar",
-      "price": 219.00,
-      "originalPrice": 259.00,
+      "price": 219,
+      "originalPrice": 259,
       "unit": "900g",
       "category": "Gıda",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_6191_22_eylul_sali_0078_vector-smart-object.jpg",
@@ -393,8 +442,8 @@
       "pageNumber": 1,
       "name": "Pınar Beyaz Tam Yağlı Taze Peynir",
       "brand": "Pınar",
-      "price": 149.00,
-      "originalPrice": 179.00,
+      "price": 149,
+      "originalPrice": 179,
       "unit": "Adet",
       "category": "Gıda",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_371_22_eylul_sali_0076_vector-smart-object.jpg",
@@ -409,8 +458,8 @@
       "pageNumber": 1,
       "name": "Torku %3 Yağlı Doğal Yoğurt 3000g",
       "brand": "Torku",
-      "price": 199.50,
-      "originalPrice": 225.00,
+      "price": 199.5,
+      "originalPrice": 225,
       "unit": "3 Kg",
       "category": "Gıda",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_1364_22_eylul_sali_0075_vector-smart-object.jpg",
@@ -425,8 +474,8 @@
       "pageNumber": 2,
       "name": "Aynes %1,5 Yağlı Süt 1 L",
       "brand": "Aynes",
-      "price": 27.50,
-      "originalPrice": 31.00,
+      "price": 27.5,
+      "originalPrice": 31,
       "unit": "1 L",
       "category": "Gıda",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_9611_22_eylul_sali_0080_vector-smart-object.jpg",
@@ -441,8 +490,8 @@
       "pageNumber": 2,
       "name": "Aynes Kidy Aromalı Süt Çeşitleri",
       "brand": "Aynes",
-      "price": 13.50,
-      "originalPrice": 16.00,
+      "price": 13.5,
+      "originalPrice": 16,
       "unit": "Adet",
       "category": "Gıda",
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_4342_22_eylul_sali_0082_vector-smart-object.jpg",
@@ -457,11 +506,11 @@
       "pageNumber": 2,
       "name": "Persil Sık Yıkananlar Toz Çamaşır Deterjanı 9 Kg",
       "brand": "Persil",
-      "price": 389.00,
-      "originalPrice": 449.00,
+      "price": 389,
+      "originalPrice": 449,
       "unit": "9 Kg",
       "category": "Temizlik",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/c75bbadc-3bf2-40d1-bacb-2b6b24a1aa62.jpg",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_6385_22_eylul_sali_0030_vector-smart-object.jpg",
       "startDate": "2026-09-22",
       "endDate": "2026-09-28",
       "isPopular": true
@@ -473,11 +522,11 @@
       "pageNumber": 1,
       "name": "Samsung 58'' Ultra HD 4K Smart TV",
       "brand": "Samsung",
-      "price": 31999.00,
-      "originalPrice": 35999.00,
+      "price": 31999,
+      "originalPrice": 35999,
       "unit": "Adet",
       "category": "Elektronik",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/1Z5hyshvpk_3840x3840.png",
+      "imageUrl": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00929397001442l.jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -489,11 +538,11 @@
       "pageNumber": 1,
       "name": "Onvo 55'' Frameless 4K UHD Google QLED TV",
       "brand": "Onvo",
-      "price": 21799.00,
-      "originalPrice": 24999.00,
+      "price": 21799,
+      "originalPrice": 24999,
       "unit": "Adet",
       "category": "Elektronik",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/1Z5hyshvpk_3840x3840.png",
+      "imageUrl": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty1619/prod/QC/20250101/16/4d0d6cd9-0508-3c26-a77b-7047dec2622e/1_org_zoom.jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -505,11 +554,11 @@
       "pageNumber": 2,
       "name": "Kiwi Koltuk ve Halı Yıkama Makinesi",
       "brand": "Kiwi",
-      "price": 4599.00,
-      "originalPrice": 5299.00,
+      "price": 4599,
+      "originalPrice": 5299,
       "unit": "Adet",
       "category": "Ev Aletleri",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b1I7mfa6XC_3840x3840.png",
+      "imageUrl": "https://cdn.akakce.com/z/kiwi/kiwi-kcc-4322-beyaz-koltuk-ve.jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -521,11 +570,11 @@
       "pageNumber": 2,
       "name": "Arzum Cyclone Torbasız Elektrikli Süpürge",
       "brand": "Arzum",
-      "price": 3999.00,
-      "originalPrice": 4699.00,
+      "price": 3999,
+      "originalPrice": 4699,
       "unit": "Adet",
       "category": "Ev Aletleri",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b1I7mfa6XC_3840x3840.png",
+      "imageUrl": "https://taspinar.tsoft.biz/arzum-ar4088-olimpia-power-cyclone-toz-torbasiz-elektrikli-supurge-tarcin-toz-torbasiz-supurge-arzum-887-17-O.png",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -537,11 +586,11 @@
       "pageNumber": 2,
       "name": "Pierre Cardin Stand Mikser 1200W",
       "brand": "Pierre Cardin",
-      "price": 4399.00,
-      "originalPrice": 5199.00,
+      "price": 4399,
+      "originalPrice": 5199,
       "unit": "Adet",
       "category": "Ev Aletleri",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b1I7mfa6XC_3840x3840.png",
+      "imageUrl": "https://interia.design/wp-content/uploads/2023/07/Stand_PierreCardin_DesignForShow00.jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "isPopular": false
@@ -553,11 +602,11 @@
       "pageNumber": 3,
       "name": "3'lü Termal Çantalı Paslanmaz Çelik Saklama Kabı",
       "brand": "Cookplus",
-      "price": 899.00,
-      "originalPrice": 1099.00,
+      "price": 899,
+      "originalPrice": 1099,
       "unit": "Set",
       "category": "Mutfak",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
+      "imageUrl": "https://cdn.karaca.com/image/cdndata/3/202411/000001000200354001/8699343572682-1.jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -569,11 +618,11 @@
       "pageNumber": 3,
       "name": "Granit Efektli Tava ve Sahan Seti 2'li",
       "brand": "Hascevher",
-      "price": 649.00,
-      "originalPrice": 799.00,
+      "price": 649,
+      "originalPrice": 799,
       "unit": "Set",
       "category": "Mutfak",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cLZeZCWp9B_3840x3840.png",
+      "imageUrl": "https://images.migrosone.com/sanalmarket/product/32020973/32020973_1-f92b3c-1650x1650.jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
       "isPopular": false
@@ -585,11 +634,11 @@
       "pageNumber": 1,
       "name": "Birşah Doğal Yoğurt 3 Kg",
       "brand": "Birşah",
-      "price": 169.50,
-      "originalPrice": 189.00,
+      "price": 169.5,
+      "originalPrice": 189,
       "unit": "3 Kg",
       "category": "Gıda",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/rMlzBNwHAH_3840x3840.png",
+      "imageUrl": "https://storage.googleapis.com/indirimdemarket-cdn/products/3192/10888/77938.jpg",
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "isPopular": true
@@ -601,11 +650,11 @@
       "pageNumber": 1,
       "name": "Kebir Geleneksel Tereyağı 500g",
       "brand": "Kebir",
-      "price": 385.00,
-      "originalPrice": 425.00,
+      "price": 385,
+      "originalPrice": 425,
       "unit": "500g",
       "category": "Gıda",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/rMlzBNwHAH_3840x3840.png",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=100,format=webp/product-assets/sub-folder/0d5ab2e0-6ff7-4e7c-ac8c-3de34dcc8ff6.png",
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "isPopular": true
@@ -617,11 +666,11 @@
       "pageNumber": 1,
       "name": "Vera Ayçiçek Yağı 5 L",
       "brand": "Vera",
-      "price": 439.00,
-      "originalPrice": 479.00,
+      "price": 439,
+      "originalPrice": 479,
       "unit": "5 L",
       "category": "Gıda",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/rMlzBNwHAH_3840x3840.png",
+      "imageUrl": "https://storage.googleapis.com/indirimdemarket-cdn/products/3192/13239/103196.jpg",
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "isPopular": true
@@ -633,11 +682,11 @@
       "pageNumber": 2,
       "name": "Fairy Platinum Bulaşık Makinesi Kapsülü 30'lu",
       "brand": "Fairy",
-      "price": 299.00,
-      "originalPrice": 349.00,
+      "price": 299,
+      "originalPrice": 349,
       "unit": "30 Kapsül",
       "category": "Temizlik",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/jHwzyg9Gps_3840x3840.png",
+      "imageUrl": "https://cdn.dsmcdn.com/ty1855/prod/QC_PREP/20260413/15/ba25ae4f-13b1-3bf0-8822-2028fad1e8f9/1_org_zoom.jpg",
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "isPopular": true
@@ -649,11 +698,11 @@
       "pageNumber": 2,
       "name": "Tarabya Tam Yağlı Taze Kaşar Peyniri 700g",
       "brand": "Tarabya",
-      "price": 199.00,
-      "originalPrice": 229.00,
+      "price": 199,
+      "originalPrice": 229,
       "unit": "700g",
       "category": "Gıda",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/jHwzyg9Gps_3840x3840.png",
+      "imageUrl": "https://storage.googleapis.com/indirimdemarket-cdn/products/3192/11564/85636.jpg",
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "isPopular": false
@@ -665,11 +714,11 @@
       "pageNumber": 2,
       "name": "Sleepy Sensitive Bebek Bezi 100'lü Mega Fırsat",
       "brand": "Sleepy",
-      "price": 279.00,
-      "originalPrice": 319.00,
+      "price": 279,
+      "originalPrice": 319,
       "unit": "100 Adet",
       "category": "Bebek",
-      "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/jHwzyg9Gps_3840x3840.png",
+      "imageUrl": "https://cdn.cimri.io/image/1200x1200/sleepy-sensitive-no1-yenidogan-40-adet-bebek-bezi_136761767.jpg",
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "isPopular": true
@@ -681,11 +730,11 @@
       "pageNumber": 1,
       "name": "Alpina 6 Programlı Siyah Cam Ankastre Set",
       "brand": "Alpina",
-      "price": 8499.00,
-      "originalPrice": 9999.00,
+      "price": 8499,
+      "originalPrice": 9999,
       "unit": "Set",
       "category": "Beyaz Eşya",
-      "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809395934267.jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=500,height=500,fit=pad,quality=80,format=webp/product-assets/sub-folder/5b13e389-0977-4691-ba14-7c01cf465b8d.jpg",
       "startDate": "2026-09-23",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -697,11 +746,11 @@
       "pageNumber": 1,
       "name": "Altus Dijital Mikrodalga Fırın 20 L",
       "brand": "Altus",
-      "price": 2999.00,
-      "originalPrice": 3499.00,
+      "price": 2999,
+      "originalPrice": 3499,
       "unit": "Adet",
       "category": "Ev Aletleri",
-      "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809395934267.jpg",
+      "imageUrl": "https://img.pzrmcdn.com/mnresize/1180/1182/asset/8690842189739/837b345b-7ee2-4414-ed6a-08daa089fd59/altusalmd20panel20ltmikrodalgafrn-1.jpg",
       "startDate": "2026-09-23",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -713,11 +762,11 @@
       "pageNumber": 1,
       "name": "Şamdan Buharlı Temizlik Makinesi 5L 3.5 Bar",
       "brand": "Şamdan",
-      "price": 4599.00,
-      "originalPrice": 5299.00,
+      "price": 4599,
+      "originalPrice": 5299,
       "unit": "Adet",
       "category": "Ev Aletleri",
-      "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026090809395934267.jpg",
+      "imageUrl": "https://img.pzrmcdn.com/mnresize/1180/1182/asset/2449519977775/images/cb101abuharltemizlikmakinasv22ckoltukvehalykamamakinesi-1.jpg",
       "startDate": "2026-09-23",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -729,11 +778,11 @@
       "pageNumber": 2,
       "name": "Piranha Bluetooth Kablosuz Kulak İçi Kulaklık",
       "brand": "Piranha",
-      "price": 399.00,
-      "originalPrice": 499.00,
+      "price": 399,
+      "originalPrice": 499,
       "unit": "Adet",
       "category": "Elektronik",
-      "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412535734273.jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=500,height=500,fit=pad,quality=80,format=webp/product-assets/sub-folder/e0992743-c320-4a71-b3b5-c8202f8cfe34.jpg",
       "startDate": "2026-09-23",
       "endDate": "2026-09-30",
       "isPopular": true
@@ -745,11 +794,11 @@
       "pageNumber": 2,
       "name": "Paslanmaz Çelik Termos 750 ml",
       "brand": "Termos",
-      "price": 449.00,
-      "originalPrice": 549.00,
+      "price": 449,
+      "originalPrice": 549,
       "unit": "Adet",
       "category": "Mutfak",
-      "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412535734273.jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=500,height=500,fit=pad,quality=80,format=webp/product-assets/sub-folder/be12e9e1-4215-41c3-9c82-86d04029b00e.png",
       "startDate": "2026-09-23",
       "endDate": "2026-09-30",
       "isPopular": false
@@ -761,11 +810,11 @@
       "pageNumber": 2,
       "name": "Evin Ayçiçek Yağı 5 L",
       "brand": "Evin",
-      "price": 435.00,
-      "originalPrice": 469.00,
+      "price": 435,
+      "originalPrice": 469,
       "unit": "5 L",
       "category": "Gıda",
-      "imageUrl": "https://kurumsal.sokmarket.com.tr/uploads/2026081412535734273.jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=500,height=500,fit=pad,quality=80,format=webp/product-assets/sub-folder/3cbaff13-54b9-4208-8547-b720d457d183.png",
       "startDate": "2026-09-23",
       "endDate": "2026-09-30",
       "isPopular": true
