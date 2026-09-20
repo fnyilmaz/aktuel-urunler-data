@@ -31,9 +31,7 @@ if (fs.existsSync(envPath)) {
     });
 }
 
-const FOLDER_DATA = path.join(__dirname, '..', 'data', 'catalogs.json');
-const ROOT_DATA = path.join(__dirname, '..', 'catalogs.json');
-const DATA_PATH = fs.existsSync(FOLDER_DATA) ? FOLDER_DATA : (fs.existsSync(ROOT_DATA) ? ROOT_DATA : FOLDER_DATA);
+const DATA_PATH = path.join(__dirname, '..', 'catalogs.json');
 const BACKUPS_DIR = path.join(__dirname, '..', 'backups');
 
 const GITHUB_OWNER = process.env.GITHUB_OWNER || 'fnyilmaz';
@@ -60,15 +58,6 @@ function writeData(filePath, data) {
         const dir = path.dirname(filePath);
         if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
-
-        // Root ve data/ klasöründeki dosyaları her zaman eşzamanlı tut
-        if (filePath === FOLDER_DATA) {
-            fs.writeFileSync(ROOT_DATA, JSON.stringify(data, null, 2), 'utf8');
-        } else if (filePath === ROOT_DATA) {
-            const dataDir = path.dirname(FOLDER_DATA);
-            if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
-            fs.writeFileSync(FOLDER_DATA, JSON.stringify(data, null, 2), 'utf8');
-        }
         return true;
     } catch (err) {
         console.error(`❌ JSON yazma hatası: ${filePath}`, err.message);
