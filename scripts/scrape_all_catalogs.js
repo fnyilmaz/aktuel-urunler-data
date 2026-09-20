@@ -16,7 +16,9 @@ const { getA101Data } = require('./scrapers/a101_scraper');
 const { getSokData } = require('./scrapers/sok_scraper');
 const { readData, writeData, backupData, validateData } = require('./catalog_manager');
 
-const DATA_PATH = path.join(__dirname, '..', 'data', 'catalogs.json');
+const FOLDER_DATA = path.join(__dirname, '..', 'data', 'catalogs.json');
+const ROOT_DATA = path.join(__dirname, '..', 'catalogs.json');
+const DATA_PATH = fs.existsSync(FOLDER_DATA) ? FOLDER_DATA : (fs.existsSync(ROOT_DATA) ? ROOT_DATA : FOLDER_DATA);
 
 async function scrapeAll(options = {}) {
     const isSync = options.sync || process.argv.includes('--sync');
