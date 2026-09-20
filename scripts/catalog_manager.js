@@ -57,7 +57,18 @@ function readData(filePath = DATA_PATH) {
 
 function writeData(filePath, data) {
     try {
+        const dir = path.dirname(filePath);
+        if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
         fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+
+        // Root ve data/ klasöründeki dosyaları her zaman eşzamanlı tut
+        if (filePath === FOLDER_DATA) {
+            fs.writeFileSync(ROOT_DATA, JSON.stringify(data, null, 2), 'utf8');
+        } else if (filePath === ROOT_DATA) {
+            const dataDir = path.dirname(FOLDER_DATA);
+            if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
+            fs.writeFileSync(FOLDER_DATA, JSON.stringify(data, null, 2), 'utf8');
+        }
         return true;
     } catch (err) {
         console.error(`❌ JSON yazma hatası: ${filePath}`, err.message);
