@@ -35,7 +35,14 @@ async function scrapeAll(options = {}) {
 
     // Mevcut veritabanını oku (Akıllı atlama için kullanılacak)
     const currentData = readData(DATA_PATH) || { markets: [], catalogs: [], products: [] };
-    console.log(`📂 Mevcut Sistem Durumu: ${currentData.catalogs.length} katalog, ${currentData.products.length} kayıtlı ürün.`);
+    if (!currentData.markets || currentData.markets.length === 0) {
+        currentData.markets = [
+            { id: 'bim', name: 'BİM', brandColorHex: '#E30613', accentColorHex: '#FFFFFF', logoUrl: 'https://cdn2.bim.com.tr/templates/images/header-aktuel.png', category: 'Süpermarket', description: 'Toptan Fiyatına Perakende Satış', catalogCount: 0 },
+            { id: 'a101', name: 'A101', brandColorHex: '#009AC7', accentColorHex: '#FFFFFF', logoUrl: 'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png', category: 'Süpermarket', description: 'Harca Harca Bitmez', catalogCount: 0 },
+            { id: 'sok', name: 'ŞOK', brandColorHex: '#F9A01B', accentColorHex: '#002B49', logoUrl: 'https://images.ceptesok.com/cdn-cgi/image/width=120,height=120,fit=pad,quality=80,format=webp/logos/service-types/market-logo.svg', category: 'Süpermarket', description: 'Yeter de Artar', catalogCount: 0 }
+        ];
+    }
+    console.log(`📂 Mevcut Sistem Durumu: ${(currentData.catalogs || []).length} katalog, ${(currentData.products || []).length} kayıtlı ürün.`);
     console.log('⚡ Akıllı Atlama (Skip Existing) devrede: Zaten kayıtlı kataloglar taranmayacak.\n');
 
     const results = {
