@@ -282,7 +282,17 @@ async function getBimProducts(brochures = [], existingData = null) {
                     const rawId = idMatch ? idMatch[1] : `${t.key}_${idx + 1}`;
                     const productId = `bim_p_${rawId}`;
 
-                    const assignedPage = Math.min(pageCount, Math.floor((idx / blocks.length) * pageCount) + 1);
+                    const assignedPage = (pageCount > 1 && blocks.length > 15)
+                        ? Math.min(pageCount, Math.floor((idx / blocks.length) * pageCount) + 1)
+                        : 1;
+
+                    let inferredCategory = 'Gıda & Tüketim';
+                    const lowerFull = fullName.toLowerCase();
+                    if (lowerFull.includes('bilgisayar') || lowerFull.includes('laptop') || lowerFull.includes('oyuncu') || lowerFull.includes('kulaklık') || lowerFull.includes('televizyon') || lowerFull.includes('tv') || lowerFull.includes('telefon')) {
+                        inferredCategory = 'Elektronik';
+                    } else if (lowerFull.includes('koltuk') || lowerFull.includes('masa') || lowerFull.includes('kitaplık') || lowerFull.includes('dolap') || lowerFull.includes('yatak') || lowerFull.includes('halı') || lowerFull.includes('yorgan') || lowerFull.includes('tava') || lowerFull.includes('tencere')) {
+                        inferredCategory = 'Ev & Yaşam';
+                    }
 
                     const productObj = {
                         id: productId,
@@ -294,7 +304,7 @@ async function getBimProducts(brochures = [], existingData = null) {
                         price: price,
                         originalPrice: originalPrice,
                         unit: gramaj || 'Adet',
-                        category: 'Gıda & Tüketim',
+                        category: inferredCategory,
                         imageUrl: img,
                         startDate: startDate,
                         endDate: endDate,
