@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "lastUpdated": "2026-09-20T12:46:08.100Z",
+  "version": 9,
+  "lastUpdated": "2026-09-20T19:41:53.164Z",
   "markets": [
     {
       "id": "bim",
@@ -407,7 +407,7 @@
         }
       ],
       "promotionCode": "Z110",
-      "isAlreadyStored": false,
+      "isAlreadyStored": true,
       "existingProdCount": 7
     },
     {
@@ -1007,7 +1007,7 @@
           ]
         }
       ],
-      "isAlreadyStored": false,
+      "isAlreadyStored": true,
       "existingProdCount": 8
     },
     {
