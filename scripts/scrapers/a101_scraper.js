@@ -72,7 +72,7 @@ async function getA101Brochures(existingData = null) {
     console.log('🔍 A101 Resmi Afişler Kontrol Ediliyor (RIO API)...');
     const listUrl = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=web';
     
-    const res = await fetch(listUrl, { headers: RIO_HEADERS });
+    const res = await fetch(listUrl, { headers: RIO_HEADERS, signal: AbortSignal.timeout(10000) });
     if (!res.ok) throw new Error(`A101 RIO list error: HTTP ${res.status}`);
     const listData = await res.json();
     const items = listData.items || [];
@@ -251,7 +251,7 @@ async function getA101Products(catalogs = [], existingData = null) {
                 const b64 = Buffer.from(payload).toString('base64');
                 const url = `https://rio.a101.com.tr/dbmk89vnr/CALL/Store/search/VS032?v=3&__culture=tr-TR&__platform=web&data=${encodeURIComponent(b64)}&__isbase64=true`;
 
-                const res = await fetch(url, { headers: RIO_HEADERS });
+                const res = await fetch(url, { headers: RIO_HEADERS, signal: AbortSignal.timeout(10000) });
                 if (!res.ok) break;
                 const data = await res.json();
 
