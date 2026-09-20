@@ -31,7 +31,9 @@ if (fs.existsSync(envPath)) {
     });
 }
 
-const DATA_PATH = path.join(__dirname, '..', 'data', 'catalogs.json');
+const FOLDER_DATA = path.join(__dirname, '..', 'data', 'catalogs.json');
+const ROOT_DATA = path.join(__dirname, '..', 'catalogs.json');
+const DATA_PATH = fs.existsSync(FOLDER_DATA) ? FOLDER_DATA : (fs.existsSync(ROOT_DATA) ? ROOT_DATA : FOLDER_DATA);
 const BACKUPS_DIR = path.join(__dirname, '..', 'backups');
 
 const GITHUB_OWNER = process.env.GITHUB_OWNER || 'fnyilmaz';
