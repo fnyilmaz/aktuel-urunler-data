@@ -8,11 +8,12 @@
     "validate": "node scripts/catalog_manager.js validate",
     "publish": "node scripts/catalog_manager.js publish",
     "backup": "node scripts/catalog_manager.js backup",
-    "scrape:bim": "node scripts/scrapers/bim_scraper.js",
-    "scrape:sok": "node scripts/scrapers/sok_scraper.js",
-    "scrape:a101": "node scripts/scrapers/a101_scraper.js",
-    "scrape:all": "node scripts/scrape_all_catalogs.js",
-    "daily-update": "node scripts/daily_update.js",
+    "scrape:bim": "node scripts/ai_sync_workflow.js --market bim",
+    "scrape:a101": "node scripts/ai_sync_workflow.js --market a101",
+    "scrape:sok": "node scripts/ai_sync_workflow.js --market sok",
+    "scrape:migros": "node scripts/ai_sync_workflow.js --market migros",
+    "scrape:carrefoursa": "node scripts/ai_sync_workflow.js --market carrefoursa",
+    "scrape:all": "node scripts/ai_sync_workflow.js --market all",
     "ai-sync": "node scripts/ai_sync_workflow.js"
   },
   "keywords": [
