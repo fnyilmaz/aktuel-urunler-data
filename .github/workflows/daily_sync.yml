@@ -2,9 +2,33 @@ name: Günlük Aktüel Broşür & Yapay Zeka (AI) Ürün Senkronizasyonu
 
 on:
   schedule:
-    # Her gün Türkiye saatiyle 08:00 ve 16:00 (UTC 05:00 ve 13:00)
-    - cron: '0 5,13 * * *'
-  workflow_dispatch: # İstendiğinde GitHub web arayüzünden manuel tek tıkla çalıştırma
+    # Her gün Türkiye saatiyle tekil market saatleri (UTC+3):
+    # 06:00 TSİ (03:00 UTC) - BİM
+    - cron: '0 3 * * *'
+    # 07:00 TSİ (04:00 UTC) - A101
+    - cron: '0 4 * * *'
+    # 08:00 TSİ (05:00 UTC) - ŞOK
+    - cron: '0 5 * * *'
+    # 09:00 TSİ (06:00 UTC) - Migros
+    - cron: '0 6 * * *'
+    # 10:00 TSİ (07:00 UTC) - CarrefourSA
+    - cron: '0 7 * * *'
+
+  workflow_dispatch:
+    inputs:
+      market:
+        description: 'Taranacak Market'
+        required: true
+        default: 'auto'
+        type: choice
+        options:
+          - 'auto' # Saate göre otomatik tekil marketi seçer
+          - 'bim'
+          - 'a101'
+          - 'sok'
+          - 'migros'
+          - 'carrefoursa'
+          - 'all'
 
 permissions:
   contents: write
@@ -29,7 +53,9 @@ jobs:
 
       - name: 🤖 Gemini Vision ile Broşür ve Ürünleri Senkronize Et
         env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TARGET_MARKET: ${{ github.event.inputs.market || 'auto' }}
         run: node scripts/ai_sync_workflow.js
 
       - name: 🔍 Veri Bütünlüğü Doğrulaması
@@ -38,7 +64,6 @@ jobs:
       - name: 🚀 Değişiklik Varsa Sürümü Yükselt ve Kaydet
         run: |
           if [ -n "$(git status --porcelain catalogs.json)" ]; then
-            node scripts/catalog_manager.js bump
             git config --local user.email "action@github.com"
             git config --local user.name "Aktuel Urunler AI Robotu"
             git add catalogs.json
