@@ -85,7 +85,15 @@ async function runAiSyncWorkflow() {
         currentData = JSON.parse(raw);
     } catch (e) {
         console.error('⚠️ catalogs.json okuma/ayrıştırma hatası:', e.message);
-        throw new Error(`catalogs.json geçersiz veya boş: ${e.message}`);
+        // Dosya boşsa veya bozulmuşsa akışı kilitlemek yerine güvenli şablon ile devam et
+        currentData = {
+            version: 1,
+            lastUpdated: new Date().toISOString(),
+            markets: [],
+            catalogs: [],
+            products: []
+        };
+        console.log('⚠️ Boş veya geçersiz catalogs.json yerine temel şablon oluşturuldu.');
     }
 
     currentData.markets = currentData.markets || [];
