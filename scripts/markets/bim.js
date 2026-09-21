@@ -33,6 +33,21 @@ function parseTurkishDateRange(title, currentYear = new Date().getFullYear()) {
     let startDate = null;
     let endDate = null;
 
+    // Örnek: "24 mart - 31 aralik"
+    const twoMonthMatch = clean.match(/(\d{1,2})\s+([a-z]+)\s*[-–]\s*(\d{1,2})\s+([a-z]+)/i);
+    if (twoMonthMatch) {
+        const d1 = String(twoMonthMatch[1]).padStart(2, '0');
+        const m1 = MONTH_MAP[twoMonthMatch[2]];
+        const d2 = String(twoMonthMatch[3]).padStart(2, '0');
+        const m2 = MONTH_MAP[twoMonthMatch[4]];
+        if (m1 && m2) {
+            startDate = `${currentYear}-${m1}-${d1}`;
+            endDate = `${currentYear}-${m2}-${d2}`;
+            return { startDate, endDate };
+        }
+    }
+
+    // Örnek: "19-25 eylul" veya "01-28 eylul"
     const rangeMatch = clean.match(/(\d{1,2})\s*[-–]\s*(\d{1,2})\s+([a-z]+)/i);
     if (rangeMatch) {
         const d1 = String(rangeMatch[1]).padStart(2, '0');
@@ -45,6 +60,7 @@ function parseTurkishDateRange(title, currentYear = new Date().getFullYear()) {
         }
     }
 
+    // Örnek: "15 eylul sali"
     const singleMatch = clean.match(/(\d{1,2})\s+([a-z]+)/i);
     if (singleMatch) {
         const d = String(singleMatch[1]).padStart(2, '0');
@@ -135,9 +151,9 @@ function findBestImage(name, brand, pool) {
 }
 
 async function syncBim(currentData) {
-    console.log('🔴 [BİM] Resmi Web Sitesi Kontrol Ediliyor...');
-    const html = await fetchHtml('https://www.bim.com.tr/Categories/100/aktuel-urunler.aspx');
-    const parts = html.split('<div class="subButton">').slice(1);
+    console.log('🔴 [BİM] Resmi Web Sitesi (Afişler) Kontrol Ediliyor...');
+    const html = await fetchHtml('https://www.bim.com.tr/Categories/680/afisler.aspx');
+    const parts = html.split('<a class="subTabArea').slice(1);
     const todayStr = new Date().toISOString().split('T')[0];
 
     const brochures = [];
@@ -145,25 +161,27 @@ async function syncBim(currentData) {
         const titleMatch = part.match(/<span class="text">([\s\S]*?)<\/span>/i);
         const rawTitle = titleMatch ? titleMatch[1].replace(/<[^>]+>/g, '').trim().replace(/\s+/g, ' ') : `BİM Kampanya ${index + 1}`;
 
-        const imgRegex = /data-bigimg="([^"]+)"/gi;
+        const dlRegex = /href="([^"]*\/uploads\/afisler\/[^"]+)"/gi;
         const pageUrls = [];
         let match;
-        while ((match = imgRegex.exec(part)) !== null) {
+        while ((match = dlRegex.exec(part)) !== null) {
             let img = match[1].trim();
+            img = img.replace(/\/afisler\/k_/, '/afisler/');
             if (!img.startsWith('http')) img = 'https://cdn1.bim.com.tr' + img.replace(/^[.\/]+/, '/');
             if (!pageUrls.includes(img)) pageUrls.push(img);
         }
 
-        const fancyMatch = part.match(/<a[^>]+class="fancyboxImage"[^>]+href="([^"]+)"/i);
-        if (fancyMatch) {
-            let img = fancyMatch[1].trim();
+        const imgRegex = /<img[^>]+src="([^"]*\/uploads\/afisler\/[^"]+)"/gi;
+        while ((match = imgRegex.exec(part)) !== null) {
+            let img = match[1].trim();
+            img = img.replace(/\/afisler\/k_/, '/afisler/');
             if (!img.startsWith('http')) img = 'https://cdn1.bim.com.tr' + img.replace(/^[.\/]+/, '/');
-            if (!pageUrls.includes(img)) pageUrls.unshift(img);
+            if (!pageUrls.includes(img)) pageUrls.push(img);
         }
 
         if (pageUrls.length > 0) {
             const { startDate, endDate } = parseTurkishDateRange(rawTitle);
-            if (endDate < todayStr) return;
+            if (endDate && endDate < todayStr) return;
 
             const cleanSlug = normalizeTurkish(rawTitle).replace(/[^a-z0-9]/g, '_').replace(/_+/g, '_').slice(0, 30);
             const catalogId = `bim_${cleanSlug}_${startDate.replace(/-/g, '_')}`;
