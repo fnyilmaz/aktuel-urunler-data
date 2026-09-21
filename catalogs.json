@@ -1,6 +1,6 @@
 {
-  "version": 18,
-  "lastUpdated": "2026-09-21T09:12:27.126Z",
+  "version": 19,
+  "lastUpdated": "2026-09-21T09:23:56.541Z",
   "markets": [
     {
       "id": "bim",
@@ -1903,7 +1903,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_b17d08b3-71ab-42a6-94cd-585bef6a7b20.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/b17d08b3-71ab-42a6-94cd-585bef6a7b20.jpg&crop=446,367,32,125&w=300&precrop&output=jpg",
       "startDate": "2026-09-15",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -2319,7 +2319,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_1d80fad2-024a-45e3-866c-212f2c965c07.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/1d80fad2-024a-45e3-866c-212f2c965c07.jpg&crop=195,117,42,539&w=300&precrop&output=jpg",
       "startDate": "2026-09-15",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -2831,7 +2831,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e886ec98-8b23-427f-9d41-319644381e2e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e886ec98-8b23-427f-9d41-319644381e2e.jpg&crop=524,297,384,129&w=300&precrop&output=jpg",
       "startDate": "2026-09-16",
       "endDate": "2026-09-22",
       "isPopular": true
@@ -2847,7 +2847,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e886ec98-8b23-427f-9d41-319644381e2e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e886ec98-8b23-427f-9d41-319644381e2e.jpg&crop=421,299,35,457&w=300&precrop&output=jpg",
       "startDate": "2026-09-16",
       "endDate": "2026-09-22",
       "isPopular": true
@@ -2863,7 +2863,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e886ec98-8b23-427f-9d41-319644381e2e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e886ec98-8b23-427f-9d41-319644381e2e.jpg&crop=417,302,488,457&w=300&precrop&output=jpg",
       "startDate": "2026-09-16",
       "endDate": "2026-09-22",
       "isPopular": false
@@ -2879,7 +2879,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e886ec98-8b23-427f-9d41-319644381e2e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e886ec98-8b23-427f-9d41-319644381e2e.jpg&crop=430,331,36,792&w=300&precrop&output=jpg",
       "startDate": "2026-09-16",
       "endDate": "2026-09-22",
       "isPopular": false
@@ -2895,7 +2895,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e886ec98-8b23-427f-9d41-319644381e2e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e886ec98-8b23-427f-9d41-319644381e2e.jpg&crop=414,330,490,790&w=300&precrop&output=jpg",
       "startDate": "2026-09-16",
       "endDate": "2026-09-22",
       "isPopular": false
@@ -5167,7 +5167,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_fdec0464-9b28-4a43-97a9-1e078ff40818.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/fdec0464-9b28-4a43-97a9-1e078ff40818.jpg&crop=189,130,705,664&w=300&precrop&output=jpg",
       "startDate": "2026-09-22",
       "endDate": "2026-09-28",
       "isPopular": false
@@ -5615,7 +5615,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e70ad847-5271-4d5f-addd-48dc399587e0.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e70ad847-5271-4d5f-addd-48dc399587e0.jpg&crop=119,104,386,900&w=300&precrop&output=jpg",
       "startDate": "2026-09-22",
       "endDate": "2026-09-28",
       "isPopular": false
@@ -9519,7 +9519,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_daac03ad-1bdd-4d91-8a48-0f32d367c48d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/daac03ad-1bdd-4d91-8a48-0f32d367c48d.jpg&crop=366,422,57,110&w=300&precrop&output=jpg",
       "startDate": "2026-09-29",
       "endDate": "2026-10-05",
       "isPopular": true
@@ -10927,7 +10927,7 @@
       "originalPrice": 75,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1669_kucuk_543X467_5269_19-25_0006_vector-smart-object.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=229,99,39,114&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -10943,7 +10943,7 @@
       "originalPrice": 109,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=195,78,369,214&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -10959,7 +10959,7 @@
       "originalPrice": 75,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1658_kucuk_543X467_5564_2_0021_vector-smart-object.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=287,157,633,143&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -10975,7 +10975,7 @@
       "originalPrice": 75,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=290,126,32,361&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -10991,7 +10991,7 @@
       "originalPrice": 49,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1658_kucuk_543X467_5564_2_0021_vector-smart-object.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=295,167,624,322&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11007,7 +11007,7 @@
       "originalPrice": 23,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=194,82,55,526&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11023,7 +11023,7 @@
       "originalPrice": 75,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=119,147,501,588&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11039,7 +11039,7 @@
       "originalPrice": 59,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=120,119,802,529&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11055,7 +11055,7 @@
       "originalPrice": 39,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=111,127,802,677&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11071,7 +11071,7 @@
       "originalPrice": 14,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1665_kucuk_543X467_1537_22_eylul_sali_0055_vector-smart-object.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=83,116,236,804&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11087,7 +11087,7 @@
       "originalPrice": 79,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=81,128,546,795&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11103,7 +11103,7 @@
       "originalPrice": 45,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=105,90,795,830&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11119,7 +11119,7 @@
       "originalPrice": 35,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1658_kucuk_543X467_170_1_0018_vector-smart-object.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=105,94,141,953&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11135,7 +11135,7 @@
       "originalPrice": 35,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=107,94,376,953&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11151,7 +11151,7 @@
       "originalPrice": 195,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/0da9693c-82ed-4f19-ac1b-ad4a4207099e.jpg&crop=130,90,570,963&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11167,7 +11167,7 @@
       "originalPrice": 350,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=217,86,45,126&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -11183,7 +11183,7 @@
       "originalPrice": 330,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=215,86,44,221&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -11199,7 +11199,7 @@
       "originalPrice": 360,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=206,86,46,316&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11215,7 +11215,7 @@
       "originalPrice": 315,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=208,99,44,411&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11247,7 +11247,7 @@
       "originalPrice": 37.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=165,119,27,636&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11279,7 +11279,7 @@
       "originalPrice": 429,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=102,246,39,892&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11343,7 +11343,7 @@
       "originalPrice": 89,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=100,119,204,636&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11359,7 +11359,7 @@
       "originalPrice": 125,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=184,87,194,779&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11375,7 +11375,7 @@
       "originalPrice": 449,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=181,268,185,892&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11391,7 +11391,7 @@
       "originalPrice": 329,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=160,94,556,367&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11455,7 +11455,7 @@
       "originalPrice": 199,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=173,113,421,906&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11471,7 +11471,7 @@
       "originalPrice": 135,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=130,142,680,121&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11487,7 +11487,7 @@
       "originalPrice": 145,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=133,85,680,274&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11503,7 +11503,7 @@
       "originalPrice": 319,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=135,98,682,368&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11519,7 +11519,7 @@
       "originalPrice": 89,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=150,165,687,469&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11551,7 +11551,7 @@
       "originalPrice": 129,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=80,121,570,761&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11599,7 +11599,7 @@
       "originalPrice": 379,
       "unit": "Adet",
       "category": "Ev & Yaşam",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/bf5f2d98-a73b-49df-913a-10118cbfb15f.jpg&crop=180,102,403,1032&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11647,7 +11647,7 @@
       "originalPrice": 85,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=74,190,215,162&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -11743,7 +11743,7 @@
       "originalPrice": 114.5,
       "unit": "Paket",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=114,102,664,129&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11759,7 +11759,7 @@
       "originalPrice": 64,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=128,100,789,129&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11935,7 +11935,7 @@
       "originalPrice": 230,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=110,144,35,608&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11967,7 +11967,7 @@
       "originalPrice": 229,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=105,143,288,610&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -11983,7 +11983,7 @@
       "originalPrice": 229,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=191,94,425,659&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12015,7 +12015,7 @@
       "originalPrice": 49.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=175,82,29,783&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12031,7 +12031,7 @@
       "originalPrice": 49.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=175,82,215,783&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12047,7 +12047,7 @@
       "originalPrice": 169,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=184,74,390,783&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12111,7 +12111,7 @@
       "originalPrice": 190,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=111,144,35,886&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12127,7 +12127,7 @@
       "originalPrice": 190,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=110,144,180,886&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12143,7 +12143,7 @@
       "originalPrice": 82.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=112,147,303,886&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12159,7 +12159,7 @@
       "originalPrice": 175,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=112,144,441,886&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12175,7 +12175,7 @@
       "originalPrice": 165,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=111,147,580,886&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12191,7 +12191,7 @@
       "originalPrice": 150,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=177,87,710,865&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12207,7 +12207,7 @@
       "originalPrice": 27.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=55,62,729,971&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12223,7 +12223,7 @@
       "originalPrice": 325,
       "unit": "Paket",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=171,94,22,1057&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12239,7 +12239,7 @@
       "originalPrice": 325,
       "unit": "Paket",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=171,94,204,1057&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12255,7 +12255,7 @@
       "originalPrice": 325,
       "unit": "Paket",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=172,94,389,1057&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12271,7 +12271,7 @@
       "originalPrice": 325,
       "unit": "Paket",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/e6a7b349-4f5e-47bc-b10a-e7a36df118c8.jpg&crop=171,94,572,1057&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12287,7 +12287,7 @@
       "originalPrice": 75,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=236,227,39,109&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -12303,7 +12303,7 @@
       "originalPrice": 75,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=294,135,32,351&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -12319,7 +12319,7 @@
       "originalPrice": 109,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=247,304,333,204&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12367,7 +12367,7 @@
       "originalPrice": 23,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=221,289,40,513&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12383,7 +12383,7 @@
       "originalPrice": 75,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=360,229,290,544&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12399,7 +12399,7 @@
       "originalPrice": 59,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=264,116,652,531&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12415,7 +12415,7 @@
       "originalPrice": 39,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=233,140,674,673&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12447,7 +12447,7 @@
       "originalPrice": 79,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=309,148,376,791&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12463,7 +12463,7 @@
       "originalPrice": 45,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=191,189,708,823&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12495,7 +12495,7 @@
       "originalPrice": 35,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=235,207,288,946&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -12511,7 +12511,7 @@
       "originalPrice": 195,
       "unit": "kg",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/d0f5cb09-dc4d-4d8e-a719-02350a2ecb1d.jpg&crop=199,221,516,933&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13215,7 +13215,7 @@
       "originalPrice": 199,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=105,162,32,126&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -13231,7 +13231,7 @@
       "originalPrice": 84,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=71,156,177,128&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": true
@@ -13343,7 +13343,7 @@
       "originalPrice": 16.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=86,73,430,349&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13455,7 +13455,7 @@
       "originalPrice": 65,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=97,168,235,479&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13535,7 +13535,7 @@
       "originalPrice": 89,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=79,152,744,478&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13567,7 +13567,7 @@
       "originalPrice": 14.75,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=72,74,42,729&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13583,7 +13583,7 @@
       "originalPrice": 14.75,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=80,63,164,732&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13647,7 +13647,7 @@
       "originalPrice": 17.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=76,74,603,725&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13679,7 +13679,7 @@
       "originalPrice": 65,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=83,95,829,718&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13695,7 +13695,7 @@
       "originalPrice": 34,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=102,80,15,906&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13727,7 +13727,7 @@
       "originalPrice": 49,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=77,106,259,895&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13759,7 +13759,7 @@
       "originalPrice": 45,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=93,85,460,906&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13775,7 +13775,7 @@
       "originalPrice": 21.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=40,113,615,902&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13823,7 +13823,7 @@
       "originalPrice": 16.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=39,106,52,1069&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13855,7 +13855,7 @@
       "originalPrice": 17.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=82,39,227,1093&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13871,7 +13871,7 @@
       "originalPrice": 20,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=87,61,337,1094&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13887,7 +13887,7 @@
       "originalPrice": 24.5,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=101,54,434,1097&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -13919,7 +13919,7 @@
       "originalPrice": 9.75,
       "unit": "Adet",
       "category": "Gıda & Tüketim",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/f24ef81e-6f59-44fe-a01e-ddace11d3062.jpg&crop=83,62,674,1090&w=300&precrop&output=jpg",
       "startDate": "2026-09-18",
       "endDate": "2026-09-21",
       "isPopular": false
@@ -14367,7 +14367,7 @@
       "originalPrice": 94,
       "unit": "Paket",
       "category": "Kozmetik & Bakım",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_361f99e7-f6b2-4865-9a5b-0b71ad9db1b3.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/361f99e7-f6b2-4865-9a5b-0b71ad9db1b3.jpg&crop=262,307,392,542&w=300&precrop&output=jpg",
       "startDate": "2026-09-19",
       "endDate": "2026-09-25",
       "isPopular": false
@@ -14447,7 +14447,7 @@
       "originalPrice": 235,
       "unit": "2 L",
       "category": "Temel Gıda",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg&crop=157,137,87,121&w=300&precrop&output=jpg",
       "startDate": "2026-09-01",
       "endDate": "2026-09-28",
       "isPopular": true
@@ -14559,7 +14559,7 @@
       "originalPrice": 15.5,
       "unit": "200 ml",
       "category": "Süt & Süt Ürünleri",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg&crop=125,98,291,495&w=300&precrop&output=jpg",
       "startDate": "2026-09-01",
       "endDate": "2026-09-28",
       "isPopular": false
@@ -14575,7 +14575,7 @@
       "originalPrice": 16.5,
       "unit": "200 ml",
       "category": "Süt & Süt Ürünleri",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/60812aaf-81fd-4e3b-8d7a-6810cefba191.jpg&crop=197,110,473,479&w=300&precrop&output=jpg",
       "startDate": "2026-09-01",
       "endDate": "2026-09-28",
       "isPopular": false
@@ -14767,7 +14767,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=83,55,36,265&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -14783,7 +14783,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=88,56,121,265&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -14799,7 +14799,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=84,59,36,327&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14815,7 +14815,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=86,63,123,327&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14831,7 +14831,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=64,59,219,252&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14847,7 +14847,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=55,71,225,320&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14863,7 +14863,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=75,72,48,410&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14879,7 +14879,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=56,38,218,412&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14895,7 +14895,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=85,79,49,502&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14911,7 +14911,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=70,80,150,515&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14927,7 +14927,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=93,96,253,501&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14943,7 +14943,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=95,93,389,515&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14959,7 +14959,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=114,87,512,516&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14975,7 +14975,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=122,93,647,515&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -14991,7 +14991,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=85,89,781,520&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15007,7 +15007,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=51,49,651,245&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15023,7 +15023,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=50,47,710,248&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15039,7 +15039,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=93,63,767,250&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15055,7 +15055,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=54,76,651,320&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15071,7 +15071,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=41,75,712,320&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15087,7 +15087,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=92,72,769,321&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15103,7 +15103,7 @@
       "originalPrice": null,
       "unit": "2'li Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=57,72,651,392&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15119,7 +15119,7 @@
       "originalPrice": null,
       "unit": "2'li Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=90,62,769,393&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15135,7 +15135,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=100,59,81,709&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15151,7 +15151,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=81,59,206,709&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15167,7 +15167,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=103,62,312,708&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15183,7 +15183,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=97,62,467,708&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15199,7 +15199,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=107,62,600,708&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15215,7 +15215,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=96,65,744,706&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15231,7 +15231,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=96,58,86,847&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15247,7 +15247,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=87,56,224,849&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15263,7 +15263,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=88,56,334,847&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15279,7 +15279,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=92,58,467,847&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15295,7 +15295,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=89,58,603,847&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15311,7 +15311,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=96,58,744,847&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15327,7 +15327,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=99,52,84,1001&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15343,7 +15343,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=88,51,219,1003&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15359,7 +15359,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=108,51,340,1003&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15375,7 +15375,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=94,51,494,1003&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15391,7 +15391,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=95,51,632,1004&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15407,7 +15407,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=80,49,769,1004&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15423,7 +15423,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=88,51,89,1148&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15439,7 +15439,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=90,51,218,1148&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15455,7 +15455,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=142,54,340,1146&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15471,7 +15471,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=71,51,517,1148&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15487,7 +15487,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=84,68,638,1134&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15503,7 +15503,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=68,109,776,1151&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15519,7 +15519,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=71,83,89,1270&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15535,7 +15535,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=97,83,186,1270&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15551,7 +15551,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=65,85,315,1269&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15567,7 +15567,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=68,85,422,1269&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15583,7 +15583,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=68,83,545,1270&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15599,7 +15599,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=49,83,661,1270&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15615,7 +15615,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/50c2971c-34b8-4d5e-b3b1-597476ce4a04.jpg&crop=95,142,748,1211&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15631,7 +15631,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=83,124,47,182&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -15647,7 +15647,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=84,138,185,185&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -15663,7 +15663,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=81,130,47,353&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15679,7 +15679,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=81,128,186,354&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15695,7 +15695,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=72,161,686,193&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15711,7 +15711,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=133,103,784,182&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15727,7 +15727,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=206,148,711,298&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15743,7 +15743,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,138,47,499&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15759,7 +15759,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=82,135,130,502&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15775,7 +15775,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=77,134,215,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15791,7 +15791,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=56,134,296,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15807,7 +15807,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=62,134,359,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15823,7 +15823,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=56,134,426,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15839,7 +15839,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=61,134,487,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15855,7 +15855,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=102,134,553,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15871,7 +15871,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,134,660,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15887,7 +15887,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=88,134,736,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15903,7 +15903,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=87,134,829,503&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15919,7 +15919,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=80,131,47,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15935,7 +15935,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=67,131,131,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15951,7 +15951,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=74,131,201,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15967,7 +15967,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=64,131,279,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15983,7 +15983,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=73,131,348,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -15999,7 +15999,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,131,426,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16015,7 +16015,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,131,502,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16031,7 +16031,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,131,578,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16047,7 +16047,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,131,654,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16063,7 +16063,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=89,131,730,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16079,7 +16079,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=92,131,824,646&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16095,7 +16095,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=65,72,47,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16111,7 +16111,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=68,72,130,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16127,7 +16127,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=60,72,215,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16143,7 +16143,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=112,72,322,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16159,7 +16159,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=108,72,456,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16175,7 +16175,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=63,72,588,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16191,7 +16191,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=55,72,683,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16207,7 +16207,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=62,72,762,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16223,7 +16223,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=77,72,839,787&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16239,7 +16239,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=68,87,47,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16255,7 +16255,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=69,87,129,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16271,7 +16271,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=74,87,215,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16287,7 +16287,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=76,87,309,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16303,7 +16303,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=113,87,405,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16319,7 +16319,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,87,538,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16335,7 +16335,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,87,627,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16351,7 +16351,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,87,716,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16367,7 +16367,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,87,806,870&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16383,7 +16383,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=118,106,47,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16399,7 +16399,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=102,106,180,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16415,7 +16415,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,106,297,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16431,7 +16431,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,106,383,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16447,7 +16447,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=88,106,468,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16463,7 +16463,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,106,572,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16479,7 +16479,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=88,106,657,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16495,7 +16495,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=109,106,760,969&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16511,7 +16511,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,107,47,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16527,7 +16527,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,133,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16543,7 +16543,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,107,217,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16559,7 +16559,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,303,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16575,7 +16575,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,107,387,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16591,7 +16591,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,473,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16607,7 +16607,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,557,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16623,7 +16623,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,643,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16639,7 +16639,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,107,728,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16655,7 +16655,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=43,107,812,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16671,7 +16671,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=46,107,861,1086&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16687,7 +16687,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,107,47,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16703,7 +16703,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,133,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16719,7 +16719,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,107,217,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16735,7 +16735,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,303,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16751,7 +16751,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,107,387,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16767,7 +16767,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,473,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16783,7 +16783,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,107,557,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16799,7 +16799,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=72,62,47,1323&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16815,7 +16815,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,62,133,1323&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16831,7 +16831,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,62,217,1323&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16847,7 +16847,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,62,303,1323&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16863,7 +16863,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,62,387,1323&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16879,7 +16879,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,62,473,1323&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16895,7 +16895,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=70,180,643,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16911,7 +16911,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,180,728,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -16927,7 +16927,7 @@
       "originalPrice": null,
       "unit": "Paket",
       "category": "Kırtasiye & Okul",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/5624e0e1-658c-4464-ae05-2e2f6e031b0b.jpg&crop=71,180,812,1204&w=300&precrop&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
