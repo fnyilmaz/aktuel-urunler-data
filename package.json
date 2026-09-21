@@ -12,7 +12,8 @@
     "scrape:sok": "node scripts/scrapers/sok_scraper.js",
     "scrape:a101": "node scripts/scrapers/a101_scraper.js",
     "scrape:all": "node scripts/scrape_all_catalogs.js",
-    "daily-update": "node scripts/daily_update.js"
+    "daily-update": "node scripts/daily_update.js",
+    "ai-sync": "node scripts/ai_sync_workflow.js"
   },
   "keywords": [
     "aktuel-urunler",
@@ -26,6 +27,10 @@
   "author": "fnyilmaz",
   "license": "MIT",
   "dependencies": {
-    "puppeteer-core": "^25.11.0"
+    "puppeteer-core": "^25.11.0",
+    "sharp": "^0.35.4"
+  },
+  "devDependencies": {
+    "tweetsodium": "^0.0.4"
   }
 }
