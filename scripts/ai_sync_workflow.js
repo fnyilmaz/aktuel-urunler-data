@@ -79,11 +79,16 @@ async function runAiSyncWorkflow() {
     console.log(`⏰ Sistem Zamanı (UTC): ${new Date().toISOString()}`);
     console.log('================================================================');
 
-    if (!fs.existsSync(DATA_PATH)) {
-        throw new Error(`Veri dosyası bulunamadı: ${DATA_PATH}`);
+    let currentData;
+    try {
+        const raw = fs.readFileSync(DATA_PATH, 'utf8');
+        currentData = JSON.parse(raw);
+    } catch (e) {
+        console.error('⚠️ catalogs.json okuma/ayrıştırma hatası:', e.message);
+        throw new Error(`catalogs.json geçersiz veya boş: ${e.message}`);
     }
 
-    const currentData = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
+    currentData.markets = currentData.markets || [];
     currentData.catalogs = currentData.catalogs || [];
     currentData.products = currentData.products || [];
 
