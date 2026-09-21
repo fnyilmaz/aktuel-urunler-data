@@ -18,12 +18,7 @@ const MONTH_MAP = {
 
 const RIO_HEADERS = {
     'User-Agent': USER_AGENT,
-    'Accept': 'application/json, text/plain, */*',
-    'Origin': 'https://www.a101.com.tr',
-    'Referer': 'https://www.a101.com.tr/',
-    'Sec-Fetch-Dest': 'empty',
-    'Sec-Fetch-Mode': 'cors',
-    'Sec-Fetch-Site': 'same-site'
+    'Accept': 'application/json'
 };
 
 function normalizeTurkish(str) {
@@ -129,7 +124,7 @@ async function fetchRioPosterDetail(itemId) {
     const webUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=web`;
     const androidUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=android`;
 
-    // 1. Web endpointini tam tarayıcı başlıklarıyla dene (3 deneme)
+    // 1. Web endpointini dene
     for (let attempt = 1; attempt <= 3; attempt++) {
         try {
             const res = await fetch(webUrl, {
@@ -140,19 +135,17 @@ async function fetchRioPosterDetail(itemId) {
                 const data = await res.json();
                 if (data && data.pages) return data;
             }
-            if (res.status === 403 || res.status === 429) {
-                console.log(`      ⚠️ Web endpointi HTTP ${res.status} verdi, mobil fallback'e geçiliyor...`);
-                break;
-            }
+            console.log(`      ⚠️ Web detay [${itemId}] HTTP ${res.status} (Deneme ${attempt})`);
+            if (res.status === 403 || res.status === 429) break;
         } catch (e) {
-            // Ağ hatası durumunda bekle ve tekrar dene
+            console.log(`      ⚠️ Web detay hatası [${itemId}]: ${e.message}`);
         }
         await sleep(1500);
     }
 
     // 2. Mobil Android API Fallback (Cloudflare bot koruması ve rate limit yoktur)
     try {
-        console.log(`      📱 Mobil RIO API Fallback devreye alınıyor (${itemId})...`);
+        console.log(`      📱 Mobil RIO Detay API Fallback devreye alınıyor (${itemId})...`);
         const mRes = await fetch(androidUrl, {
             headers: {
                 'User-Agent': 'okhttp/4.9.2',
@@ -160,6 +153,7 @@ async function fetchRioPosterDetail(itemId) {
             },
             signal: AbortSignal.timeout(15000)
         });
+        console.log(`      📱 Mobil detay yanıtı: HTTP ${mRes.status}`);
         if (mRes.ok) {
             const mData = await mRes.json();
             if (mData && mData.pages) return mData;
@@ -188,12 +182,10 @@ async function fetchRioPosterList() {
                 const data = await res.json();
                 if (data && data.items) return data;
             }
-            if (res.status === 403 || res.status === 429) {
-                console.log(`⚠️ A101 Liste Web API HTTP ${res.status} verdi, mobil fallback devreye alınıyor...`);
-                break;
-            }
+            console.log(`⚠️ A101 Liste Web API HTTP ${res.status} (Deneme ${attempt})`);
+            if (res.status === 403 || res.status === 429) break;
         } catch (e) {
-            // Ağ hatası
+            console.log(`⚠️ A101 Liste Web ağ hatası: ${e.message}`);
         }
         await sleep(1500);
     }
@@ -208,6 +200,7 @@ async function fetchRioPosterList() {
             },
             signal: AbortSignal.timeout(15000)
         });
+        console.log(`📱 Mobil liste yanıtı: HTTP ${mRes.status}`);
         if (mRes.ok) {
             const mData = await mRes.json();
             if (mData && mData.items) return mData;
