@@ -1,10 +1,13 @@
-name: Günlük Aktüel Broşür & Ürün Senkronizasyonu
+name: Günlük Aktüel Broşür & Yapay Zeka (AI) Ürün Senkronizasyonu
 
 on:
   schedule:
     # Her gün Türkiye saatiyle 08:00 ve 16:00 (UTC 05:00 ve 13:00)
     - cron: '0 5,13 * * *'
   workflow_dispatch: # İstendiğinde GitHub web arayüzünden manuel tek tıkla çalıştırma
+
+permissions:
+  contents: write
 
 jobs:
   sync-market-catalogs:
@@ -13,31 +16,35 @@ jobs:
     steps:
       - name: 📥 Depoyu Klonla
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: ⚙️ Node.js Kurulumu
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
+          node-version: '22'
 
       - name: 📦 Bağımlılıkları Yükle
-        run: npm ci || npm install
+        run: npm install
 
-      - name: 🛒 Broşür ve Ürünleri Tara (Akıllı Atlama Devrede)
-        run: node scripts/scrape_all_catalogs.js --sync
+      - name: 🤖 Gemini Vision ile Broşür ve Ürünleri Senkronize Et
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/ai_sync_workflow.js
 
       - name: 🔍 Veri Bütünlüğü Doğrulaması
         run: node scripts/catalog_manager.js validate
 
       - name: 🚀 Değişiklik Varsa Sürümü Yükselt ve Kaydet
         run: |
-          if [ -n "$(git status --porcelain catalogs.json data/catalogs.json)" ]; then
+          if [ -n "$(git status --porcelain catalogs.json)" ]; then
             node scripts/catalog_manager.js bump
             git config --local user.email "action@github.com"
-            git config --local user.name "Aktuel Urunler Otomasyon Robotu"
-            git add catalogs.json data/catalogs.json || true
-            git commit -m "🤖 Otomatik Güncelleme: Yeni market katalogları ve ürünleri senkronize edildi"
-            git push
+            git config --local user.name "Aktuel Urunler AI Robotu"
+            git add catalogs.json
+            git commit -m "🤖 AI Otomasyon: Yeni broşürler ve ürün görselleri yapay zeka ile güncellendi"
+            git push origin main
+            curl -s https://purge.jsdelivr.net/gh/fnyilmaz/aktuel-urunler-data@main/catalogs.json || true
           else
             echo "✨ Tüm katalog ve ürünler güncel, yeni veri tespit edilmedi."
           fi
