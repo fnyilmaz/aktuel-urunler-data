@@ -1,6 +1,6 @@
 {
-  "version": 25,
-  "lastUpdated": "2026-09-21T10:18:58.791Z",
+  "version": 26,
+  "lastUpdated": "2026-09-21T12:19:39.618Z",
   "markets": [
     {
       "id": "bim",
@@ -2562,6 +2562,88 @@
             "migros-migroskop-906-p1-29",
             "migros-migroskop-906-p1-30"
           ]
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-VqtTZGhtiFIwPAsM",
+      "marketId": "a101",
+      "title": "19-25 Eylül 8-11 Eylül A101 Artı A101 Aktüel",
+      "subtitle": "19-25 Eylül 8-11 Eylül A101 Artı Aldın Aldın Fırsatları",
+      "badge": "Aldın Aldın",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_3840x3840.png",
+      "pageCount": 10,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_1024x1024.png",
+          "productIds": [
+            "a101-rio-VqtTZGhtiFIwPAsM-p3-1"
+          ]
+        },
+        {
+          "pageNumber": 4,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_1024x1024.png",
+          "productIds": [
+            "a101-rio-VqtTZGhtiFIwPAsM-p4-1"
+          ]
+        },
+        {
+          "pageNumber": 5,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 6,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_1024x1024.png",
+          "productIds": [
+            "a101-rio-VqtTZGhtiFIwPAsM-p6-1",
+            "a101-rio-VqtTZGhtiFIwPAsM-p6-2"
+          ]
+        },
+        {
+          "pageNumber": 7,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 8,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 9,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 10,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_1024x1024.png",
+          "productIds": []
         }
       ]
     }
@@ -27365,6 +27447,70 @@
       "imageUrl": "https://images.migrosone.com/sanalmarket/product/06023592/6023592_1-51bdd3-1650x1650.jpg",
       "startDate": "2026-09-10",
       "endDate": "2026-09-23",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-VqtTZGhtiFIwPAsM-p3-1",
+      "catalogId": "a101-rio-VqtTZGhtiFIwPAsM",
+      "marketId": "a101",
+      "pageNumber": 3,
+      "name": "Baştacı Dana Kavurma 150 g",
+      "brand": "Baştacı",
+      "price": 15,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Et Ürünleri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_3840x3840.png&crop=525,705,301,512&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-VqtTZGhtiFIwPAsM-p4-1",
+      "catalogId": "a101-rio-VqtTZGhtiFIwPAsM",
+      "marketId": "a101",
+      "pageNumber": 4,
+      "name": "Türk Kahvesi 100 g",
+      "brand": "Keyfe",
+      "price": 15,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_3840x3840.png&crop=496,713,317,495&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-VqtTZGhtiFIwPAsM-p6-1",
+      "catalogId": "a101-rio-VqtTZGhtiFIwPAsM",
+      "marketId": "a101",
+      "pageNumber": 6,
+      "name": "Sütaş Kaşar Peyniri 500 g",
+      "brand": "Sütaş",
+      "price": 45,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Süt Ürünleri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_3840x3840.png&crop=472,661,74,735&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-VqtTZGhtiFIwPAsM-p6-2",
+      "catalogId": "a101-rio-VqtTZGhtiFIwPAsM",
+      "marketId": "a101",
+      "pageNumber": 6,
+      "name": "İçim Taze Kaşar Peyniri 500 g",
+      "brand": "İçim",
+      "price": 45,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Süt Ürünleri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_3840x3840.png&crop=526,575,578,818&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
       "isPopular": false
     }
   ]
