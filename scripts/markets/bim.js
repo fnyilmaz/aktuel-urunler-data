@@ -28,52 +28,62 @@ function normalizeTurkish(str) {
         .trim();
 }
 
-function parseTurkishDateRange(title, currentYear = new Date().getFullYear()) {
+const MONTH_PATTERN = '(ocak|subat|şubat|mart|nisan|mayis|mayıs|haziran|temmuz|agustos|ağustos|eylul|eylül|ekim|kasim|kasım|aralik|aralık)';
+
+function parseTurkishDateRange(title, defaultYear = new Date().getFullYear()) {
     const clean = normalizeTurkish(title);
     let startDate = null;
     let endDate = null;
 
-    // Örnek: "24 mart - 31 aralik"
-    const twoMonthMatch = clean.match(/(\d{1,2})\s+([a-z]+)\s*[-–]\s*(\d{1,2})\s+([a-z]+)/i);
+    // Başlıkta açıkça 4 basamaklı yıl geçiyor mu? (Örn: 2024, 2025, 2026)
+    const yearMatch = clean.match(/\b(20\d{2})\b/);
+    const year = yearMatch ? parseInt(yearMatch[1], 10) : defaultYear;
+
+    // 1. Örnek: "24 mart - 31 aralik"
+    const twoMonthRegex = new RegExp(`(\\d{1,2})\\s+${MONTH_PATTERN}\\s*[-–]\\s*(\\d{1,2})\\s+${MONTH_PATTERN}`, 'i');
+    const twoMonthMatch = clean.match(twoMonthRegex);
     if (twoMonthMatch) {
         const d1 = String(twoMonthMatch[1]).padStart(2, '0');
         const m1 = MONTH_MAP[twoMonthMatch[2]];
         const d2 = String(twoMonthMatch[3]).padStart(2, '0');
         const m2 = MONTH_MAP[twoMonthMatch[4]];
         if (m1 && m2) {
-            startDate = `${currentYear}-${m1}-${d1}`;
-            endDate = `${currentYear}-${m2}-${d2}`;
+            startDate = `${year}-${m1}-${d1}`;
+            endDate = `${year}-${m2}-${d2}`;
             return { startDate, endDate };
         }
     }
 
-    // Örnek: "19-25 eylul" veya "01-28 eylul"
-    const rangeMatch = clean.match(/(\d{1,2})\s*[-–]\s*(\d{1,2})\s+([a-z]+)/i);
+    // 2. Örnek: "19-25 eylul" veya "01-28 eylul"
+    const rangeRegex = new RegExp(`(\\d{1,2})\\s*[-–]\\s*(\\d{1,2})\\s+${MONTH_PATTERN}`, 'i');
+    const rangeMatch = clean.match(rangeRegex);
     if (rangeMatch) {
         const d1 = String(rangeMatch[1]).padStart(2, '0');
         const d2 = String(rangeMatch[2]).padStart(2, '0');
         const m = MONTH_MAP[rangeMatch[3]];
         if (m) {
-            startDate = `${currentYear}-${m}-${d1}`;
-            endDate = `${currentYear}-${m}-${d2}`;
+            startDate = `${year}-${m}-${d1}`;
+            endDate = `${year}-${m}-${d2}`;
             return { startDate, endDate };
         }
     }
 
-    // Örnek: "15 eylul sali"
-    const singleMatch = clean.match(/(\d{1,2})\s+([a-z]+)/i);
+    // 3. Örnek: "150 urun 22 agustos 2025" veya "15 eylul sali" veya "23 agustos kirtasiye"
+    const singleRegex = new RegExp(`(\\d{1,2})\\s+${MONTH_PATTERN}`, 'i');
+    const singleMatch = clean.match(singleRegex);
     if (singleMatch) {
         const d = String(singleMatch[1]).padStart(2, '0');
         const m = MONTH_MAP[singleMatch[2]];
         if (m) {
-            startDate = `${currentYear}-${m}-${d}`;
-            const endD = new Date(`${currentYear}-${m}-${d}T00:00:00Z`);
+            startDate = `${year}-${m}-${d}`;
+            const endD = new Date(`${year}-${m}-${d}T00:00:00Z`);
             endD.setUTCDate(endD.getUTCDate() + 6);
             endDate = endD.toISOString().split('T')[0];
             return { startDate, endDate };
         }
     }
 
+    // Tarihsiz genel afişler (Örn: "Meyve-Sebze")
     const today = new Date();
     startDate = today.toISOString().split('T')[0];
     const nextWeek = new Date(today);
