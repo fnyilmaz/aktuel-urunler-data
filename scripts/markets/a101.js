@@ -171,6 +171,54 @@ async function fetchRioPosterDetail(itemId) {
     return null;
 }
 
+/**
+ * A101 RIO API'sinden aktif afiş listesini çeker (Otomatik Retry ve Android Mobil Fallback destekli).
+ */
+async function fetchRioPosterList() {
+    const webUrl = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=web';
+    const androidUrl = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=android';
+
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            const res = await fetch(webUrl, {
+                headers: RIO_HEADERS,
+                signal: AbortSignal.timeout(15000)
+            });
+            if (res.ok) {
+                const data = await res.json();
+                if (data && data.items) return data;
+            }
+            if (res.status === 403 || res.status === 429) {
+                console.log(`⚠️ A101 Liste Web API HTTP ${res.status} verdi, mobil fallback devreye alınıyor...`);
+                break;
+            }
+        } catch (e) {
+            // Ağ hatası
+        }
+        await sleep(1500);
+    }
+
+    // Mobil Android API Fallback
+    try {
+        console.log(`📱 Mobil RIO Liste API Fallback devreye alınıyor...`);
+        const mRes = await fetch(androidUrl, {
+            headers: {
+                'User-Agent': 'okhttp/4.9.2',
+                'Accept': 'application/json'
+            },
+            signal: AbortSignal.timeout(15000)
+        });
+        if (mRes.ok) {
+            const mData = await mRes.json();
+            if (mData && mData.items) return mData;
+        }
+    } catch (err) {
+        console.error('❌ Mobil liste fallback hatası:', err.message);
+    }
+
+    return null;
+}
+
 async function syncA101(currentData, options = {}) {
     console.log('\n======================================================');
     console.log('🛒 A101 RESMİ AKTÜEL & YAPAY ZEKA SENKRONİZASYONU');
@@ -178,19 +226,11 @@ async function syncA101(currentData, options = {}) {
 
     let updated = false;
 
-    // 1. Resmi RIO API'den aktif afiş listesini çek
+    // 1. Resmi RIO API'den aktif afiş listesini çek (Mobil Fallback Korumalı)
     console.log('🔍 A101 Resmi RIO API sorgulanıyor...');
-    const listUrl = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=web';
-    let listData;
-    try {
-        const res = await fetch(listUrl, {
-            headers: RIO_HEADERS,
-            signal: AbortSignal.timeout(15000)
-        });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        listData = await res.json();
-    } catch (e) {
-        console.error('❌ A101 RIO API listeleme hatası:', e.message);
+    const listData = await fetchRioPosterList();
+    if (!listData || !listData.items) {
+        console.error('❌ A101 RIO API listeleme hatası: Afiş listesi alınamadı.');
         return false;
     }
 
