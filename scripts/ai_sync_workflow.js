@@ -30,6 +30,59 @@ const DATA_PATH = fs.existsSync(path.join(__dirname, '..', 'catalogs.json'))
     ? path.join(__dirname, '..', 'catalogs.json')
     : path.join(__dirname, '..', '..', 'github_automation', 'catalogs.json');
 
+const DEFAULT_MARKETS = [
+    {
+        id: "bim",
+        name: "BİM",
+        brandColorHex: "#E30613",
+        accentColorHex: "#FFFFFF",
+        logoUrl: "https://cdn2.bim.com.tr/templates/images/header-aktuel.png",
+        category: "Süpermarket",
+        description: "Toptan Fiyatına Perakende Satış",
+        catalogCount: 0
+    },
+    {
+        id: "a101",
+        name: "A101",
+        brandColorHex: "#009AC7",
+        accentColorHex: "#FFFFFF",
+        logoUrl: "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
+        category: "Süpermarket",
+        description: "Harca Harca Bitmez",
+        catalogCount: 0
+    },
+    {
+        id: "sok",
+        name: "ŞOK",
+        brandColorHex: "#F9A01B",
+        accentColorHex: "#002B49",
+        logoUrl: "https://images.ceptesok.com/cdn-cgi/image/width=120,height=120,fit=pad,quality=80,format=webp/logos/service-types/market-logo.svg",
+        category: "Süpermarket",
+        description: "Yeter de Artar",
+        catalogCount: 0
+    },
+    {
+        id: "migros",
+        name: "Migros",
+        brandColorHex: "#FF6000",
+        accentColorHex: "#FFFFFF",
+        logoUrl: "https://images.migrosone.com/sanalmarket/category/icon/00000000-0000-0000-0000-000000000000/1-0.png",
+        category: "Süpermarket",
+        description: "Migros Kalitesi ve Fırsatları",
+        catalogCount: 0
+    },
+    {
+        id: "carrefoursa",
+        name: "CarrefourSA",
+        brandColorHex: "#004B93",
+        accentColorHex: "#D52B1E",
+        logoUrl: "https://images.csfour.com/staticimage/carrefoursacom-logo.svg",
+        category: "Süpermarket",
+        description: "Doğru Kalite Doğru Fiyata",
+        catalogCount: 0
+    }
+];
+
 function parseArgs() {
     const args = process.argv.slice(2);
     let market = 'auto';
@@ -48,12 +101,20 @@ function parseArgs() {
     return { market };
 }
 
-function resolveTargetMarket(marketArg) {
-    if (marketArg !== 'auto') return marketArg;
+function resolveTargetMarket(arg) {
+    if (arg && arg !== 'auto') {
+        return arg;
+    }
 
-    // UTC saatine göre otomatik market seçimi (TSİ = UTC+3)
-    const currentUtcHour = new Date().getUTCHours();
-    switch (currentUtcHour) {
+    // Auto mod: Türkiye saati (UTC+3)
+    const now = new Date();
+    const utcHour = now.getUTCHours();
+    // 03:00 UTC = 06:00 TSİ (BİM)
+    // 04:00 UTC = 07:00 TSİ (A101)
+    // 05:00 UTC = 08:00 TSİ (ŞOK)
+    // 06:00 UTC = 09:00 TSİ (Migros)
+    // 07:00 UTC = 10:00 TSİ (CarrefourSA)
+    switch (utcHour) {
         case 3: // 06:00 TSİ
             return 'bim';
         case 4: // 07:00 TSİ
@@ -85,20 +146,29 @@ async function runAiSyncWorkflow() {
         currentData = JSON.parse(raw);
     } catch (e) {
         console.error('⚠️ catalogs.json okuma/ayrıştırma hatası:', e.message);
-        // Dosya boşsa veya bozulmuşsa akışı kilitlemek yerine güvenli şablon ile devam et
         currentData = {
             version: 1,
             lastUpdated: new Date().toISOString(),
-            markets: [],
+            markets: JSON.parse(JSON.stringify(DEFAULT_MARKETS)),
             catalogs: [],
             products: []
         };
         console.log('⚠️ Boş veya geçersiz catalogs.json yerine temel şablon oluşturuldu.');
     }
 
-    currentData.markets = currentData.markets || [];
     currentData.catalogs = currentData.catalogs || [];
     currentData.products = currentData.products || [];
+
+    // Market listesini daima 5 market ile güvenceye al
+    if (!currentData.markets || currentData.markets.length === 0) {
+        currentData.markets = JSON.parse(JSON.stringify(DEFAULT_MARKETS));
+    } else {
+        for (const dm of DEFAULT_MARKETS) {
+            if (!currentData.markets.some(m => m.id === dm.id)) {
+                currentData.markets.push({ ...dm });
+            }
+        }
+    }
 
     const initialCatCount = currentData.catalogs.length;
     const initialProdCount = currentData.products.length;
@@ -182,6 +252,11 @@ async function runAiSyncWorkflow() {
     if (hasChanges || currentData.catalogs.length !== initialCatCount || currentData.products.length !== initialProdCount) {
         currentData.version = (currentData.version || 20) + 1;
         currentData.lastUpdated = new Date().toISOString();
+
+        // Market katalog sayılarını güncelle
+        currentData.markets.forEach(m => {
+            m.catalogCount = currentData.catalogs.filter(c => c.marketId === m.id).length;
+        });
 
         console.log('\n================================================================');
         console.log(`📦 VERİ GÜNCELLENDİ! Yeni Sürüm: v${currentData.version}`);

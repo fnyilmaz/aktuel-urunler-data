@@ -137,7 +137,11 @@ function validateData() {
     let errors = 0;
     let warnings = 0;
 
-    const marketIds = new Set((data.markets || []).map(m => m.id));
+    const KNOWN_MARKET_IDS = new Set(['bim', 'a101', 'sok', 'migros', 'carrefoursa']);
+    const marketIds = new Set([
+        ...KNOWN_MARKET_IDS,
+        ...(data.markets || []).map(m => m.id)
+    ]);
     const catalogIds = new Set((data.catalogs || []).map(c => c.id));
     const productIds = new Set();
 
