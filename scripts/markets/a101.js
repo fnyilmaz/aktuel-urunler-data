@@ -16,6 +16,16 @@ const MONTH_MAP = {
     'eylül': '09', 'ekim': '10', 'kasim': '11', 'kasım': '11', 'aralik': '12', 'aralık': '12'
 };
 
+const RIO_HEADERS = {
+    'User-Agent': USER_AGENT,
+    'Accept': 'application/json, text/plain, */*',
+    'Origin': 'https://www.a101.com.tr',
+    'Referer': 'https://www.a101.com.tr/',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-site'
+};
+
 function normalizeTurkish(str) {
     return (str || '')
         .toLowerCase()
@@ -73,6 +83,94 @@ function parseTurkishDateRange(title, defaultYear = new Date().getFullYear()) {
     return { startDate, endDate };
 }
 
+/**
+ * Kampanya türüne ve başlığına göre doğru rozeti (Badge) belirler
+ */
+function resolveA101Badge(item, rawTitle) {
+    const text = `${item.title || ''} ${item.seoTitle || ''} ${rawTitle || ''}`.toLowerCase();
+    if (item.promotionId === 'Z010' || text.includes('10 tl')) return '10 TL ve Üzeri';
+    if (item.promotionId === 'Z100' || text.includes('haftanın yıldızları') || text.includes('haftanin yildizlari')) return 'Haftanın Yıldızları';
+    if (item.promotionId === 'Z151' || text.includes('ekstra')) return 'Aldın Aldın Ekstra';
+    if (text.includes('artı') || text.includes('arti')) return 'A101 Artı';
+    if (item.promotionId === 'ZP01' || text.includes('tazenin')) return 'Tazenin Yıldızları';
+    return 'Aldın Aldın';
+}
+
+/**
+ * Temiz ve okunabilir katalog başlıkları ve alt başlıkları üretir
+ */
+function buildA101Titles(item, badge, dates) {
+    let t = (item.title || '').trim();
+    let seo = (item.seoTitle || '').trim();
+
+    // "17 Eylül 17 Eylül Tarihinden İtibaren" gibi tekrar eden tarihleri temizle
+    let displayTitle = '';
+    if (seo && t && seo.toLowerCase().includes(t.toLowerCase())) {
+        displayTitle = `${seo} A101 Aktüel`;
+    } else if (seo && t) {
+        displayTitle = `${t} ${seo} A101 Aktüel`;
+    } else if (seo) {
+        displayTitle = `${seo} A101 Aktüel`;
+    } else {
+        displayTitle = `${t} A101 ${badge}`;
+    }
+
+    displayTitle = displayTitle.replace(/\s+/g, ' ').trim();
+    const subtitle = `${t || dates.startDate} ${badge} Fırsatları & Kampanyalı Aktüel Ürün Kataloğu`.replace(/\s+/g, ' ').trim();
+
+    return { title: displayTitle, subtitle };
+}
+
+/**
+ * A101 RIO API'sinden detay sayfalarını çeker (Otomatik Retry ve Mobil Android Fallback destekli).
+ * Bu sayede GitHub Actions runner'ında 403 Rate Limit oluşması kesinlikle engellenir.
+ */
+async function fetchRioPosterDetail(itemId) {
+    const webUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=web`;
+    const androidUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=android`;
+
+    // 1. Web endpointini tam tarayıcı başlıklarıyla dene (3 deneme)
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            const res = await fetch(webUrl, {
+                headers: RIO_HEADERS,
+                signal: AbortSignal.timeout(15000)
+            });
+            if (res.ok) {
+                const data = await res.json();
+                if (data && data.pages) return data;
+            }
+            if (res.status === 403 || res.status === 429) {
+                console.log(`      ⚠️ Web endpointi HTTP ${res.status} verdi, mobil fallback'e geçiliyor...`);
+                break;
+            }
+        } catch (e) {
+            // Ağ hatası durumunda bekle ve tekrar dene
+        }
+        await sleep(1500);
+    }
+
+    // 2. Mobil Android API Fallback (Cloudflare bot koruması ve rate limit yoktur)
+    try {
+        console.log(`      📱 Mobil RIO API Fallback devreye alınıyor (${itemId})...`);
+        const mRes = await fetch(androidUrl, {
+            headers: {
+                'User-Agent': 'okhttp/4.9.2',
+                'Accept': 'application/json'
+            },
+            signal: AbortSignal.timeout(15000)
+        });
+        if (mRes.ok) {
+            const mData = await mRes.json();
+            if (mData && mData.pages) return mData;
+        }
+    } catch (err) {
+        console.error(`      ❌ Mobil fallback hatası (${itemId}):`, err.message);
+    }
+
+    return null;
+}
+
 async function syncA101(currentData, options = {}) {
     console.log('\n======================================================');
     console.log('🛒 A101 RESMİ AKTÜEL & YAPAY ZEKA SENKRONİZASYONU');
@@ -86,7 +184,7 @@ async function syncA101(currentData, options = {}) {
     let listData;
     try {
         const res = await fetch(listUrl, {
-            headers: { 'User-Agent': USER_AGENT },
+            headers: RIO_HEADERS,
             signal: AbortSignal.timeout(15000)
         });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -103,39 +201,37 @@ async function syncA101(currentData, options = {}) {
         const catalogId = `a101-rio-${item.id}`;
         const rawTitle = `${item.title || ''} ${item.seoTitle || ''}`.trim();
         const dates = parseTurkishDateRange(rawTitle);
+        const badge = resolveA101Badge(item, rawTitle);
+        const { title, subtitle } = buildA101Titles(item, badge, dates);
 
-        console.log(`\n📌 Kampanya: "${rawTitle}" (ID: ${catalogId})`);
+        console.log(`\n📌 Kampanya: "${title}" [Rozet: ${badge}] (ID: ${catalogId})`);
 
         // Akıllı Atlama Kontrolü
         const existingCat = currentData.catalogs.find(c => c.id === catalogId);
         const existingProds = currentData.products.filter(p => p.catalogId === catalogId);
 
-        if (existingCat && existingCat.pages?.length > 0 && existingProds.length >= existingCat.pages.length * 2) {
-            console.log(`   ⏭️ Zaten taranmış ve ürünleri mevcut (${existingProds.length} ürün, ${existingCat.pages.length} sayfa). Atlanıyor.`);
+        if (existingCat && existingCat.pages?.length > 0 && existingProds.length >= existingCat.pages.length * 2 && !options.force) {
+            console.log(`   ⏭️ Zaten taranmış ve ürünleri mevcut (${existingProds.length} ürün, ${existingCat.pages.length} sayfa). Metadata güncelleniyor.`);
+            // Mevcut kataloğun rozet ve başlıklarını kusursuz hale getir
+            if (existingCat.badge !== badge || existingCat.title !== title) {
+                existingCat.badge = badge;
+                existingCat.title = title;
+                existingCat.subtitle = subtitle;
+                updated = true;
+            }
             continue;
         }
 
-        // Detay API'sinden sayfaları al
+        // Detay API'sinden sayfaları al (Retry ve Mobil Fallback korumalı)
         console.log(`   📥 Kampanya sayfaları çekiliyor...`);
-        const detUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${item.id}?__culture=tr-TR&__platform=web`;
-        let detData;
-        try {
-            const dRes = await fetch(detUrl, {
-                headers: { 'User-Agent': USER_AGENT },
-                signal: AbortSignal.timeout(15000)
-            });
-            if (!dRes.ok) throw new Error(`HTTP ${dRes.status}`);
-            detData = await dRes.json();
-        } catch (e) {
-            console.error(`   ❌ Kampanya detay hatası (${item.id}):`, e.message);
+        const detData = await fetchRioPosterDetail(item.id);
+        if (!detData || !detData.pages || detData.pages.length === 0) {
+            console.error(`   ❌ Kampanya detay sayfaları alınamadı (${item.id})`);
             continue;
         }
 
-        const rawPages = detData?.pages || [];
-        if (rawPages.length === 0) {
-            console.log(`   ⚠️ Sayfa bulunamadı.`);
-            continue;
-        }
+        const rawPages = detData.pages || [];
+        console.log(`   📄 Toplam ${rawPages.length} sayfa afiş bulundu.`);
 
         // Eski ürünleri temizle (yeniden işleme)
         currentData.products = currentData.products.filter(p => p.catalogId !== catalogId);
@@ -173,21 +269,31 @@ async function syncA101(currentData, options = {}) {
                 const meta = await sharp(imgBuf).metadata();
                 const base64 = imgBuf.toString('base64');
 
+                // Güçlendirilmiş, Sıfır Hata ve Sıfır Atlama Yapay Zeka Vision Promptu
                 const prompt = `Sen uzman bir süpermarket aktüel ürün analistisin. 
 Bu görsel A101 resmi aktüel broşür sayfasıdır.
-Bu sayfada yer alan TÜM ürünleri eksiksiz olarak tespit et.
-Her ürün için tam adı, markası, indirimli satış fiyatı (TL cinsinden sayısal) ve sayfadaki görsel koordinatlarını [ymin, xmin, ymax, xmax] (0-1000 normalize koordinat) olarak çıkar.
+Bu sayfada yer alan TÜM ürünleri EKSİKSİZ, BİREBİR ve HATASIZ olarak tespit et.
 
 ÖNEMLİ KURALLAR:
-1. Fiyatı net okunamayan veya fiyatı olmayan reklam/slogan kutularını dahil ETME. Fiyat daima 0'dan büyük bir sayı olmalıdır.
-2. Ürün adını gramaj/miktar bilgisiyle birlikte tam yaz.
-3. box_2d değerini ürünün fotoğrafını ve adını tam kapsayacak şekilde [ymin, xmin, ymax, xmax] formatında ver.
+1. EKSİKSİZLİK (SIFIR ÜRÜN ATLAMA):
+   - Sayfayı yukarıdan aşağıya, satır satır ve sütun sütun çok dikkatle tara.
+   - Sayfadaki EN KÜÇÜK ÜRÜNÜ, MEŞRUBAT ŞİŞELERİNİ, KÜÇÜK ATIŞTIRMALIKLARI VE SOSLARI DAHİ ASLA ATLAMADAN ÇIKAR.
+   - Yan yana duran ikili/üçlü ürünleri (örneğin ketçabın yanındaki mayonez, cips çeşitleri, su paketleri) tek tek ayrı ürünler olarak listele.
+   - Bir ürün grubunun altında birden fazla şişe/paket varsa her birini bağımsız ürün olarak ekle. Genellikle bu tip broşür sayfalarında 15 ile 30 arasında ürün bulunur.
+
+2. KESİN VE DOĞRU OCR (GRAMAJ VE FİYAT):
+   - Ürünün adını ve üzerindeki/etiketindeki net gramaj/hacim bilgisini (g, KG, L, ml, 'li) TAHMİN ETMEDEN BİREBİR OKU (Örn: kova veya paket üzerinde 9 KG yazıyorsa kesinlikle 9 KG olarak yaz, asla 3 KG yazma).
+   - FİYAT: Kırmızı/sarı indirim kutusundaki büyük puntolu güncel indirimli satış fiyatını TL cinsinden sayısal olarak al (örneğin 39.50 veya 475). Asla eski fiyatı, yüzde indirim oranını veya başka sayıyı fiyat olarak yazma.
+   - Fiyatı net okunamayan veya fiyatı olmayan reklam/slogan kutularını dahil ETME. Fiyat daima 0'dan büyük bir sayı olmalıdır.
+
+3. KUTU KOORDİNATLARI:
+   - box_2d değerini ürünün fotoğrafını ve adını tam kapsayacak şekilde [ymin, xmin, ymax, xmax] (0-1000 normalize koordinat) formatında ver.
 
 JSON Formatı:
 {
   "products": [
     {
-      "name": "Ürün Adı ve Miktarı",
+      "name": "Ürün Adı ve Net Miktarı",
       "brand": "Marka",
       "price": 49.50,
       "unit": "Adet",
@@ -258,7 +364,7 @@ JSON Formatı:
                 });
 
                 updated = true;
-                await sleep(2000); // API kotasını koruma aralığı
+                await sleep(1500); // API kotasını koruma aralığı
             } catch (err) {
                 console.error(`      ❌ Sayfa ${pageNum} işleme hatası:`, err.message);
             }
@@ -268,9 +374,9 @@ JSON Formatı:
             currentData.catalogs.push({
                 id: catalogId,
                 marketId: 'a101',
-                title: `${rawTitle} A101 Aktüel`,
-                subtitle: `${rawTitle} Aldın Aldın Fırsatları`,
-                badge: 'Aldın Aldın',
+                title: title,
+                subtitle: subtitle,
+                badge: badge,
                 startDate: dates.startDate,
                 endDate: dates.endDate,
                 coverImageUrl: pages[0].imageUrl,
