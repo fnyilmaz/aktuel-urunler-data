@@ -292,6 +292,37 @@ async function publishToGitHub(tokenArg) {
 }
 
 // CLI Arg handler
+function purgeExpired() {
+    const data = readData();
+    if (!data) return false;
+
+    const todayStr = new Date().toISOString().split('T')[0];
+    const initialCats = (data.catalogs || []).length;
+    const initialProds = (data.products || []).length;
+
+    data.catalogs = (data.catalogs || []).filter(c => !c.endDate || c.endDate >= todayStr);
+    const activeIds = new Set(data.catalogs.map(c => c.id));
+    data.products = (data.products || []).filter(p => activeIds.has(p.catalogId));
+
+    (data.markets || []).forEach(m => {
+        m.catalogCount = data.catalogs.filter(c => c.marketId === m.id).length;
+    });
+
+    const diffCats = initialCats - data.catalogs.length;
+    const diffProds = initialProds - data.products.length;
+
+    if (diffCats > 0 || diffProds > 0) {
+        data.version = (data.version || 1) + 1;
+        data.lastUpdated = new Date().toISOString();
+        writeData(DATA_PATH, data);
+        console.log(`🧹 Süresi dolmuş ${diffCats} katalog ve ${diffProds} ürün başarıyla temizlendi.`);
+        console.log(`📌 Yeni sürüm: v${data.version}`);
+    } else {
+        console.log('✨ Süresi geçmiş katalog bulunamadı, tüm veriler güncel.');
+    }
+    return true;
+}
+
 if (require.main === module) {
     const command = process.argv[2] || 'status';
     const tokenArg = process.argv[3];
@@ -309,12 +340,15 @@ if (require.main === module) {
         case 'bump':
             bumpVersion();
             break;
+        case 'purge':
+            purgeExpired();
+            break;
         case 'publish':
             publishToGitHub(tokenArg);
             break;
         default:
             console.log(`Bilinmeyen komut: ${command}`);
-            console.log("Kullanılabilir komutlar: 'status', 'validate', 'backup', 'bump', 'publish [token]'");
+            console.log("Kullanılabilir komutlar: 'status', 'validate', 'backup', 'bump', 'purge', 'publish [token]'");
     }
 }
 
