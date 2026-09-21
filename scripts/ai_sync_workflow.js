@@ -226,7 +226,32 @@ async function runAiSyncWorkflow() {
     }
 
     // Veri Temizliği ve Doğrulama
-    // 1. Sıfır veya tanımsız fiyatlı ürünleri temizle (Fiyat karşılaştırma güvenliği)
+    // 1. Süresi dolmuş (günü geçmiş) katalogları ve bağlı ürünleri otomatik temizle
+    const todayStr = new Date().toISOString().split('T')[0];
+    const unexpiredCatalogs = currentData.catalogs.filter(c => {
+        if (!c.endDate) return true;
+        return c.endDate >= todayStr;
+    });
+
+    if (unexpiredCatalogs.length !== currentData.catalogs.length) {
+        const removedCatCount = currentData.catalogs.length - unexpiredCatalogs.length;
+        const removedCats = currentData.catalogs.filter(c => c.endDate && c.endDate < todayStr);
+        console.log(`\n🧹 [Auto-Purge] Süresi dolmuş ${removedCatCount} adet eski katalog ayıklandı:`);
+        removedCats.forEach(rc => console.log(`   - [${rc.marketId.toUpperCase()}] "${rc.title}" (Bitiş: ${rc.endDate})`));
+        currentData.catalogs = unexpiredCatalogs;
+        hasChanges = true;
+    }
+
+    // 2. Öksüz ürünleri temizle (Kataloğu silinmiş ürünler veritabanında kalmasın)
+    const activeCatalogIds = new Set(currentData.catalogs.map(c => c.id));
+    const linkedProducts = currentData.products.filter(p => activeCatalogIds.has(p.catalogId));
+    if (linkedProducts.length !== currentData.products.length) {
+        console.log(`🧹 [Auto-Purge] Süresi dolan kataloglara ait ${currentData.products.length - linkedProducts.length} adet eski ürün imha edildi.`);
+        currentData.products = linkedProducts;
+        hasChanges = true;
+    }
+
+    // 3. Sıfır veya tanımsız fiyatlı ürünleri temizle (Fiyat karşılaştırma güvenliği)
     const validProducts = currentData.products.filter(p => {
         return p.name && p.name.trim().length > 1 && typeof p.price === 'number' && p.price > 0;
     });
@@ -237,7 +262,7 @@ async function runAiSyncWorkflow() {
         hasChanges = true;
     }
 
-    // 2. Boş kataloğu olanları temizle
+    // 4. Boş kataloğu olanları temizle
     const validCatalogs = currentData.catalogs.filter(c => {
         const catProds = currentData.products.filter(p => p.catalogId === c.id);
         return c.pages && c.pages.length > 0 && catProds.length > 0;
