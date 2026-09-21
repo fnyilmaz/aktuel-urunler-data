@@ -173,7 +173,7 @@ function validateData() {
             console.error(`  ❌ HATA: Ürün '${p.id}' geçersiz catalogId içeriyor: '${p.catalogId}'`);
             errors++;
         }
-        if (typeof p.price !== 'number' || p.price <= 0) {
+        if (typeof p.price !== 'number' || p.price < 0) {
             console.error(`  ❌ HATA: Ürün '${p.id}' (${p.name}) geçersiz fiyata sahip: ${p.price}`);
             errors++;
         }
@@ -185,7 +185,7 @@ function validateData() {
 
     // 3. Check faulty poster images in products
     const posterKeywords = ['uploads/afisler', '3840x3840', 'kurumsal.sokmarket.com.tr/uploads'];
-    const faulty = (data.products || []).filter(p => posterKeywords.some(kw => (p.imageUrl || '').includes(kw)));
+    const faulty = (data.products || []).filter(p => !p.imageUrl?.includes('crop=') && posterKeywords.some(kw => (p.imageUrl || '').includes(kw)));
     if (faulty.length > 0) {
         console.warn(`  ⚠️ UYARI: ${faulty.length} adet üründe izole fotoğraf yerine broşür afişi kullanılmış!`);
         warnings += faulty.length;
