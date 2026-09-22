@@ -16,9 +16,18 @@ const MONTH_MAP = {
     'eylül': '09', 'ekim': '10', 'kasim': '11', 'kasım': '11', 'aralik': '12', 'aralık': '12'
 };
 
+const REVERSE_MONTH_MAP = {
+    '01': 'Ocak', '02': 'Şubat', '03': 'Mart', '04': 'Nisan',
+    '05': 'Mayıs', '06': 'Haziran', '07': 'Temmuz', '08': 'Ağustos',
+    '09': 'Eylül', '10': 'Ekim', '11': 'Kasım', '12': 'Aralık'
+};
+
 const RIO_HEADERS = {
-    'User-Agent': USER_AGENT,
-    'Accept': 'application/json'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Referer': 'https://www.a101.com.tr/',
+    'Origin': 'https://www.a101.com.tr'
 };
 
 function normalizeTurkish(str) {
@@ -111,9 +120,16 @@ function buildA101Titles(item, badge, dates) {
     }
 
     if (badge === 'A101 Artı') {
-        const titleDates = dates.startDate && dates.endDate ? `${dates.startDate.split('-')[2]}-${dates.endDate.split('-')[2]} Eylül ` : '';
+        let datePrefix = '';
+        if (dates.startDate && dates.endDate) {
+            const startDay = dates.startDate.split('-')[2];
+            const endDay = dates.endDate.split('-')[2];
+            const mKey = dates.startDate.split('-')[1];
+            const monthName = REVERSE_MONTH_MAP[mKey] || 'Eylül';
+            datePrefix = `${startDay}-${endDay} ${monthName} `;
+        }
         return {
-            title: `${titleDates}A101 Artı Fırsatları`.trim(),
+            title: `${datePrefix}A101 Artı Fırsatları`.trim(),
             subtitle: 'A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları'
         };
     }
@@ -144,20 +160,24 @@ async function fetchRioPosterDetail(itemId) {
                 if (data && data.pages) return data;
             }
             console.log(`      ⚠️ Web detay [${itemId}] HTTP ${res.status} (Deneme ${attempt})`);
-            if (res.status === 403 || res.status === 429) break;
+            if (res.status === 403 || res.status === 429) {
+                console.log(`      ⏳ Rate limit/engelleme tespit edildi, ${2000 * attempt}ms bekleniyor...`);
+                await sleep(2000 * attempt);
+            }
         } catch (e) {
             console.log(`      ⚠️ Web detay hatası [${itemId}]: ${e.message}`);
         }
         await sleep(1500);
     }
 
-    // 2. Mobil Android API Fallback (Cloudflare bot koruması ve rate limit yoktur)
+    // 2. Mobil Android API Fallback
     try {
         console.log(`      📱 Mobil RIO Detay API Fallback devreye alınıyor (${itemId})...`);
         const mRes = await fetch(androidUrl, {
             headers: {
                 'User-Agent': 'okhttp/4.9.2',
-                'Accept': 'application/json'
+                'Accept': 'application/json',
+                'Host': 'rio.a101.com.tr'
             },
             signal: AbortSignal.timeout(15000)
         });
@@ -239,6 +259,7 @@ async function syncA101(currentData, options = {}) {
     console.log(`📋 ${items.length} adet aktif A101 kampanyası tespit edildi.`);
 
     for (const item of items) {
+        await sleep(2000); // RIO API rate limit / 403 koruması
         const catalogId = `a101-rio-${item.id}`;
         const rawTitle = `${item.title || ''} ${item.seoTitle || ''}`.trim();
         const dates = parseTurkishDateRange(rawTitle);
@@ -251,8 +272,8 @@ async function syncA101(currentData, options = {}) {
         const existingCat = currentData.catalogs.find(c => c.id === catalogId);
         const existingProds = currentData.products.filter(p => p.catalogId === catalogId);
 
-        if (existingCat && existingCat.pages?.length > 0 && existingProds.length >= existingCat.pages.length * 2 && !options.force) {
-            console.log(`   ⏭️ Zaten taranmış ve ürünleri mevcut (${existingProds.length} ürün, ${existingCat.pages.length} sayfa). Metadata güncelleniyor.`);
+        if (existingCat && existingCat.pages?.length > 0 && (existingProds.length >= existingCat.pages.length * 2 || existingCat.badge === 'A101 Artı') && !options.force) {
+            console.log(`   ⏭️ Zaten taranmış ve mevcut (${existingCat.badge}, ${existingCat.pages.length} sayfa, ${existingProds.length} ürün). Metadata güncelleniyor.`);
             // Mevcut kataloğun rozet ve başlıklarını kusursuz hale getir
             if (existingCat.badge !== badge || existingCat.title !== title) {
                 existingCat.badge = badge;
@@ -312,6 +333,7 @@ async function syncA101(currentData, options = {}) {
                 isFeatured: true,
                 pages: pages
             });
+            updated = true;
             console.log(`   ✅ [A101 Artı] Kataloğu başarıyla eklendi (${pages.length} afiş sayfası, 0 sahte ürün).`);
             continue;
         }
