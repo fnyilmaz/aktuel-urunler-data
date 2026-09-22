@@ -319,8 +319,11 @@ Bu sayfada yer alan TÜM ürünleri EKSİKSİZ, BİREBİR ve HATASIZ olarak tesp
    - FİYAT: Kırmızı/sarı indirim kutusundaki büyük puntolu güncel indirimli satış fiyatını TL cinsinden sayısal olarak al (örneğin 39.50 veya 475). Asla eski fiyatı, yüzde indirim oranını veya başka sayıyı fiyat olarak yazma.
    - Fiyatı net okunamayan veya fiyatı olmayan reklam/slogan kutularını dahil ETME. Fiyat daima 0'dan büyük bir sayı olmalıdır.
 
-3. KUTU KOORDİNATLARI:
-   - box_2d değerini ürünün fotoğrafını ve adını tam kapsayacak şekilde [ymin, xmin, ymax, xmax] (0-1000 normalize koordinat) formatında ver.
+3. KUTU KOORDİNATLARI (box_2d) - KRİTİK KURAL (FİZİKSEL ÜRÜN FOTOĞRAFI ZORUNLULUĞU):
+   - box_2d koordinatını [ymin, xmin, ymax, xmax] (0-1000 normalize koordinat) olarak ver.
+   - BU KOORDİNAT KESİNLİKLE VE ÖNCELİKLE ÜRÜNÜN FİZİKSEL FOTOĞRAFINI (cihazın ekranını/kasasını, televizyonun ekranını, telefonun/tabletin ekranını, deterjan/şampuan şişesini, gıda paketini, ayakkabıyı/giysiyi) KAPSAMALIDIR!
+   - ASLA VE ASLA SADECE METİN KUTUSU, MODEL AÇIKLAMASI VEYA FİYAT ETİKETİNDEN İBARET BİR KUTULAMA YAPMA. Kullanıcı uygulamada ürünün fiziksel fotoğrafını görmek ister, sadece yazı/fiyat kutusunu değil!
+   - Eğer ürün görseli ve açıklama metni/fiyat etiketi yan yana veya ayrı duruyorsa (örneğin televizyonlarda TV ekranı solda, model açıklaması ve fiyatı sağda ise): Kutuyu sol taraftaki TV ekranını da içine alacak şekilde geniş çiz veya doğrudan sadece TV cihazını kutula! Kutunun içinde MUTLAKA ürünün fiziksel görseli yer almalıdır.
 
 JSON Formatı:
 {
