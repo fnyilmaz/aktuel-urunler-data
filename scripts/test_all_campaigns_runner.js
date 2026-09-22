@@ -14,36 +14,51 @@ const BROWSER_HEADERS = {
     'Sec-Fetch-Site': 'same-site'
 };
 
+async function fetchWithRetry(url, maxRetries = 3) {
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+        try {
+            const res = await fetch(url, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(15000) });
+            if (res.ok) {
+                return await res.json();
+            }
+            console.log(`      ⚠️ HTTP ${res.status} (Deneme ${attempt}) - 5 sn bekleniyor...`);
+            await sleep(5000);
+        } catch (e) {
+            console.log(`      ⚠️ Hata (Deneme ${attempt}): ${e.message} - 5 sn bekleniyor...`);
+            await sleep(5000);
+        }
+    }
+    return null;
+}
+
 async function testAll() {
     console.log('1. Kampanya listesi çekiliyor...');
     const listUrl = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=web';
-    const listRes = await fetch(listUrl, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(15000) });
-    console.log(`Liste Status: ${listRes.status}`);
-    if (!listRes.ok) {
-        console.log('Liste yanıtı:', await listRes.text());
+    const listData = await fetchWithRetry(listUrl);
+    if (!listData || !listData.items) {
+        console.error('Liste alınamadı!');
         return;
     }
-    const listData = await listRes.json();
     const items = listData.items || [];
     console.log(`Toplam kampanya sayısı: ${items.length}`);
 
+    let successCount = 0;
     for (let i = 0; i < items.length; i++) {
         const item = items[i];
-        console.log(`\nBekleniyor (3.5 sn)...`);
-        await sleep(3500); // Güvenli rate limit aralığı
+        console.log(`\nBekleniyor (4 sn)...`);
+        await sleep(4000);
 
         const detUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${item.id}?__culture=tr-TR&__platform=web`;
-        const detRes = await fetch(detUrl, { headers: BROWSER_HEADERS, signal: AbortSignal.timeout(15000) });
-        console.log(`[${i + 1}/${items.length}] Kampanya: ${item.id} ("${item.title}") -> Status: ${detRes.status}`);
-        if (detRes.ok) {
-            const detData = await detRes.json();
-            console.log(`   ✅ Başarılı! Sayfa sayısı: ${detData.pages?.length || 0}`);
+        const detData = await fetchWithRetry(detUrl);
+        if (detData && detData.pages) {
+            console.log(`[${i + 1}/${items.length}] Kampanya: ${item.id} ("${item.title}") -> ✅ Başarılı! (${detData.pages.length} sayfa)`);
+            successCount++;
         } else {
-            console.log(`   ❌ Hata: HTTP ${detRes.status} | ${await detRes.text()}`);
+            console.log(`[${i + 1}/${items.length}] Kampanya: ${item.id} ("${item.title}") -> ❌ Başarısız.`);
         }
     }
 
-    console.log('\n🎉 TEST TAMAMLANDI: Tüm kampanyalar başarıyla test edildi!');
+    console.log(`\n🎉 SONUÇ: ${successCount} / ${items.length} kampanya başarıyla çekildi!`);
 }
 
 testAll().catch(console.error);
