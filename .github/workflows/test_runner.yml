@@ -11,15 +11,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Run Test on Ubuntu
-        run: node scripts/test_a101_runner.js
-
-  test-macos:
-    runs-on: macos-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Run Test on macOS
-        run: node scripts/test_a101_runner.js
+      - name: Run All Campaigns Test on Ubuntu
+        run: node scripts/test_all_campaigns_runner.js
