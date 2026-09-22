@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Debug Items on Ubuntu
-        run: node scripts/debug_item_runner.js
+      - name: Debug Platforms on Ubuntu
+        run: node scripts/debug_platforms.js
