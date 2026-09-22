@@ -28,6 +28,7 @@
   "author": "fnyilmaz",
   "license": "MIT",
   "dependencies": {
+    "pdf-lib": "^1.17.1",
     "puppeteer-core": "^25.11.0",
     "sharp": "^0.35.4"
   },
