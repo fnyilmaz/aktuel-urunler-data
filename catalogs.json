@@ -1,6 +1,6 @@
 {
-  "version": 46,
-  "lastUpdated": "2026-09-22T09:58:07.840Z",
+  "version": 47,
+  "lastUpdated": "2026-09-22T10:22:37.184Z",
   "markets": [
     {
       "id": "bim",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 4
+      "catalogCount": 5
     },
     {
       "id": "sok",
@@ -2088,6 +2088,81 @@
             "carrefoursa-dogru-kalite-19-30-eylul-p1-5",
             "carrefoursa-dogru-kalite-19-30-eylul-p1-6"
           ]
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-VqtTZGhtiFIwPAsM",
+      "marketId": "a101",
+      "title": "19-25 Eylül A101 Artı Fırsatları",
+      "subtitle": "A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları",
+      "badge": "A101 Artı",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_3840x3840.png",
+      "pageCount": 10,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 4,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 5,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 6,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 7,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 8,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 9,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 10,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_1024x1024.png",
+          "productIds": []
         }
       ]
     }
