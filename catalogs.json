@@ -1,6 +1,6 @@
 {
-  "version": 60,
-  "lastUpdated": "2026-09-22T14:23:32.112Z",
+  "version": 70,
+  "lastUpdated": "2026-09-22T14:46:05.308Z",
   "markets": [
     {
       "id": "bim",
@@ -1147,15 +1147,15 @@
       "badge": "Çarşamba Fırsatları",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
-      "coverImageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&output=jpg&q=85",
+      "coverImageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg",
       "pageCount": 7,
       "status": "ACTIVE",
       "isFeatured": true,
       "pages": [
         {
           "pageNumber": 1,
-          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&output=jpg&q=85",
-          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&w=400&output=jpg&q=80",
+          "imageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg",
+          "thumbnailUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg",
           "productIds": [
             "sok-resmi-2026092111213248569-p1-1",
             "sok-resmi-2026092111213248569-p1-2",
@@ -1182,8 +1182,8 @@
         },
         {
           "pageNumber": 2,
-          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&output=jpg&q=85",
-          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&w=400&output=jpg&q=80",
+          "imageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg",
+          "thumbnailUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg",
           "productIds": [
             "sok-resmi-2026092111213248569-p2-1",
             "sok-resmi-2026092111213248569-p2-2",
@@ -1208,8 +1208,8 @@
         },
         {
           "pageNumber": 3,
-          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&output=jpg&q=85",
-          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&w=400&output=jpg&q=80",
+          "imageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg",
+          "thumbnailUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg",
           "productIds": [
             "sok-resmi-2026092111213248569-p3-1",
             "sok-resmi-2026092111213248569-p3-2",
@@ -1226,8 +1226,8 @@
         },
         {
           "pageNumber": 4,
-          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&output=jpg&q=85",
-          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&w=400&output=jpg&q=80",
+          "imageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg",
+          "thumbnailUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg",
           "productIds": [
             "sok-resmi-2026092111213248569-p4-1",
             "sok-resmi-2026092111213248569-p4-2",
@@ -1248,8 +1248,8 @@
         },
         {
           "pageNumber": 5,
-          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85",
-          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&w=400&output=jpg&q=80",
+          "imageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg",
+          "thumbnailUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg",
           "productIds": [
             "sok-resmi-2026092111213248569-p5-1",
             "sok-resmi-2026092111213248569-p5-2",
@@ -1266,8 +1266,8 @@
         },
         {
           "pageNumber": 6,
-          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&output=jpg&q=85",
-          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&w=400&output=jpg&q=80",
+          "imageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg",
+          "thumbnailUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg",
           "productIds": [
             "sok-resmi-2026092111213248569-p6-1",
             "sok-resmi-2026092111213248569-p6-2",
@@ -1289,8 +1289,8 @@
         },
         {
           "pageNumber": 7,
-          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&output=jpg&q=85",
-          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&w=400&output=jpg&q=80",
+          "imageUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg",
+          "thumbnailUrl": "https://raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg",
           "productIds": [
             "sok-resmi-2026092111213248569-p7-1",
             "sok-resmi-2026092111213248569-p7-2",
@@ -11603,7 +11603,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Şarküteri & Süt Ürünleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=426,261,145,378&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=426,261,145,378&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11619,7 +11619,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Şarküteri & Süt Ürünleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=480,200,634,439&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=480,200,634,439&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11635,7 +11635,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Dondurulmuş Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=486,381,1352,450&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=486,381,1352,450&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11651,7 +11651,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Dondurma & Tatlı",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=596,219,46,786&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=596,219,46,786&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11667,7 +11667,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=362,367,833,803&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=362,367,833,803&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11683,7 +11683,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=501,253,1311,1056&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=501,253,1311,1056&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11699,7 +11699,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Dondurma & Tatlı",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=584,369,52,1039&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=584,369,52,1039&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11715,7 +11715,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=646,400,596,1258&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=646,400,596,1258&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11731,7 +11731,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=395,228,1355,1367&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=395,228,1355,1367&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11747,7 +11747,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=418,272,93,1533&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=418,272,93,1533&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11763,7 +11763,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=426,306,609,1725&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=426,306,609,1725&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11779,7 +11779,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=575,297,1168,1653&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=575,297,1168,1653&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11795,7 +11795,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=563,308,33,1925&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=563,308,33,1925&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11811,7 +11811,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kahvaltılık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=326,247,1550,2103&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=326,247,1550,2103&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11827,7 +11827,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=310,186,683,2111&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=310,186,683,2111&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11843,7 +11843,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=384,250,1070,2078&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=384,250,1070,2078&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11859,7 +11859,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=210,264,141,2484&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=210,264,141,2484&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11875,7 +11875,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=297,153,430,2495&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=297,153,430,2495&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11891,7 +11891,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=353,147,769,2495&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=353,147,769,2495&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11907,7 +11907,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=218,208,1253,2464&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=218,208,1253,2464&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11923,7 +11923,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&crop=320,203,1550,2481&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=320,203,1550,2481&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11939,7 +11939,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=459,594,42,369&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=459,594,42,369&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11955,7 +11955,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=708,603,501,372&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=708,603,501,372&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11971,7 +11971,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=656,489,1251,375&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=656,489,1251,375&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11987,7 +11987,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=694,428,1213,870&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=694,428,1213,870&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12003,7 +12003,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=476,297,73,1072&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=476,297,73,1072&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12019,7 +12019,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=480,311,559,1083&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=480,311,559,1083&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12035,7 +12035,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=395,175,1045,1350&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=395,175,1045,1350&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12051,7 +12051,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=278,239,1527,1303&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=278,239,1527,1303&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12067,7 +12067,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=357,714,98,1447&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=357,714,98,1447&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12083,7 +12083,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=382,536,443,1450&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=382,536,443,1450&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12099,7 +12099,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=436,361,873,1506&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=436,361,873,1506&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12115,7 +12115,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=561,339,1323,1556&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=561,339,1323,1556&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12131,7 +12131,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=625,267,640,2042&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=625,267,640,2042&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12147,7 +12147,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=590,281,1278,2039&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=590,281,1278,2039&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12163,7 +12163,7 @@
       "originalPrice": null,
       "unit": "paket",
       "category": "Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=401,217,25,2497&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=401,217,25,2497&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12179,7 +12179,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=359,214,455,2481&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=359,214,455,2481&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12195,7 +12195,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=305,217,852,2481&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=305,217,852,2481&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12211,7 +12211,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=328,214,1199,2481&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=328,214,1199,2481&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12227,7 +12227,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&crop=343,217,1548,2478&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=343,217,1548,2478&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12243,7 +12243,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=715,594,40,364&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=715,594,40,364&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12259,7 +12259,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=1064,770,796,358&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=1064,770,796,358&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12275,7 +12275,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=746,611,35,1008&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=746,611,35,1008&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12291,7 +12291,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=561,481,817,1142&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=561,481,817,1142&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12307,7 +12307,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=432,475,1448,1150&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=432,475,1448,1150&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12323,7 +12323,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=494,597,42,1639&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=494,597,42,1639&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12339,7 +12339,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=704,389,1188,1642&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=704,389,1188,1642&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12355,7 +12355,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=571,600,563,1664&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=571,600,563,1664&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12371,7 +12371,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=499,403,39,2278&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=499,403,39,2278&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12387,7 +12387,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=644,511,636,2184&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=644,511,636,2184&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12403,7 +12403,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&crop=548,550,1344,2142&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=548,550,1344,2142&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12419,7 +12419,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=492,258,760,389&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=492,258,760,389&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12435,7 +12435,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=526,644,33,378&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=526,644,33,378&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12451,7 +12451,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=602,422,602,667&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=602,422,602,667&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12467,7 +12467,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=511,658,1323,444&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=511,658,1323,444&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12483,7 +12483,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kozmetik & Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=307,533,54,1197&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=307,533,54,1197&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12499,7 +12499,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kozmetik & Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=386,431,374,1322&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=386,431,374,1322&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12515,7 +12515,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kozmetik & Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=391,539,812,1120&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=391,539,812,1120&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12531,7 +12531,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=656,233,1234,1272&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=656,233,1234,1272&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12547,7 +12547,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=449,378,1057,1567&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=449,378,1057,1567&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12563,7 +12563,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=407,378,1506,1567&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=407,378,1506,1567&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12579,7 +12579,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=465,344,48,1845&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=465,344,48,1845&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12595,7 +12595,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=216,672,542,1970&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=216,672,542,1970&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12611,7 +12611,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=663,425,895,1981&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=663,425,895,1981&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12627,7 +12627,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ayakkabı",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=470,483,44,2209&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=470,483,44,2209&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12643,7 +12643,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&crop=289,461,1602,2189&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=289,461,1602,2189&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12659,7 +12659,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=868,681,42,383&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=868,681,42,383&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12675,7 +12675,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=407,572,925,386&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=407,572,925,386&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12691,7 +12691,7 @@
       "originalPrice": null,
       "unit": "Takım",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=507,431,1340,400&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=507,431,1340,400&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12707,7 +12707,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=521,222,1340,833&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=521,222,1340,833&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12723,7 +12723,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=549,456,185,1258&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=549,456,185,1258&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12739,7 +12739,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=515,450,819,1161&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=515,450,819,1161&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12755,7 +12755,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=495,503,1371,1156&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=495,503,1371,1156&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12771,7 +12771,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=569,492,816,1683&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=569,492,816,1683&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12787,7 +12787,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=469,606,1402,2008&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=469,606,1402,2008&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12803,7 +12803,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=582,464,806,2175&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=582,464,806,2175&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12819,7 +12819,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&crop=503,642,235,1983&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=503,642,235,1983&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12835,7 +12835,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=625,531,40,400&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=625,531,40,400&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12851,7 +12851,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=667,581,681,439&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=667,581,681,439&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12867,7 +12867,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=490,392,1379,594&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=490,392,1379,594&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12883,7 +12883,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=484,556,40,981&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=484,556,40,981&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12899,7 +12899,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=571,406,524,1120&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=571,406,524,1120&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12915,7 +12915,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=779,519,1109,1022&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=779,519,1109,1022&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12931,7 +12931,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=322,286,44,1614&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=322,286,44,1614&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12947,7 +12947,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=752,286,374,1614&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=752,286,374,1614&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12963,7 +12963,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=216,258,1126,1614&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=216,258,1126,1614&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12979,7 +12979,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=524,325,1359,1583&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=524,325,1359,1583&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12995,7 +12995,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=411,386,40,1947&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=411,386,40,1947&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13011,7 +13011,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=665,392,486,1925&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=665,392,486,1925&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13027,7 +13027,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=754,503,1130,1925&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=754,503,1130,1925&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13043,7 +13043,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=469,261,40,2414&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=469,261,40,2414&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13059,7 +13059,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=688,408,519,2267&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=688,408,519,2267&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -13075,7 +13075,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&crop=644,253,1230,2428&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=644,253,1230,2428&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13091,7 +13091,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&crop=798,608,85,92&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=798,608,85,92&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13107,7 +13107,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&crop=798,478,1051,222&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=798,478,1051,222&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13123,7 +13123,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&crop=875,697,44,758&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=875,697,44,758&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13139,7 +13139,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&crop=802,700,1049,758&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=802,700,1049,758&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13155,7 +13155,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&crop=937,708,23,1495&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=937,708,23,1495&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13171,7 +13171,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&crop=871,714,979,1497&w=300&precrop&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=871,714,979,1497&w=300&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
