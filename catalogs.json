@@ -1,6 +1,6 @@
 {
-  "version": 73,
-  "lastUpdated": "2026-09-22T15:40:55.987Z",
+  "version": 74,
+  "lastUpdated": "2026-09-22T16:40:57.877Z",
   "markets": [
     {
       "id": "bim",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 0
+      "catalogCount": 1
     },
     {
       "id": "sok",
@@ -30,7 +30,7 @@
       "logoUrl": "https://images.ceptesok.com/cdn-cgi/image/width=120,height=120,fit=pad,quality=80,format=webp/logos/service-types/market-logo.svg",
       "category": "Süpermarket",
       "description": "Yeter de Artar",
-      "catalogCount": 0
+      "catalogCount": 1
     },
     {
       "id": "migros",
@@ -1136,6 +1136,150 @@
             "carrefoursa-dogru-kalite-19-30-eylul-p1-5",
             "carrefoursa-dogru-kalite-19-30-eylul-p1-6"
           ]
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-VqtTZGhtiFIwPAsM",
+      "marketId": "a101",
+      "title": "19-25 Eylül A101 Artı Fırsatları",
+      "subtitle": "A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları",
+      "badge": "A101 Artı",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_3840x3840.png",
+      "pageCount": 10,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 4,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 5,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 6,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 7,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 8,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 9,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_1024x1024.png",
+          "productIds": []
+        },
+        {
+          "pageNumber": 10,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_1024x1024.png",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "title": "ŞOK Haftanın Fırsatları",
+      "subtitle": "ŞOK Çarşamba Fırsatları Kataloğu",
+      "badge": "Çarşamba Fırsatları",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "coverImageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&output=jpg&q=85",
+      "pageCount": 7,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&output=jpg&q=85",
+          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=0&w=400&output=jpg&q=80",
+          "productIds": []
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&output=jpg&q=85",
+          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=1&w=400&output=jpg&q=80",
+          "productIds": []
+        },
+        {
+          "pageNumber": 3,
+          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&output=jpg&q=85",
+          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=2&w=400&output=jpg&q=80",
+          "productIds": []
+        },
+        {
+          "pageNumber": 4,
+          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&output=jpg&q=85",
+          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=3&w=400&output=jpg&q=80",
+          "productIds": []
+        },
+        {
+          "pageNumber": 5,
+          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85",
+          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&w=400&output=jpg&q=80",
+          "productIds": [
+            "sok-resmi-2026092111213248569-p5-1",
+            "sok-resmi-2026092111213248569-p5-2",
+            "sok-resmi-2026092111213248569-p5-3",
+            "sok-resmi-2026092111213248569-p5-4",
+            "sok-resmi-2026092111213248569-p5-5",
+            "sok-resmi-2026092111213248569-p5-6",
+            "sok-resmi-2026092111213248569-p5-7",
+            "sok-resmi-2026092111213248569-p5-8",
+            "sok-resmi-2026092111213248569-p5-9",
+            "sok-resmi-2026092111213248569-p5-10",
+            "sok-resmi-2026092111213248569-p5-11"
+          ]
+        },
+        {
+          "pageNumber": 6,
+          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&output=jpg&q=85",
+          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=5&w=400&output=jpg&q=80",
+          "productIds": []
+        },
+        {
+          "pageNumber": 7,
+          "imageUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&output=jpg&q=85",
+          "thumbnailUrl": "https://images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=6&w=400&output=jpg&q=80",
+          "productIds": []
         }
       ]
     }
@@ -11427,6 +11571,182 @@
       "imageUrl": "https://images.weserv.nl/?url=images.csfour.com/bannerimage/regebebebeeee_0_MC/8876417187890.png&crop=263,151,322,594&w=300&precrop&output=jpg",
       "startDate": "2026-09-19",
       "endDate": "2026-09-30",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-1",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Otto Renkli Su Bardağı Seti 6'lı 315 cc",
+      "brand": "Paşabahçe",
+      "price": 399,
+      "originalPrice": null,
+      "unit": "Set",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/b6cfce0c-2fe7-42ab-96f7-f4f434af7a46.jpg",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-2",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Şelale Çay Bardağı Seti 6'lı 140 cc",
+      "brand": "Paşabahçe",
+      "price": 225,
+      "originalPrice": null,
+      "unit": "Set",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/a983de50-9e26-4581-8c39-5f78a8a69e9e.jpg",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-3",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Etnik Çay Takımı 12 Parça 140 cc",
+      "brand": "Paşabahçe",
+      "price": 399,
+      "originalPrice": null,
+      "unit": "Takım",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.weserv.nl/?url=images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85&crop=427,304,1107,364&w=600&output=jpg&q=85",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-4",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Kuvars Fincan/Kupa 2'li 250 cc",
+      "brand": "Paşabahçe",
+      "price": 100,
+      "originalPrice": null,
+      "unit": "İkili",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/674cba32-0932-4089-afb1-da31a823766b.jpg",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": false
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-5",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Cam Hazneli Termos 1 L",
+      "brand": "Paşabahçe",
+      "price": 375,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.weserv.nl/?url=images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85&crop=461,385,141,1046&w=600&output=jpg&q=85",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-6",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Everest Borosilikat Cam Bardak 3'lü 300 ml",
+      "brand": "Cambu",
+      "price": 150,
+      "originalPrice": null,
+      "unit": "3'lü",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.weserv.nl/?url=images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85&crop=419,337,690,987&w=600&output=jpg&q=85",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-7",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Pembe Aynalı Borosilikat Cam Fincan Seti 125 ml",
+      "brand": "Cambu",
+      "price": 225,
+      "originalPrice": null,
+      "unit": "Set",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/793c2954-a1d8-430d-a6f7-3580d62d4cb7.jpg",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-8",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "French Press 400 ml",
+      "brand": "Paşabahçe",
+      "price": 175,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.weserv.nl/?url=images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85&crop=414,539,195,1641&w=600&output=jpg&q=85",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-9",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Boncuk Saplı Kupa Çeşitleri 280 ml",
+      "brand": "Paşabahçe",
+      "price": 225,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.weserv.nl/?url=images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85&crop=488,387,667,1454&w=600&output=jpg&q=85",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-10",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Motifli Porselen Çay Tabağı Seti 4'lü 11 cm",
+      "brand": "Paşabahçe",
+      "price": 225,
+      "originalPrice": null,
+      "unit": "Set",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.weserv.nl/?url=images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85&crop=488,415,667,1796&w=600&output=jpg&q=85",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "isPopular": true
+    },
+    {
+      "id": "sok-resmi-2026092111213248569-p5-11",
+      "catalogId": "sok-resmi-2026092111213248569",
+      "marketId": "sok",
+      "pageNumber": 5,
+      "name": "Motto Kupa 350 ml",
+      "brand": "Paşabahçe",
+      "price": 275,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Züccaciye",
+      "imageUrl": "https://images.weserv.nl/?url=images.weserv.nl/?url=kurumsal.sokmarket.com.tr/uploads/2026092111213248569.pdf&page=4&output=jpg&q=85&crop=382,473,1168,1660&w=600&output=jpg&q=85",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
       "isPopular": true
     }
   ]
