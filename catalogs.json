@@ -1,6 +1,6 @@
 {
-  "version": 70,
-  "lastUpdated": "2026-09-22T14:46:05.308Z",
+  "version": 71,
+  "lastUpdated": "2026-09-22T15:12:53.716Z",
   "markets": [
     {
       "id": "bim",
@@ -11603,7 +11603,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Şarküteri & Süt Ürünleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=426,261,145,378&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/676a107f-51c3-4af0-a1af-4ba01c811861.JPG",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11619,7 +11619,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Şarküteri & Süt Ürünleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=480,200,634,439&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/8f315f19-bc69-4300-b78a-d46d94502462.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11635,7 +11635,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Dondurulmuş Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=486,381,1352,450&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/bbfa2ee6-1aa4-4ced-99c5-e5ea989df66d.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11651,7 +11651,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Dondurma & Tatlı",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=596,219,46,786&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=596,219,46,786&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11667,7 +11667,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=362,367,833,803&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/c262bbdb-1a50-4665-9f98-3a05caf3cc31.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11683,7 +11683,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=501,253,1311,1056&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/8f82fdd0-b328-4506-918f-fc4a11114df2.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11699,7 +11699,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Dondurma & Tatlı",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=584,369,52,1039&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/2abbbada-cbb0-4423-863d-0c146871309d.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11715,7 +11715,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=646,400,596,1258&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/dc9e9517-2875-49bd-820c-be078963ec0f.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11731,7 +11731,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=395,228,1355,1367&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=395,228,1355,1367&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11747,7 +11747,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=418,272,93,1533&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/c7adfeb9-aa71-4392-ba99-bc3a82a43dbd.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11763,7 +11763,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=426,306,609,1725&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/cfedc981-2d97-437b-b3fd-f539175c3073.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11779,7 +11779,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=575,297,1168,1653&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=575,297,1168,1653&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11795,7 +11795,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=563,308,33,1925&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/58fb073b-c7c1-4cb1-8fa5-16c00a0fdd88.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11811,7 +11811,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kahvaltılık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=326,247,1550,2103&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/1d420d67-b8c6-4bc6-bd94-1a1a94f2bb33.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11827,7 +11827,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=310,186,683,2111&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=310,186,683,2111&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11843,7 +11843,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Atıştırmalık",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=384,250,1070,2078&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/5a796292-52f8-4c35-a1a7-d489c5208feb.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11859,7 +11859,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=210,264,141,2484&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/5a35dbfd-3504-4dc6-b852-020449b32185.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11875,7 +11875,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=297,153,430,2495&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/88dda2da-60d9-4c11-92ce-6217703e6018.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11891,7 +11891,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=353,147,769,2495&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/60a0d7de-e70b-4b9c-9705-cf690435067b.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11907,7 +11907,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=218,208,1253,2464&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/25451f28-d81a-49f3-9954-befe9ab5c41a.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11923,7 +11923,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_0.jpg&crop=320,203,1550,2481&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/4df1c24b-e2b6-479b-9db4-22891ef6af5b.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11939,7 +11939,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=459,594,42,369&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/e4b55e04-ba37-4089-888f-035e2058a867.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11955,7 +11955,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=708,603,501,372&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/9e18fcde-2fd7-49ea-8c8f-5dfbb57293bb.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -11971,7 +11971,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=656,489,1251,375&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/2fbf4df9-8c84-4243-8949-1275d8b187ac.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -11987,7 +11987,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=694,428,1213,870&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/01972051-5146-4c76-8f25-2247d646113a.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12003,7 +12003,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=476,297,73,1072&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=476,297,73,1072&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12019,7 +12019,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=480,311,559,1083&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/dbbceacf-3f1f-40dd-a8bf-146ea7769f61.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12035,7 +12035,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=395,175,1045,1350&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=395,175,1045,1350&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12051,7 +12051,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=278,239,1527,1303&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/f403575b-81d7-48e7-8c9d-4d2aa1b3ed50.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12067,7 +12067,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=357,714,98,1447&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/e864a47b-698e-4918-b124-fa79c0a28164.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12083,7 +12083,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=382,536,443,1450&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/5c82f812-ec7f-4aee-af60-9b4c2c0a6f33.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12099,7 +12099,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=436,361,873,1506&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/53cd62e4-6924-427c-8c8e-e302d7617177.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12115,7 +12115,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Kişisel Bakım",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=561,339,1323,1556&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/5aec56a8-9aea-43e5-a391-7c92f4937403.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12131,7 +12131,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=625,267,640,2042&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/40a4a2df-e2e3-49cb-bdb2-6a899f84321f.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12147,7 +12147,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=590,281,1278,2039&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=590,281,1278,2039&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12163,7 +12163,7 @@
       "originalPrice": null,
       "unit": "paket",
       "category": "Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=401,217,25,2497&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=401,217,25,2497&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12179,7 +12179,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=359,214,455,2481&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=359,214,455,2481&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12195,7 +12195,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Gıda",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=305,217,852,2481&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=305,217,852,2481&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12211,7 +12211,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=328,214,1199,2481&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/2ec04486-42ee-481a-90b4-474c25ec7aa3.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12227,7 +12227,7 @@
       "originalPrice": null,
       "unit": "adet",
       "category": "Temizlik",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_1.jpg&crop=343,217,1548,2478&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/68639896-4f6b-4df0-8a21-6a4e473ba49f.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12243,7 +12243,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=715,594,40,364&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=715,594,40,364&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12259,7 +12259,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=1064,770,796,358&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/5d8712d6-71db-433f-80a0-a02f9986d4fe.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12275,7 +12275,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=746,611,35,1008&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=746,611,35,1008&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12291,7 +12291,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=561,481,817,1142&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=561,481,817,1142&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12307,7 +12307,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=432,475,1448,1150&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/e0992743-c320-4a71-b3b5-c8202f8cfe34.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12323,7 +12323,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=494,597,42,1639&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/40e6b7ba-12cd-4dd0-b88b-13c15c59f29d.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12339,7 +12339,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=704,389,1188,1642&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/73f4bf6d-31ae-4647-b625-aa0b2eb100a0.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12355,7 +12355,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=571,600,563,1664&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=571,600,563,1664&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12371,7 +12371,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=499,403,39,2278&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/40e6b7ba-12cd-4dd0-b88b-13c15c59f29d.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12387,7 +12387,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=644,511,636,2184&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=644,511,636,2184&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12403,7 +12403,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=548,550,1344,2142&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_2.jpg&crop=548,550,1344,2142&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12419,7 +12419,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=492,258,760,389&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/caaedd89-c2fe-4419-99e3-19a014e8f5c4.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12435,7 +12435,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=526,644,33,378&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/2b6ca2df-a2f3-4201-8a26-3280a0e77a01.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12451,7 +12451,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=602,422,602,667&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/caaedd89-c2fe-4419-99e3-19a014e8f5c4.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12467,7 +12467,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=511,658,1323,444&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/d2c97cb2-a357-4fad-9d2c-5a94dcdd30d7.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12483,7 +12483,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kozmetik & Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=307,533,54,1197&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/b4804c89-b99e-47bf-be5a-bb6b6b36fcb4.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12499,7 +12499,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kozmetik & Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=386,431,374,1322&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/c74c059d-4e2e-4e07-a0b9-da9718320d5b.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12515,7 +12515,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Kozmetik & Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=391,539,812,1120&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/d9bdf453-6d4d-4d44-a4fb-e62ea1784ff0.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12531,7 +12531,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=656,233,1234,1272&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/bf9e4cb5-c91c-42e4-88d8-a439b2b9ac3f.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12547,7 +12547,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=449,378,1057,1567&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/bf0e0cea-6578-4665-878c-0d6bc5ece0d5.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12563,7 +12563,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=407,378,1506,1567&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/7f7f2c98-bbf1-48e6-a789-ebc2233db2ec.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12579,7 +12579,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Giyim",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=465,344,48,1845&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/417c0bdb-d0ef-4ac5-91a9-88051726868a.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12595,7 +12595,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=216,672,542,1970&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=216,672,542,1970&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12611,7 +12611,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=663,425,895,1981&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=663,425,895,1981&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12627,7 +12627,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Ayakkabı",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=470,483,44,2209&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=470,483,44,2209&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12643,7 +12643,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Aksesuar",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=289,461,1602,2189&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_3.jpg&crop=289,461,1602,2189&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12659,7 +12659,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=868,681,42,383&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/b6cfce0c-2fe7-42ab-96f7-f4f434af7a46.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12675,7 +12675,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=407,572,925,386&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/a983de50-9e26-4581-8c39-5f78a8a69e9e.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12691,7 +12691,7 @@
       "originalPrice": null,
       "unit": "Takım",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=507,431,1340,400&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=507,431,1340,400&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12707,7 +12707,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=521,222,1340,833&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/674cba32-0932-4089-afb1-da31a823766b.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12723,7 +12723,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=549,456,185,1258&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=549,456,185,1258&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12739,7 +12739,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=515,450,819,1161&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=515,450,819,1161&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12755,7 +12755,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=495,503,1371,1156&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/793c2954-a1d8-430d-a6f7-3580d62d4cb7.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12771,7 +12771,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=569,492,816,1683&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=569,492,816,1683&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12787,7 +12787,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=469,606,1402,2008&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/fd559cb4-3fcc-4eab-97e8-1e9d112c260a.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12803,7 +12803,7 @@
       "originalPrice": null,
       "unit": "Set",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=582,464,806,2175&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=582,464,806,2175&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12819,7 +12819,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=503,642,235,1983&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_4.jpg&crop=503,642,235,1983&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12835,7 +12835,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=625,531,40,400&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=625,531,40,400&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12851,7 +12851,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=667,581,681,439&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/cabf2e7b-7c05-46bc-a840-2448a451484b.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12867,7 +12867,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=490,392,1379,594&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=490,392,1379,594&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12883,7 +12883,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=484,556,40,981&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=484,556,40,981&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12899,7 +12899,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=571,406,524,1120&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/3784d3fb-f9c3-4c13-8f58-734b703a8864.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12915,7 +12915,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=779,519,1109,1022&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=779,519,1109,1022&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12931,7 +12931,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=322,286,44,1614&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/c64cd484-6589-481a-9a77-fcab4026fe24.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12947,7 +12947,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=752,286,374,1614&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/79ec4fd5-7af1-422d-8066-180c18b10bad.png",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12963,7 +12963,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=216,258,1126,1614&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/e27d31d4-6e7a-497a-ba6a-068c3d500738.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -12979,7 +12979,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=524,325,1359,1583&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/053fd995-7ffb-49a5-a451-afb7af29b017.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -12995,7 +12995,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=411,386,40,1947&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=411,386,40,1947&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13011,7 +13011,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=665,392,486,1925&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/e27d31d4-6e7a-497a-ba6a-068c3d500738.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13027,7 +13027,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=754,503,1130,1925&w=300&output=jpg",
+      "imageUrl": "https://images.ceptesok.com/cdn-cgi/image/width=600,height=600,fit=pad,quality=85,format=jpg/product-assets/sub-folder/c0996538-4dac-4e99-a96d-3f960778fae4.jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13043,7 +13043,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=469,261,40,2414&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=469,261,40,2414&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13059,7 +13059,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=688,408,519,2267&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=688,408,519,2267&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": false
@@ -13075,7 +13075,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Züccaciye",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=644,253,1230,2428&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_5.jpg&crop=644,253,1230,2428&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13091,7 +13091,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=798,608,85,92&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=798,608,85,92&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13107,7 +13107,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Küçük Ev Aletleri",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=798,478,1051,222&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=798,478,1051,222&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13123,7 +13123,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=875,697,44,758&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=875,697,44,758&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13139,7 +13139,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=802,700,1049,758&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=802,700,1049,758&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13155,7 +13155,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=937,708,23,1495&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=937,708,23,1495&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
@@ -13171,7 +13171,7 @@
       "originalPrice": null,
       "unit": "Adet",
       "category": "Elektronik & Televizyon",
-      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=871,714,979,1497&w=300&output=jpg",
+      "imageUrl": "https://images.weserv.nl/?url=raw.githubusercontent.com/fnyilmaz/aktuel-urunler-data/main/images/sok/page_6.jpg&crop=871,714,979,1497&w=600&q=85&output=jpg",
       "startDate": "2026-09-21",
       "endDate": "2026-09-27",
       "isPopular": true
