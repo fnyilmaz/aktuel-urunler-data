@@ -6,7 +6,6 @@
 const { callGeminiVisionMultiKey } = require('../ai_gemini_client');
 const sharp = require('sharp');
 
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 const MONTH_MAP = {
@@ -36,18 +35,34 @@ const BROWSER_HEADERS = {
     'Sec-Fetch-Site': 'same-site'
 };
 
-const ARTI_STATIC_FALLBACK = [
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_1024x1024.png',
-    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_1024x1024.png'
-];
+const STATIC_FALLBACKS = {
+    // 19-25 Eylül A101 Artı Fırsatları (VqtTZGhtiFIwPAsM)
+    'VqtTZGhtiFIwPAsM': [
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_1024x1024.png'
+    ],
+    // 19-25 Eylül Haftanın Yıldızları (klmXtkTT9Y92HGon)
+    'klmXtkTT9Y92HGon': [
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/apAGbmBYYj_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/zRVuyQt760_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GOD03ripo3_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/irna7t44bv_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/Lm5xLhGtOd_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/TGg9BK8ZFK_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/NVU4gFcIjC_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/cSoBxblQwX_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/01xQdHn4Vy_1024x1024.png',
+        'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/mLoti00PLF_1024x1024.png'
+    ]
+};
 
 function normalizeTurkish(str) {
     return (str || '')
@@ -160,27 +175,6 @@ function buildA101Titles(item, badge, dates) {
 }
 
 /**
- * curl fallback yardımcı fonksiyonu (Node.js TLS/undici engellemelerini aşar)
- */
-function fetchViaCurl(url, headers = {}) {
-    try {
-        const { execSync } = require('child_process');
-        const curlCmd = process.platform === 'win32' ? 'curl.exe' : 'curl';
-        const headerArgs = Object.entries(headers)
-            .map(([k, v]) => `-H "${k}: ${v}"`)
-            .join(' ');
-        const cmd = `${curlCmd} -s -L --compressed --max-time 15 ${headerArgs} "${url}"`;
-        const stdout = execSync(cmd, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
-        if (stdout && stdout.trim().startsWith('{')) {
-            return JSON.parse(stdout);
-        }
-    } catch (e) {
-        // ignore
-    }
-    return null;
-}
-
-/**
  * A101 RIO API'sinden detay sayfalarını çeker (Güvenli Pacing ve Tarayıcı Başlıkları ile).
  */
 async function fetchRioPosterDetail(itemId) {
@@ -278,12 +272,13 @@ async function syncA101(currentData, options = {}) {
         console.log(`   📥 Kampanya sayfaları çekiliyor...`);
         let detData = await fetchRioPosterDetail(item.id);
 
-        // A101 Artı veya özel manuel kampanya fallback desteği
-        if ((!detData || !detData.pages || detData.pages.length === 0) && (badge === 'A101 Artı' || item.sourceType === 'manual')) {
-            console.log(`   ℹ️ [A101 Artı] Detay API CDN fallback devreye alınıyor (${ARTI_STATIC_FALLBACK.length} sayfa)...`);
+        // Kampanya fallback desteği (API 403 veya boş döndüğünde CDN üzerinden kurtarma)
+        const fallbackPages = STATIC_FALLBACKS[item.id] || (badge === 'A101 Artı' ? STATIC_FALLBACKS['VqtTZGhtiFIwPAsM'] : null);
+        if ((!detData || !detData.pages || detData.pages.length === 0) && fallbackPages) {
+            console.log(`   ℹ️ [${item.id}] Detay API CDN fallback devreye alınıyor (${fallbackPages.length} sayfa)...`);
             detData = {
                 id: item.id,
-                pages: ARTI_STATIC_FALLBACK.map(img => ({ image: img }))
+                pages: fallbackPages.map(img => ({ image: img }))
             };
         }
 
