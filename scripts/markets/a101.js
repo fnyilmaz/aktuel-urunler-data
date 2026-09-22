@@ -160,7 +160,28 @@ function buildA101Titles(item, badge, dates) {
 }
 
 /**
- * A101 RIO API'sinden detay sayfalarını çeker (Çoklu Platform ve Otomatik Retry destekli).
+ * curl fallback yardımcı fonksiyonu (Node.js TLS/undici engellemelerini aşar)
+ */
+function fetchViaCurl(url, headers = {}) {
+    try {
+        const { execSync } = require('child_process');
+        const curlCmd = process.platform === 'win32' ? 'curl.exe' : 'curl';
+        const headerArgs = Object.entries(headers)
+            .map(([k, v]) => `-H "${k}: ${v}"`)
+            .join(' ');
+        const cmd = `${curlCmd} -s -L --compressed --max-time 15 ${headerArgs} "${url}"`;
+        const stdout = execSync(cmd, { encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
+        if (stdout && stdout.trim().startsWith('{')) {
+            return JSON.parse(stdout);
+        }
+    } catch (e) {
+        // ignore
+    }
+    return null;
+}
+
+/**
+ * A101 RIO API'sinden detay sayfalarını çeker (Çoklu Platform, Otomatik Retry ve curl Fallback destekli).
  */
 async function fetchRioPosterDetail(itemId) {
     for (const ep of RIO_ENDPOINTS) {
@@ -175,10 +196,23 @@ async function fetchRioPosterDetail(itemId) {
                     const data = await res.json();
                     if (data && data.pages && data.pages.length > 0) return data;
                 }
-                console.log(`      ⚠️ A101 Detay [${itemId} - ${ep.name}] HTTP ${res.status} (Deneme ${attempt})`);
+                const errText = await res.text().catch(() => '');
+                console.log(`      ⚠️ A101 Detay [${itemId} - ${ep.name}] HTTP ${res.status} (Deneme ${attempt}): ${errText.slice(0, 80)}`);
+                
+                // curl fallback dene
+                const curlData = fetchViaCurl(url, ep.headers);
+                if (curlData && curlData.pages && curlData.pages.length > 0) {
+                    console.log(`      🚀 curl fallback başarılı oldu! (${curlData.pages.length} sayfa)`);
+                    return curlData;
+                }
+
                 await sleep(1500 * attempt);
             } catch (e) {
                 console.log(`      ⚠️ A101 Detay hatası [${itemId} - ${ep.name}]: ${e.message}`);
+                const curlData = fetchViaCurl(url, ep.headers);
+                if (curlData && curlData.pages && curlData.pages.length > 0) {
+                    return curlData;
+                }
                 await sleep(1500 * attempt);
             }
         }
@@ -187,7 +221,7 @@ async function fetchRioPosterDetail(itemId) {
 }
 
 /**
- * A101 RIO API'sinden aktif afiş listesini çeker (Çoklu Platform ve Otomatik Retry destekli).
+ * A101 RIO API'sinden aktif afiş listesini çeker (Çoklu Platform, Otomatik Retry ve curl Fallback destekli).
  */
 async function fetchRioPosterList() {
     for (const ep of RIO_ENDPOINTS) {
@@ -202,10 +236,23 @@ async function fetchRioPosterList() {
                     const data = await res.json();
                     if (data && data.items && data.items.length > 0) return data;
                 }
-                console.log(`⚠️ A101 Liste [${ep.name}] HTTP ${res.status} (Deneme ${attempt})`);
+                const errText = await res.text().catch(() => '');
+                console.log(`⚠️ A101 Liste [${ep.name}] HTTP ${res.status} (Deneme ${attempt}): ${errText.slice(0, 80)}`);
+                
+                // curl fallback dene
+                const curlData = fetchViaCurl(url, ep.headers);
+                if (curlData && curlData.items && curlData.items.length > 0) {
+                    console.log(`   🚀 curl fallback başarılı oldu! (${curlData.items.length} kampanya tespit edildi)`);
+                    return curlData;
+                }
+
                 await sleep(1500 * attempt);
             } catch (e) {
                 console.log(`⚠️ A101 Liste hatası [${ep.name}]: ${e.message}`);
+                const curlData = fetchViaCurl(url, ep.headers);
+                if (curlData && curlData.items && curlData.items.length > 0) {
+                    return curlData;
+                }
                 await sleep(1500 * attempt);
             }
         }
