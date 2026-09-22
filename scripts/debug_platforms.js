@@ -1,18 +1,19 @@
-async function debugPlatforms() {
-    const id = 'Mh6LZTkQmmuWjukh';
-    const platforms = ['web', 'ios', 'android'];
-    for (const p of platforms) {
-        const url = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${id}?__culture=tr-TR&__platform=${p}`;
-        const res = await fetch(url, {
+async function testNoPlatform() {
+    const ids = ['Mh6LZTkQmmuWjukh', 'FXd2cv08vphACPVJ', 'VqtTZGhtiFIwPAsM'];
+    for (const id of ids) {
+        const url1 = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${id}?__culture=tr-TR`;
+        const res1 = await fetch(url1, {
             headers: {
-                'User-Agent': p === 'android' ? 'okhttp/4.9.2' : (p === 'ios' ? 'A101/3.4.1 (iPhone; iOS 17.5.1)' : 'Mozilla/5.0'),
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
                 'Accept': 'application/json'
             }
         });
-        console.log(`Platform [${p}] Status: ${res.status}`);
-        const body = await res.text();
-        console.log(`  Body: ${body.slice(0, 100)}`);
+        console.log(`[No platform] ${id} -> Status: ${res1.status}`);
+        if (res1.ok) {
+            const d = await res1.json();
+            console.log(`   ✅ Sayfalar: ${d.pages?.length}`);
+        }
     }
 }
 
-debugPlatforms().catch(console.error);
+testNoPlatform().catch(console.error);
