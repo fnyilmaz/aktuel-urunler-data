@@ -64,6 +64,15 @@ const STATIC_FALLBACKS = {
     ]
 };
 
+const KNOWN_CAMPAIGNS_FALLBACK = [
+    { id: 'Mh6LZTkQmmuWjukh', title: '19-25 Eylül', seoTitle: '10 TL ve Üzeri' },
+    { id: 'klmXtkTT9Y92HGon', title: '19-25 Eylül', seoTitle: 'Haftanın Yıldızları' },
+    { id: 'FXd2cv08vphACPVJ', title: '17 Eylül', seoTitle: '17 Eylül Tarihinden İtibaren' },
+    { id: 'O46wYK1YQ4zOLzqC', title: '24 Eylül', seoTitle: 'Aldın Aldın' },
+    { id: 'VqtTZGhtiFIwPAsM', title: '19-25 Eylül', seoTitle: '19-25 Eylül A101 Artı' },
+    { id: 'q7iXIHwrDb1EA6rr', title: '17 Eylül', seoTitle: 'A101 Ekstra Aldın Aldın' }
+];
+
 function normalizeTurkish(str) {
     return (str || '')
         .toLowerCase()
@@ -233,10 +242,10 @@ async function syncA101(currentData, options = {}) {
 
     // 1. Resmi RIO API'den aktif afiş listesini çek
     console.log('🔍 A101 Resmi RIO API sorgulanıyor...');
-    const listData = await fetchRioPosterList();
-    if (!listData || !listData.items) {
-        console.error('❌ A101 RIO API listeleme hatası: Afiş listesi alınamadı.');
-        return false;
+    let listData = await fetchRioPosterList();
+    if (!listData || !listData.items || listData.items.length === 0) {
+        console.warn('⚠️ A101 RIO API liste sorgusu HTTP 403 veya boş döndü. Bilinen aktif kampanyalar yedek listesi devreye alınıyor...');
+        listData = { items: KNOWN_CAMPAIGNS_FALLBACK };
     }
 
     const items = listData?.items || [];
