@@ -1,6 +1,6 @@
 {
-  "version": 72,
-  "lastUpdated": "2026-09-22T15:23:50.530Z",
+  "version": 73,
+  "lastUpdated": "2026-09-22T15:40:55.987Z",
   "markets": [
     {
       "id": "bim",
@@ -30,7 +30,7 @@
       "logoUrl": "https://images.ceptesok.com/cdn-cgi/image/width=120,height=120,fit=pad,quality=80,format=webp/logos/service-types/market-logo.svg",
       "category": "Süpermarket",
       "description": "Yeter de Artar",
-      "catalogCount": 1
+      "catalogCount": 0
     },
     {
       "id": "migros",
