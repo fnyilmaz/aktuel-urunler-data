@@ -110,6 +110,14 @@ function buildA101Titles(item, badge, dates) {
         displayTitle = `${t} A101 ${badge}`;
     }
 
+    if (badge === 'A101 Artı') {
+        const titleDates = dates.startDate && dates.endDate ? `${dates.startDate.split('-')[2]}-${dates.endDate.split('-')[2]} Eylül ` : '';
+        return {
+            title: `${titleDates}A101 Artı Fırsatları`.trim(),
+            subtitle: 'A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları'
+        };
+    }
+
     displayTitle = displayTitle.replace(/\s+/g, ' ').trim();
     const subtitle = `${t || dates.startDate} ${badge} Fırsatları & Kampanyalı Aktüel Ürün Kataloğu`.replace(/\s+/g, ' ').trim();
 
@@ -272,6 +280,42 @@ async function syncA101(currentData, options = {}) {
 
         const pages = [];
 
+        // A101 Artı kataloğu ürün satış kataloğu değil, sadakat puanı/nakit iade (Artı Para) broşürüdür.
+        // Sayfalarda gerçek ürün satış fiyatı bulunmaz, "15 Artı Para", "45 Artı Para" gibi hediye puanlar yer alır.
+        // Fiyat karşılaştırma motorunun ve kullanıcıların yanılmaması için sahte ürünler üretilmez, afiş sayfaları tam olarak eklenir.
+        if (badge === 'A101 Artı') {
+            console.log(`   ℹ️ [A101 Artı] Sadakat ve nakit iade (Artı Para) kataloğu. Gerçek ürün satış fiyatı içermediği için sahte ürün fiyatları oluşturulmuyor, tüm ${rawPages.length} sayfa afiş ekleniyor.`);
+            rawPages.forEach((pObj, idx) => {
+                const originalUrl = pObj.image;
+                const highResUrl = originalUrl.includes('_1024x1024.')
+                    ? originalUrl.replace('_1024x1024.', '_3840x3840.')
+                    : originalUrl;
+                pages.push({
+                    pageNumber: idx + 1,
+                    imageUrl: highResUrl,
+                    thumbnailUrl: originalUrl,
+                    productIds: []
+                });
+            });
+
+            currentData.catalogs.push({
+                id: catalogId,
+                marketId: 'a101',
+                title: title,
+                subtitle: subtitle,
+                badge: badge,
+                startDate: dates.startDate,
+                endDate: dates.endDate,
+                coverImageUrl: pages[0].imageUrl,
+                pageCount: pages.length,
+                status: 'ACTIVE',
+                isFeatured: true,
+                pages: pages
+            });
+            console.log(`   ✅ [A101 Artı] Kataloğu başarıyla eklendi (${pages.length} afiş sayfası, 0 sahte ürün).`);
+            continue;
+        }
+
         for (let idx = 0; idx < rawPages.length; idx++) {
             const pObj = rawPages[idx];
             const pageNum = idx + 1;
@@ -318,6 +362,7 @@ Bu sayfada yer alan TÜM ürünleri EKSİKSİZ, BİREBİR ve HATASIZ olarak tesp
    - Ürünün adını ve üzerindeki/etiketindeki net gramaj/hacim bilgisini (g, KG, L, ml, 'li) TAHMİN ETMEDEN BİREBİR OKU (Örn: kova veya paket üzerinde 9 KG yazıyorsa kesinlikle 9 KG olarak yaz, asla 3 KG yazma).
    - FİYAT: Kırmızı/sarı indirim kutusundaki büyük puntolu güncel indirimli satış fiyatını TL cinsinden sayısal olarak al (örneğin 39.50 veya 475). Asla eski fiyatı, yüzde indirim oranını veya başka sayıyı fiyat olarak yazma.
    - Fiyatı net okunamayan veya fiyatı olmayan reklam/slogan kutularını dahil ETME. Fiyat daima 0'dan büyük bir sayı olmalıdır.
+   - ⚠️ ARTI PARA VE SADAKAT PUANI UYARISI: "Artı Para", "Hediye Para", "Para İadesi" veya "Puan" (Örn: "15 Artı Para", "20 Artı Para", "45 Artı Para", "50 Artı Para") İFADELERİ KESİNLİKLE ÜRÜN SATIŞ FİYATI DEĞİLDİR! Bunlar A101 Plus sadakat uygulaması nakit iadeleridir. Eğer sayfada ürünün gerçek perakende TL satış fiyatı (örn: 199.50 TL) kırmızı/sarı fiyat etiketinde açıkça yazmıyorsa, sadece "Artı Para" vaat eden bu sayfalardan KESİNLİKLE ürün ve fiyat çıkarma! Bu tip sayfaları boş ("products": []) olarak geç.
 
 3. KUTU KOORDİNATLARI (box_2d) - KRİTİK KURAL (FİZİKSEL ÜRÜN FOTOĞRAFI ZORUNLULUĞU):
    - box_2d koordinatını [ymin, xmin, ymax, xmax] (0-1000 normalize koordinat) olarak ver.
