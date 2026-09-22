@@ -81,9 +81,9 @@ function getAvailableRandomKey(allKeys) {
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 const MODELS = [
-    'gemini-3.5-flash-lite',
     'gemini-flash-latest',
     'gemini-3.8-flash',
+    'gemini-3.5-flash-lite',
     'gemini-3.6-flash'
 ];
 
@@ -95,7 +95,7 @@ async function callGeminiVisionMultiKey(prompt, base64Image, options = {}) {
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
         const apiKey = getAvailableRandomKey(allKeys);
         const masked = apiKey.slice(0, 8) + '...' + apiKey.slice(-4);
-        const model = options.model || MODELS[0];
+        const model = options.model || MODELS[(attempt - 1) % MODELS.length];
 
         try {
             const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
