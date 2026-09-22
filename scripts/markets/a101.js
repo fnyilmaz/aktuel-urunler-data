@@ -22,13 +22,32 @@ const REVERSE_MONTH_MAP = {
     '09': 'Eylül', '10': 'Ekim', '11': 'Kasım', '12': 'Aralık'
 };
 
-const RIO_HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-    'Accept': 'application/json, text/plain, */*',
-    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
-    'Referer': 'https://www.a101.com.tr/',
-    'Origin': 'https://www.a101.com.tr'
-};
+const RIO_ENDPOINTS = [
+    {
+        name: 'Web',
+        platform: 'web',
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+            'Accept': 'application/json'
+        }
+    },
+    {
+        name: 'iOS',
+        platform: 'ios',
+        headers: {
+            'User-Agent': 'A101/3.4.1 (iPhone; iOS 17.5.1; Scale/3.00)',
+            'Accept': 'application/json'
+        }
+    },
+    {
+        name: 'Android',
+        platform: 'android',
+        headers: {
+            'User-Agent': 'okhttp/4.9.2',
+            'Accept': 'application/json'
+        }
+    }
+];
 
 function normalizeTurkish(str) {
     return (str || '')
@@ -141,102 +160,56 @@ function buildA101Titles(item, badge, dates) {
 }
 
 /**
- * A101 RIO API'sinden detay sayfalarını çeker (Otomatik Retry ve Mobil Android Fallback destekli).
- * Bu sayede GitHub Actions runner'ında 403 Rate Limit oluşması kesinlikle engellenir.
+ * A101 RIO API'sinden detay sayfalarını çeker (Çoklu Platform ve Otomatik Retry destekli).
  */
 async function fetchRioPosterDetail(itemId) {
-    const webUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=web`;
-    const androidUrl = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=android`;
-
-    // 1. Web endpointini dene
-    for (let attempt = 1; attempt <= 3; attempt++) {
-        try {
-            const res = await fetch(webUrl, {
-                headers: RIO_HEADERS,
-                signal: AbortSignal.timeout(15000)
-            });
-            if (res.ok) {
-                const data = await res.json();
-                if (data && data.pages) return data;
+    for (const ep of RIO_ENDPOINTS) {
+        const url = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=${ep.platform}`;
+        for (let attempt = 1; attempt <= 3; attempt++) {
+            try {
+                const res = await fetch(url, {
+                    headers: ep.headers,
+                    signal: AbortSignal.timeout(15000)
+                });
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data && data.pages && data.pages.length > 0) return data;
+                }
+                console.log(`      ⚠️ A101 Detay [${itemId} - ${ep.name}] HTTP ${res.status} (Deneme ${attempt})`);
+                await sleep(1500 * attempt);
+            } catch (e) {
+                console.log(`      ⚠️ A101 Detay hatası [${itemId} - ${ep.name}]: ${e.message}`);
+                await sleep(1500 * attempt);
             }
-            console.log(`      ⚠️ Web detay [${itemId}] HTTP ${res.status} (Deneme ${attempt})`);
-            if (res.status === 403 || res.status === 429) {
-                console.log(`      ⏳ Rate limit/engelleme tespit edildi, ${2000 * attempt}ms bekleniyor...`);
-                await sleep(2000 * attempt);
-            }
-        } catch (e) {
-            console.log(`      ⚠️ Web detay hatası [${itemId}]: ${e.message}`);
         }
-        await sleep(1500);
     }
-
-    // 2. Mobil Android API Fallback
-    try {
-        console.log(`      📱 Mobil RIO Detay API Fallback devreye alınıyor (${itemId})...`);
-        const mRes = await fetch(androidUrl, {
-            headers: {
-                'User-Agent': 'okhttp/4.9.2',
-                'Accept': 'application/json',
-                'Host': 'rio.a101.com.tr'
-            },
-            signal: AbortSignal.timeout(15000)
-        });
-        console.log(`      📱 Mobil detay yanıtı: HTTP ${mRes.status}`);
-        if (mRes.ok) {
-            const mData = await mRes.json();
-            if (mData && mData.pages) return mData;
-        }
-    } catch (err) {
-        console.error(`      ❌ Mobil fallback hatası (${itemId}):`, err.message);
-    }
-
     return null;
 }
 
 /**
- * A101 RIO API'sinden aktif afiş listesini çeker (Otomatik Retry ve Android Mobil Fallback destekli).
+ * A101 RIO API'sinden aktif afiş listesini çeker (Çoklu Platform ve Otomatik Retry destekli).
  */
 async function fetchRioPosterList() {
-    const webUrl = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=web';
-    const androidUrl = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=android';
-
-    for (let attempt = 1; attempt <= 3; attempt++) {
-        try {
-            const res = await fetch(webUrl, {
-                headers: RIO_HEADERS,
-                signal: AbortSignal.timeout(15000)
-            });
-            if (res.ok) {
-                const data = await res.json();
-                if (data && data.items) return data;
+    for (const ep of RIO_ENDPOINTS) {
+        const url = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=${ep.platform}`;
+        for (let attempt = 1; attempt <= 3; attempt++) {
+            try {
+                const res = await fetch(url, {
+                    headers: ep.headers,
+                    signal: AbortSignal.timeout(15000)
+                });
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data && data.items && data.items.length > 0) return data;
+                }
+                console.log(`⚠️ A101 Liste [${ep.name}] HTTP ${res.status} (Deneme ${attempt})`);
+                await sleep(1500 * attempt);
+            } catch (e) {
+                console.log(`⚠️ A101 Liste hatası [${ep.name}]: ${e.message}`);
+                await sleep(1500 * attempt);
             }
-            console.log(`⚠️ A101 Liste Web API HTTP ${res.status} (Deneme ${attempt})`);
-            if (res.status === 403 || res.status === 429) break;
-        } catch (e) {
-            console.log(`⚠️ A101 Liste Web ağ hatası: ${e.message}`);
         }
-        await sleep(1500);
     }
-
-    // Mobil Android API Fallback
-    try {
-        console.log(`📱 Mobil RIO Liste API Fallback devreye alınıyor...`);
-        const mRes = await fetch(androidUrl, {
-            headers: {
-                'User-Agent': 'okhttp/4.9.2',
-                'Accept': 'application/json'
-            },
-            signal: AbortSignal.timeout(15000)
-        });
-        console.log(`📱 Mobil liste yanıtı: HTTP ${mRes.status}`);
-        if (mRes.ok) {
-            const mData = await mRes.json();
-            if (mData && mData.items) return mData;
-        }
-    } catch (err) {
-        console.error('❌ Mobil liste fallback hatası:', err.message);
-    }
-
     return null;
 }
 
