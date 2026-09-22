@@ -22,31 +22,31 @@ const REVERSE_MONTH_MAP = {
     '09': 'Eylül', '10': 'Ekim', '11': 'Kasım', '12': 'Aralık'
 };
 
-const RIO_ENDPOINTS = [
-    {
-        name: 'Web',
-        platform: 'web',
-        headers: {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-            'Accept': 'application/json'
-        }
-    },
-    {
-        name: 'iOS',
-        platform: 'ios',
-        headers: {
-            'User-Agent': 'A101/3.4.1 (iPhone; iOS 17.5.1; Scale/3.00)',
-            'Accept': 'application/json'
-        }
-    },
-    {
-        name: 'Android',
-        platform: 'android',
-        headers: {
-            'User-Agent': 'okhttp/4.9.2',
-            'Accept': 'application/json'
-        }
-    }
+const BROWSER_HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+    'Accept': 'application/json, text/plain, */*',
+    'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Origin': 'https://www.a101.com.tr',
+    'Referer': 'https://www.a101.com.tr/',
+    'Sec-Ch-Ua': '"Chromium";v="130", "Google Chrome";v="130"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-site'
+};
+
+const ARTI_STATIC_FALLBACK = [
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/BqV34RYEhT_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/i85r-bgRPv_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/S1gT9WD-a8_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/GTaFxK1dU4_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/LyZLyPUJ04_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/IPfQhFTlwg_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZjDkaiSJkN_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/pEif1yUhLo_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/KeRsEjeObc_1024x1024.png',
+    'https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_1024x1024.png'
 ];
 
 function normalizeTurkish(str) {
@@ -181,80 +181,50 @@ function fetchViaCurl(url, headers = {}) {
 }
 
 /**
- * A101 RIO API'sinden detay sayfalarını çeker (Çoklu Platform, Otomatik Retry ve curl Fallback destekli).
+ * A101 RIO API'sinden detay sayfalarını çeker (Güvenli Pacing ve Tarayıcı Başlıkları ile).
  */
 async function fetchRioPosterDetail(itemId) {
-    for (const ep of RIO_ENDPOINTS) {
-        const url = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR&__platform=${ep.platform}`;
-        for (let attempt = 1; attempt <= 3; attempt++) {
-            try {
-                const res = await fetch(url, {
-                    headers: ep.headers,
-                    signal: AbortSignal.timeout(15000)
-                });
-                if (res.ok) {
-                    const data = await res.json();
-                    if (data && data.pages && data.pages.length > 0) return data;
-                }
-                const errText = await res.text().catch(() => '');
-                console.log(`      ⚠️ A101 Detay [${itemId} - ${ep.name}] HTTP ${res.status} (Deneme ${attempt}): ${errText.slice(0, 80)}`);
-                
-                // curl fallback dene
-                const curlData = fetchViaCurl(url, ep.headers);
-                if (curlData && curlData.pages && curlData.pages.length > 0) {
-                    console.log(`      🚀 curl fallback başarılı oldu! (${curlData.pages.length} sayfa)`);
-                    return curlData;
-                }
-
-                await sleep(1500 * attempt);
-            } catch (e) {
-                console.log(`      ⚠️ A101 Detay hatası [${itemId} - ${ep.name}]: ${e.message}`);
-                const curlData = fetchViaCurl(url, ep.headers);
-                if (curlData && curlData.pages && curlData.pages.length > 0) {
-                    return curlData;
-                }
-                await sleep(1500 * attempt);
+    const url = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/get/default/${itemId}?__culture=tr-TR`;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            const res = await fetch(url, {
+                headers: BROWSER_HEADERS,
+                signal: AbortSignal.timeout(15000)
+            });
+            if (res.ok) {
+                const data = await res.json();
+                if (data && data.pages && data.pages.length > 0) return data;
             }
+            console.log(`      ⚠️ A101 Detay [${itemId}] HTTP ${res.status} (Deneme ${attempt})`);
+            await sleep(3500 * attempt);
+        } catch (e) {
+            console.log(`      ⚠️ A101 Detay hatası [${itemId}]: ${e.message}`);
+            await sleep(3500 * attempt);
         }
     }
     return null;
 }
 
 /**
- * A101 RIO API'sinden aktif afiş listesini çeker (Çoklu Platform, Otomatik Retry ve curl Fallback destekli).
+ * A101 RIO API'sinden aktif afiş listesini çeker (Güvenli Pacing ve Tarayıcı Başlıkları ile).
  */
 async function fetchRioPosterList() {
-    for (const ep of RIO_ENDPOINTS) {
-        const url = `https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR&__platform=${ep.platform}`;
-        for (let attempt = 1; attempt <= 3; attempt++) {
-            try {
-                const res = await fetch(url, {
-                    headers: ep.headers,
-                    signal: AbortSignal.timeout(15000)
-                });
-                if (res.ok) {
-                    const data = await res.json();
-                    if (data && data.items && data.items.length > 0) return data;
-                }
-                const errText = await res.text().catch(() => '');
-                console.log(`⚠️ A101 Liste [${ep.name}] HTTP ${res.status} (Deneme ${attempt}): ${errText.slice(0, 80)}`);
-                
-                // curl fallback dene
-                const curlData = fetchViaCurl(url, ep.headers);
-                if (curlData && curlData.items && curlData.items.length > 0) {
-                    console.log(`   🚀 curl fallback başarılı oldu! (${curlData.items.length} kampanya tespit edildi)`);
-                    return curlData;
-                }
-
-                await sleep(1500 * attempt);
-            } catch (e) {
-                console.log(`⚠️ A101 Liste hatası [${ep.name}]: ${e.message}`);
-                const curlData = fetchViaCurl(url, ep.headers);
-                if (curlData && curlData.items && curlData.items.length > 0) {
-                    return curlData;
-                }
-                await sleep(1500 * attempt);
+    const url = 'https://rio.a101.com.tr/dbmk89vnr/CALL/poster/list/default?__culture=tr-TR';
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            const res = await fetch(url, {
+                headers: BROWSER_HEADERS,
+                signal: AbortSignal.timeout(15000)
+            });
+            if (res.ok) {
+                const data = await res.json();
+                if (data && data.items && data.items.length > 0) return data;
             }
+            console.log(`⚠️ A101 Liste HTTP ${res.status} (Deneme ${attempt})`);
+            await sleep(3500 * attempt);
+        } catch (e) {
+            console.log(`⚠️ A101 Liste hatası (Deneme ${attempt}): ${e.message}`);
+            await sleep(3500 * attempt);
         }
     }
     return null;
@@ -267,7 +237,7 @@ async function syncA101(currentData, options = {}) {
 
     let updated = false;
 
-    // 1. Resmi RIO API'den aktif afiş listesini çek (Mobil Fallback Korumalı)
+    // 1. Resmi RIO API'den aktif afiş listesini çek
     console.log('🔍 A101 Resmi RIO API sorgulanıyor...');
     const listData = await fetchRioPosterList();
     if (!listData || !listData.items) {
@@ -279,7 +249,7 @@ async function syncA101(currentData, options = {}) {
     console.log(`📋 ${items.length} adet aktif A101 kampanyası tespit edildi.`);
 
     for (const item of items) {
-        await sleep(2000); // RIO API rate limit / 403 koruması
+        await sleep(3500); // RIO API rate limit / WAF koruması
         const catalogId = `a101-rio-${item.id}`;
         const rawTitle = `${item.title || ''} ${item.seoTitle || ''}`.trim();
         const dates = parseTurkishDateRange(rawTitle);
@@ -304,10 +274,24 @@ async function syncA101(currentData, options = {}) {
             continue;
         }
 
-        // Detay API'sinden sayfaları al (Retry ve Mobil Fallback korumalı)
+        // Detay API'sinden sayfaları al (Güvenli Pacing & Fallback korumalı)
         console.log(`   📥 Kampanya sayfaları çekiliyor...`);
-        const detData = await fetchRioPosterDetail(item.id);
+        let detData = await fetchRioPosterDetail(item.id);
+
+        // A101 Artı veya özel manuel kampanya fallback desteği
+        if ((!detData || !detData.pages || detData.pages.length === 0) && (badge === 'A101 Artı' || item.sourceType === 'manual')) {
+            console.log(`   ℹ️ [A101 Artı] Detay API CDN fallback devreye alınıyor (${ARTI_STATIC_FALLBACK.length} sayfa)...`);
+            detData = {
+                id: item.id,
+                pages: ARTI_STATIC_FALLBACK.map(img => ({ image: img }))
+            };
+        }
+
         if (!detData || !detData.pages || detData.pages.length === 0) {
+            if (existingCat && existingCat.pages && existingCat.pages.length > 0) {
+                console.log(`   ℹ️ [${item.id}] Mevcut ${existingCat.pages.length} sayfalık afiş verisi korunuyor.`);
+                continue;
+            }
             console.error(`   ❌ Kampanya detay sayfaları alınamadı (${item.id})`);
             continue;
         }
