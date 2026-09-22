@@ -262,10 +262,11 @@ async function runAiSyncWorkflow() {
         hasChanges = true;
     }
 
-    // 4. Boş kataloğu olanları temizle
+    // 4. Broşür sayfası bulunmayan boş katalogları temizle
     const validCatalogs = currentData.catalogs.filter(c => {
         const catProds = currentData.products.filter(p => p.catalogId === c.id);
-        return c.pages && c.pages.length > 0 && catProds.length > 0;
+        // Broşür sayfaları bulunan tüm kataloglar (A101 Artı gibi sadakat/kampanya broşürleri dahil) korunur
+        return c.pages && c.pages.length > 0 && (catProds.length > 0 || c.badge === 'A101 Artı' || (c.marketId === 'a101' && c.badge.includes('Artı')));
     });
 
     if (validCatalogs.length !== currentData.catalogs.length) {
