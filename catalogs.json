@@ -1,6 +1,6 @@
 {
-  "version": 79,
-  "lastUpdated": "2026-09-23T09:20:46.811Z",
+  "version": 80,
+  "lastUpdated": "2026-09-23T09:42:15.533Z",
   "markets": [
     {
       "id": "bim",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 4
+      "catalogCount": 5
     },
     {
       "id": "sok",
@@ -2170,6 +2170,36 @@
             "a101-rio-O46wYK1YQ4zOLzqC-p13-20",
             "a101-rio-O46wYK1YQ4zOLzqC-p13-21",
             "a101-rio-O46wYK1YQ4zOLzqC-p13-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "title": "19-25 Eylül 10 TL ve Üzeri A101 Aktüel",
+      "subtitle": "19-25 Eylül 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "badge": "10 TL ve Üzeri",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png",
+      "pageCount": 1,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_1024x1024.png",
+          "productIds": [
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-1",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-2",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-3",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-4",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-5",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-6",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-7",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-8"
           ]
         }
       ]
@@ -22414,6 +22444,134 @@
       "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/Nq8NbmM9Si_3840x3840.png&crop=632,216,429,1332&w=300&precrop&output=jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-1",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Namet Dana Kangal Sucuk 450 g",
+      "brand": "Namet",
+      "price": 299.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Et & Şarküteri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=246,291,132,225&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-2",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Torku Dana Kangal Sucuk 450 g",
+      "brand": "Torku",
+      "price": 299.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Et & Şarküteri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=231,282,400,193&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-3",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Nestlé Çikolata 60 g Beyaz",
+      "brand": "Nestlé",
+      "price": 39.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Atıştırmalık",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=159,272,132,791&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-4",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Nestlé Çikolata 60 g Bitter",
+      "brand": "Nestlé",
+      "price": 39.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Atıştırmalık",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=158,272,291,791&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-5",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Nestlé Çikolata 60 g Bol Sütlü",
+      "brand": "Nestlé",
+      "price": 39.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Atıştırmalık",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=270,272,449,791&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-6",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Nestlé Fındıklı Çikolata 60 g",
+      "brand": "Nestlé",
+      "price": 39.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Atıştırmalık",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=230,272,760,791&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-7",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Papia 3 Katlı Kağıt Havlu 8'li İnova",
+      "brand": "Papia",
+      "price": 119,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Kağıt Ürünleri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=339,306,137,1141&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-8",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Papia 3 Katlı Kağıt Havlu 8'li BioCare",
+      "brand": "Papia",
+      "price": 119,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Kağıt Ürünleri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/2gOmD7YIKy_3840x3840.png&crop=345,304,477,1142&w=300&precrop&output=jpg",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-25",
       "isPopular": false
     }
   ]
