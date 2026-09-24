@@ -1,6 +1,6 @@
 {
-  "version": 82,
-  "lastUpdated": "2026-09-24T09:13:30.602Z",
+  "version": 83,
+  "lastUpdated": "2026-09-24T09:41:37.608Z",
   "markets": [
     {
       "id": "bim",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 4
+      "catalogCount": 5
     },
     {
       "id": "sok",
@@ -1858,6 +1858,44 @@
             "migros-migroskop-907-p1-28",
             "migros-migroskop-907-p1-29",
             "migros-migroskop-907-p1-30"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "title": "23-26 Eylül Sonbaharın Yıldızları A101 Aktüel",
+      "subtitle": "Sonbaharın Yıldızları Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "badge": "Aldın Aldın",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png",
+      "pageCount": 2,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_1024x1024.png",
+          "productIds": [
+            "a101-rio-gMxymcNksUtjQle6-p1-1",
+            "a101-rio-gMxymcNksUtjQle6-p1-2",
+            "a101-rio-gMxymcNksUtjQle6-p1-3",
+            "a101-rio-gMxymcNksUtjQle6-p1-4",
+            "a101-rio-gMxymcNksUtjQle6-p1-5",
+            "a101-rio-gMxymcNksUtjQle6-p1-6",
+            "a101-rio-gMxymcNksUtjQle6-p1-7"
+          ]
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/DHTFyRpq-B_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/DHTFyRpq-B_1024x1024.png",
+          "productIds": [
+            "a101-rio-gMxymcNksUtjQle6-p2-1",
+            "a101-rio-gMxymcNksUtjQle6-p2-2"
           ]
         }
       ]
@@ -18902,6 +18940,150 @@
       "imageUrl": "https://images.migrosone.com/sanalmarket/product/10302098/10302098-c06992-1650x1650.jpg",
       "startDate": "2026-09-24",
       "endDate": "2026-10-07",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p1-1",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Türk Şeker Kristal Toz Şeker 5 KG",
+      "brand": "Türk Şeker",
+      "price": 209,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png&crop=311,453,45,343&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p1-2",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Ovadan Baldo Pirinç 2,5 KG",
+      "brand": "Ovadan",
+      "price": 159.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png&crop=273,372,374,424&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p1-3",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Çokça Çiğ Köfte Dürüm 260 g",
+      "brand": "Çokça",
+      "price": 30,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png&crop=95,419,701,373&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p1-4",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Vera Ayçiçek Yağı 5 L",
+      "brand": "Vera",
+      "price": 449,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png&crop=331,602,795,179&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p1-5",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Sütaş Şişe Ayran 250 ml",
+      "brand": "Sütaş",
+      "price": 15,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "İçecek",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png&crop=283,441,70,1036&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p1-6",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Yumurta 30'lu M Boy 53-62 g",
+      "brand": "Bölgesel",
+      "price": 99,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png&crop=409,294,336,1075&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p1-7",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Poşetli Bütün Piliç KG",
+      "brand": "Bölgesel",
+      "price": 89.5,
+      "originalPrice": null,
+      "unit": "KG",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/wczL2dputP_3840x3840.png&crop=299,316,782,1088&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p2-1",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 2,
+      "name": "Şişe Ayran 250 ml",
+      "brand": "Sütaş",
+      "price": 15,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Süt ve Süt Ürünleri",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/DHTFyRpq-B_3840x3840.png&crop=453,750,50,573&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6-p2-2",
+      "catalogId": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "pageNumber": 2,
+      "name": "Çiğ Köfte Dürüm 260 g",
+      "brand": "Çokça",
+      "price": 30,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Hazır Yemek & Atıştırmalık",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/DHTFyRpq-B_3840x3840.png&crop=363,1055,543,350&w=300&precrop&output=jpg",
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
       "isPopular": false
     }
   ]
