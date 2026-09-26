@@ -1,6 +1,6 @@
 {
-  "version": 90,
-  "lastUpdated": "2026-09-26T09:41:22.464Z",
+  "version": 91,
+  "lastUpdated": "2026-09-26T10:53:57.371Z",
   "markets": [
     {
       "id": "bim",
@@ -1438,8 +1438,8 @@
     {
       "id": "a101-rio-q7iXIHwrDb1EA6rr",
       "marketId": "a101",
-      "title": "24 Eylül A101 Ekstra Aldın Aldın A101 Aktüel",
-      "subtitle": "24 Eylül Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "17 Eylül A101 Ekstra Aldın Aldın A101 Aktüel",
+      "subtitle": "17 Eylül Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın Ekstra",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
@@ -2030,8 +2030,8 @@
     {
       "id": "a101-rio-Mh6LZTkQmmuWjukh",
       "marketId": "a101",
-      "title": "26 Eylül - 2 Ekim 10 TL ve Üzeri A101 Aktüel",
-      "subtitle": "26 Eylül - 2 Ekim 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "19-25 Eylül 10 TL ve Üzeri A101 Aktüel",
+      "subtitle": "19-25 Eylül 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "10 TL ve Üzeri",
       "startDate": "2026-09-26",
       "endDate": "2026-10-02",
@@ -2064,8 +2064,8 @@
     {
       "id": "a101-rio-klmXtkTT9Y92HGon",
       "marketId": "a101",
-      "title": "26 Eylül - 2 Ekim Haftanın Yıldızları A101 Aktüel",
-      "subtitle": "26 Eylül - 2 Ekim Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "19-25 Eylül Haftanın Yıldızları A101 Aktüel",
+      "subtitle": "19-25 Eylül Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Haftanın Yıldızları",
       "startDate": "2026-09-26",
       "endDate": "2026-10-02",
