@@ -1,6 +1,6 @@
 {
-  "version": 108,
-  "lastUpdated": "2026-09-30T09:06:03.317Z",
+  "version": 109,
+  "lastUpdated": "2026-09-30T10:24:44.795Z",
   "markets": [
     {
       "id": "bim",
@@ -957,8 +957,8 @@
     {
       "id": "a101-rio-q7iXIHwrDb1EA6rr",
       "marketId": "a101",
-      "title": "17 Eylül A101 Ekstra Aldın Aldın A101 Aktüel",
-      "subtitle": "17 Eylül Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "24 Eylül A101 Ekstra Aldın Aldın A101 Aktüel",
+      "subtitle": "24 Eylül Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın Ekstra",
       "startDate": "2026-09-24",
       "endDate": "2026-09-30",
@@ -1430,8 +1430,8 @@
     {
       "id": "a101-rio-Mh6LZTkQmmuWjukh",
       "marketId": "a101",
-      "title": "19-25 Eylül 10 TL ve Üzeri A101 Aktüel",
-      "subtitle": "19-25 Eylül 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "26 Eylül - 2 Ekim 10 TL ve Üzeri A101 Aktüel",
+      "subtitle": "26 Eylül - 2 Ekim 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "10 TL ve Üzeri",
       "startDate": "2026-09-26",
       "endDate": "2026-10-02",
@@ -1464,8 +1464,8 @@
     {
       "id": "a101-rio-klmXtkTT9Y92HGon",
       "marketId": "a101",
-      "title": "19-25 Eylül Haftanın Yıldızları A101 Aktüel",
-      "subtitle": "19-25 Eylül Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "26 Eylül - 2 Ekim Haftanın Yıldızları A101 Aktüel",
+      "subtitle": "26 Eylül - 2 Ekim Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Haftanın Yıldızları",
       "startDate": "2026-09-26",
       "endDate": "2026-10-02",
@@ -1953,8 +1953,8 @@
     {
       "id": "a101-rio-FXd2cv08vphACPVJ",
       "marketId": "a101",
-      "title": "17 Eylül Tarihinden İtibaren A101 Aktüel",
-      "subtitle": "17 Eylül Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "1 Ekim 17 Eylül Tarihinden İtibaren A101 Aktüel",
+      "subtitle": "1 Ekim Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın",
       "startDate": "2026-10-01",
       "endDate": "2026-10-07",
