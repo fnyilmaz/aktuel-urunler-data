@@ -1,6 +1,6 @@
 {
-  "version": 123,
-  "lastUpdated": "2026-10-03T08:39:20.669Z",
+  "version": 124,
+  "lastUpdated": "2026-10-03T09:51:40.786Z",
   "markets": [
     {
       "id": "bim",
@@ -874,8 +874,8 @@
     {
       "id": "a101-rio-FXd2cv08vphACPVJ",
       "marketId": "a101",
-      "title": "1 Ekim 17 Eylül Tarihinden İtibaren A101 Aktüel",
-      "subtitle": "1 Ekim Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "17 Eylül Tarihinden İtibaren A101 Aktüel",
+      "subtitle": "17 Eylül Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın",
       "startDate": "2026-10-01",
       "endDate": "2026-10-07",
@@ -1675,8 +1675,8 @@
     {
       "id": "a101-rio-q7iXIHwrDb1EA6rr",
       "marketId": "a101",
-      "title": "1 Ekim A101 Ekstra Aldın Aldın A101 Aktüel",
-      "subtitle": "1 Ekim Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "17 Eylül A101 Ekstra Aldın Aldın A101 Aktüel",
+      "subtitle": "17 Eylül Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın Ekstra",
       "startDate": "2026-10-01",
       "endDate": "2026-10-07",
@@ -2103,7 +2103,7 @@
     {
       "id": "a101-rio-VqtTZGhtiFIwPAsM",
       "marketId": "a101",
-      "title": "02-16 Ekim A101 Artı Fırsatları",
+      "title": "19-25 Eylül A101 Artı Fırsatları",
       "subtitle": "A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları",
       "badge": "A101 Artı",
       "startDate": "2026-10-02",
