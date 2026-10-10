@@ -1,6 +1,6 @@
 {
-  "version": 161,
-  "lastUpdated": "2026-10-10T12:05:17.910Z",
+  "version": 162,
+  "lastUpdated": "2026-10-10T13:34:11.415Z",
   "markets": [
     {
       "id": "bim",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 6
+      "catalogCount": 7
     },
     {
       "id": "sok",
@@ -2922,6 +2922,38 @@
             "a101-rio-q7iXIHwrDb1EA6rr-p8-12",
             "a101-rio-q7iXIHwrDb1EA6rr-p8-13",
             "a101-rio-q7iXIHwrDb1EA6rr-p8-14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "title": "10-16 Ekim 10 TL ve Üzeri A101 Aktüel",
+      "subtitle": "10-16 Ekim 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "badge": "10 TL ve Üzeri",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png",
+      "pageCount": 1,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_1024x1024.png",
+          "productIds": [
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-1",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-2",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-3",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-4",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-5",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-6",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-7",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-8",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-9",
+            "a101-rio-Mh6LZTkQmmuWjukh-p1-10"
           ]
         }
       ]
@@ -31566,6 +31598,166 @@
       "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/ZTLAGXc89o_3840x3840.png&crop=162,269,788,1289&w=300&precrop&output=jpg",
       "startDate": "2026-10-08",
       "endDate": "2026-10-14",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-1",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Torku Çikolata Bütün Antep Fıstıklı 65 g",
+      "brand": "Torku",
+      "price": 52.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=225,296,59,348&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-2",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Torku Çikolata Bol Sütlü 60 g",
+      "brand": "Torku",
+      "price": 39.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=225,286,285,348&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-3",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Torku Çikolata Fındıklı 60 g",
+      "brand": "Torku",
+      "price": 39.5,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=225,286,285,348&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-4",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Torku Fındık Kremalı Çıtır Gofret 12x30 g",
+      "brand": "Torku",
+      "price": 99.5,
+      "originalPrice": null,
+      "unit": "Paket",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=425,358,630,335&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-5",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Sarelle Kakaolu Fındık Ezmesi 800 g",
+      "brand": "Sarelle",
+      "price": 229,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=257,303,247,782&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-6",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Heinz Ketçap 700 g",
+      "brand": "Heinz",
+      "price": 109,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=206,330,650,796&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-7",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Heinz Mayonez 505 g",
+      "brand": "Heinz",
+      "price": 129,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=161,247,866,852&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-8",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Nescafe Klasik 200 g",
+      "brand": "Nescafe",
+      "price": 229,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=148,330,118,1262&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-9",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Nescafe Gold 100 g",
+      "brand": "Nescafe",
+      "price": 199,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Gıda",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=113,316,276,1264&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-Mh6LZTkQmmuWjukh-p1-10",
+      "catalogId": "a101-rio-Mh6LZTkQmmuWjukh",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Bingo Pro Max Bulaşık Makinesi Kapsülü 60'lı",
+      "brand": "Bingo",
+      "price": 345,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Temizlik",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/3AoUk6qCry_3840x3840.png&crop=229,313,802,1213&w=300&precrop&output=jpg",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-16",
       "isPopular": true
     }
   ]
