@@ -1,6 +1,6 @@
 {
-  "version": 207,
-  "lastUpdated": "2026-10-20T08:00:18.120Z",
+  "version": 208,
+  "lastUpdated": "2026-10-20T09:24:02.984Z",
   "markets": [
     {
       "id": "bim",
@@ -10,7 +10,7 @@
       "logoUrl": "https://cdn2.bim.com.tr/templates/images/header-aktuel.png",
       "category": "Süpermarket",
       "description": "Toptan Fiyatına Perakende Satış",
-      "catalogCount": 15
+      "catalogCount": 16
     },
     {
       "id": "a101",
@@ -304,8 +304,8 @@
     {
       "id": "a101-rio-FXd2cv08vphACPVJ",
       "marketId": "a101",
-      "title": "17 Eylül Tarihinden İtibaren A101 Aktüel",
-      "subtitle": "17 Eylül Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "15 Ekim 17 Eylül Tarihinden İtibaren A101 Aktüel",
+      "subtitle": "15 Ekim Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın",
       "startDate": "2026-10-15",
       "endDate": "2026-10-21",
@@ -747,8 +747,8 @@
     {
       "id": "a101-rio-q7iXIHwrDb1EA6rr",
       "marketId": "a101",
-      "title": "17 Eylül A101 Ekstra Aldın Aldın A101 Aktüel",
-      "subtitle": "17 Eylül Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "15 Ekim A101 Ekstra Aldın Aldın A101 Aktüel",
+      "subtitle": "15 Ekim Aldın Aldın Ekstra Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın Ekstra",
       "startDate": "2026-10-15",
       "endDate": "2026-10-21",
@@ -1510,8 +1510,8 @@
     {
       "id": "a101-rio-Mh6LZTkQmmuWjukh",
       "marketId": "a101",
-      "title": "19-25 Eylül 10 TL ve Üzeri A101 Aktüel",
-      "subtitle": "19-25 Eylül 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "17-23 Ekim 10 TL ve Üzeri A101 Aktüel",
+      "subtitle": "17-23 Ekim 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "10 TL ve Üzeri",
       "startDate": "2026-10-17",
       "endDate": "2026-10-23",
@@ -1537,8 +1537,8 @@
     {
       "id": "a101-rio-klmXtkTT9Y92HGon",
       "marketId": "a101",
-      "title": "19-25 Eylül Haftanın Yıldızları A101 Aktüel",
-      "subtitle": "19-25 Eylül Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "17-23 Ekim Haftanın Yıldızları A101 Aktüel",
+      "subtitle": "17-23 Ekim Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Haftanın Yıldızları",
       "startDate": "2026-10-17",
       "endDate": "2026-10-23",
@@ -1707,8 +1707,8 @@
     {
       "id": "a101-rio-O46wYK1YQ4zOLzqC",
       "marketId": "a101",
-      "title": "24 Eylül Aldın Aldın A101 Aktüel",
-      "subtitle": "24 Eylül Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "22 Ekim Aldın Aldın A101 Aktüel",
+      "subtitle": "22 Ekim Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın",
       "startDate": "2026-10-22",
       "endDate": "2026-10-28",
@@ -1973,7 +1973,7 @@
     {
       "id": "a101-rio-VqtTZGhtiFIwPAsM",
       "marketId": "a101",
-      "title": "19-25 Eylül A101 Artı Fırsatları",
+      "title": "17-23 Ekim A101 Artı Fırsatları",
       "subtitle": "A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları",
       "badge": "A101 Artı",
       "startDate": "2026-10-17",
@@ -2468,6 +2468,44 @@
             "bim_cok_al_az_ode_2026_10_19_p2_2",
             "bim_cok_al_az_ode_2026_10_19_p2_3",
             "bim_cok_al_az_ode_2026_10_19_p2_4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "title": "ÇOK AL AZ ÖDE BİM Aktüel",
+      "subtitle": "ÇOK AL AZ ÖDE İndirimli Ürün Kataloğu",
+      "badge": "Aktüel",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg",
+      "pageCount": 2,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_2ae72a02-0023-474c-917e-521f2860ca11.jpg",
+          "productIds": [
+            "bim_cok_al_az_ode_2026_10_20_p1_1",
+            "bim_cok_al_az_ode_2026_10_20_p1_2",
+            "bim_cok_al_az_ode_2026_10_20_p1_3",
+            "bim_cok_al_az_ode_2026_10_20_p1_4",
+            "bim_cok_al_az_ode_2026_10_20_p1_5"
+          ]
+        },
+        {
+          "pageNumber": 2,
+          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/e8f50e82-e8b2-47ee-a9de-7431860d2dba.jpg",
+          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e8f50e82-e8b2-47ee-a9de-7431860d2dba.jpg",
+          "productIds": [
+            "bim_cok_al_az_ode_2026_10_20_p2_1",
+            "bim_cok_al_az_ode_2026_10_20_p2_2",
+            "bim_cok_al_az_ode_2026_10_20_p2_3",
+            "bim_cok_al_az_ode_2026_10_20_p2_4"
           ]
         }
       ]
@@ -24968,6 +25006,150 @@
       "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_2476_27_0062_vector-smart-object.jpg",
       "startDate": "2026-10-19",
       "endDate": "2026-10-25",
+      "isPopular": false
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p1_1",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 1,
+      "name": "Meyve Nektarı Kayısı Jucy 200 ml",
+      "brand": "Jucy",
+      "price": 62.5,
+      "originalPrice": null,
+      "unit": "6'lı Paket",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1681_kucuk_543X467_9540_2_0022_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": false
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p1_2",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 1,
+      "name": "Meyve Nektarı Şeftali Jucy 200 ml",
+      "brand": "Jucy",
+      "price": 62.5,
+      "originalPrice": null,
+      "unit": "6'lı Paket",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1681_kucuk_543X467_9540_2_0022_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": false
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p1_3",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 1,
+      "name": "Meyve Nektarı Vişne Jucy 200 ml",
+      "brand": "Jucy",
+      "price": 85,
+      "originalPrice": null,
+      "unit": "6'lı Paket",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1681_kucuk_543X467_9540_2_0022_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": false
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p1_4",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 1,
+      "name": "Şeftali Aromalı Soğuk Çay Teatone 330 ml",
+      "brand": "Teatone",
+      "price": 122.5,
+      "originalPrice": null,
+      "unit": "6'lı Paket",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_9846_27_0093_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": true
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p1_5",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 1,
+      "name": "Gazlı İçecek Şekersiz Kola Le'Cola 330 ml",
+      "brand": "Le'Cola",
+      "price": 115,
+      "originalPrice": null,
+      "unit": "6'lı Paket",
+      "category": "İçecekler",
+      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg&crop=248,176,531,913&w=300&precrop&output=jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": true
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p2_1",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 2,
+      "name": "Hazır Kahve 3ü1 Arada Fındıklı VİP 18 g",
+      "brand": "VİP",
+      "price": 54,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_2476_27_0062_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": false
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p2_2",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 2,
+      "name": "Hazır Kahve 3ü1 Arada Klasik VİP 18 g",
+      "brand": "VİP",
+      "price": 54,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_2476_27_0062_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": false
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p2_3",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 2,
+      "name": "Hazır Kahve 2si1 Arada VİP 12 g",
+      "brand": "VİP",
+      "price": 54,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_2476_27_0062_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
+      "isPopular": false
+    },
+    {
+      "id": "bim_cok_al_az_ode_2026_10_20_p2_4",
+      "catalogId": "bim_cok_al_az_ode_2026_10_20",
+      "marketId": "bim",
+      "pageNumber": 2,
+      "name": "Hazır Kahve Latte VİP 17 g",
+      "brand": "VİP",
+      "price": 54,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "İçecekler",
+      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_2476_27_0062_vector-smart-object.jpg",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-26",
       "isPopular": false
     }
   ]
