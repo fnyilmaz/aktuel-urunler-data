@@ -1,6 +1,6 @@
 {
-  "version": 215,
-  "lastUpdated": "2026-10-21T11:15:29.429Z",
+  "version": 216,
+  "lastUpdated": "2026-10-21T12:52:00.884Z",
   "markets": [
     {
       "id": "bim",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 6
+      "catalogCount": 7
     },
     {
       "id": "sok",
@@ -2507,6 +2507,34 @@
             "bim_cok_al_az_ode_2026_10_21_p2_2",
             "bim_cok_al_az_ode_2026_10_21_p2_3",
             "bim_cok_al_az_ode_2026_10_21_p2_4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-yfs87luCRj9UCV4M",
+      "marketId": "a101",
+      "title": "15 Ekim A101 Pati A101 Aktüel",
+      "subtitle": "15 Ekim Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "badge": "Aldın Aldın",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-21",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png",
+      "pageCount": 1,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_1024x1024.png",
+          "productIds": [
+            "a101-rio-yfs87luCRj9UCV4M-p1-1",
+            "a101-rio-yfs87luCRj9UCV4M-p1-2",
+            "a101-rio-yfs87luCRj9UCV4M-p1-3",
+            "a101-rio-yfs87luCRj9UCV4M-p1-4",
+            "a101-rio-yfs87luCRj9UCV4M-p1-5",
+            "a101-rio-yfs87luCRj9UCV4M-p1-6"
           ]
         }
       ]
@@ -25056,6 +25084,102 @@
       "startDate": "2026-10-21",
       "endDate": "2026-10-27",
       "isPopular": false
+    },
+    {
+      "id": "a101-rio-yfs87luCRj9UCV4M-p1-1",
+      "catalogId": "a101-rio-yfs87luCRj9UCV4M",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Royal Canin Adult Maltese Maması 1,5 KG",
+      "brand": "Royal Canin",
+      "price": 849,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Evcil Hayvan",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png&crop=222,355,317,139&w=300&precrop&output=jpg",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-21",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-yfs87luCRj9UCV4M-p1-2",
+      "catalogId": "a101-rio-yfs87luCRj9UCV4M",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Royal Canin British Shorthair Kedi Maması 2 KG",
+      "brand": "Royal Canin",
+      "price": 1299,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Evcil Hayvan",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png&crop=228,461,565,135&w=300&precrop&output=jpg",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-21",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-yfs87luCRj9UCV4M-p1-3",
+      "catalogId": "a101-rio-yfs87luCRj9UCV4M",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Royal Canin Training Treats Köpek Eğitim Amaçlı Ödül Maması 110 g",
+      "brand": "Royal Canin",
+      "price": 99,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Evcil Hayvan",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png&crop=170,245,175,813&w=300&precrop&output=jpg",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-21",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-yfs87luCRj9UCV4M-p1-4",
+      "catalogId": "a101-rio-yfs87luCRj9UCV4M",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Royal Canin Hair and Skin Tüy ve Deri Sağlığı Yaş Kedi Maması 85 g",
+      "brand": "Royal Canin",
+      "price": 59,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Evcil Hayvan",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png&crop=143,213,711,842&w=300&precrop&output=jpg",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-21",
+      "isPopular": false
+    },
+    {
+      "id": "a101-rio-yfs87luCRj9UCV4M-p1-5",
+      "catalogId": "a101-rio-yfs87luCRj9UCV4M",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Royal Canin Kitten Yavru Kedi Maması 2 KG",
+      "brand": "Royal Canin",
+      "price": 999,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Evcil Hayvan",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png&crop=211,439,167,1078&w=300&precrop&output=jpg",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-21",
+      "isPopular": true
+    },
+    {
+      "id": "a101-rio-yfs87luCRj9UCV4M-p1-6",
+      "catalogId": "a101-rio-yfs87luCRj9UCV4M",
+      "marketId": "a101",
+      "pageNumber": 1,
+      "name": "Royal Canin Sterilised37 Kısırlaştırılmış Kedi Maması 2 KG",
+      "brand": "Royal Canin",
+      "price": 999,
+      "originalPrice": null,
+      "unit": "Adet",
+      "category": "Evcil Hayvan",
+      "imageUrl": "https://images.weserv.nl/?url=cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/vT5cFy0sh-_3840x3840.png&crop=210,428,684,1087&w=300&precrop&output=jpg",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-21",
+      "isPopular": true
     }
   ]
 }
