@@ -1,6 +1,6 @@
 {
-  "version": 255,
-  "lastUpdated": "2026-10-29T12:27:12.729Z",
+  "version": 256,
+  "lastUpdated": "2026-10-29T14:13:17.627Z",
   "markets": [
     {
       "id": "bim",
@@ -742,8 +742,8 @@
     {
       "id": "a101-rio-Mh6LZTkQmmuWjukh",
       "marketId": "a101",
-      "title": "19-25 Eylül 10 TL ve Üzeri A101 Aktüel",
-      "subtitle": "19-25 Eylül 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "24-30 Ekim 10 TL ve Üzeri A101 Aktüel",
+      "subtitle": "24-30 Ekim 10 TL ve Üzeri Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "10 TL ve Üzeri",
       "startDate": "2026-10-24",
       "endDate": "2026-10-30",
@@ -769,8 +769,8 @@
     {
       "id": "a101-rio-klmXtkTT9Y92HGon",
       "marketId": "a101",
-      "title": "19-25 Eylül Haftanın Yıldızları A101 Aktüel",
-      "subtitle": "19-25 Eylül Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "24-30 Ekim Haftanın Yıldızları A101 Aktüel",
+      "subtitle": "24-30 Ekim Haftanın Yıldızları Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Haftanın Yıldızları",
       "startDate": "2026-10-24",
       "endDate": "2026-10-30",
@@ -958,7 +958,7 @@
     {
       "id": "a101-rio-VqtTZGhtiFIwPAsM",
       "marketId": "a101",
-      "title": "19-25 Eylül A101 Artı Fırsatları",
+      "title": "24-30 Ekim A101 Artı Fırsatları",
       "subtitle": "A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları",
       "badge": "A101 Artı",
       "startDate": "2026-10-24",
@@ -1408,8 +1408,8 @@
     {
       "id": "a101-rio-FXd2cv08vphACPVJ",
       "marketId": "a101",
-      "title": "17 Eylül Tarihinden İtibaren A101 Aktüel",
-      "subtitle": "17 Eylül Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "29 Ekim 17 Eylül Tarihinden İtibaren A101 Aktüel",
+      "subtitle": "29 Ekim Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın",
       "startDate": "2026-10-29",
       "endDate": "2026-11-04",
