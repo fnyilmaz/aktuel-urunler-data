@@ -1,6 +1,6 @@
 {
-  "version": 271,
-  "lastUpdated": "2026-11-01T14:23:04.473Z",
+  "version": 272,
+  "lastUpdated": "2026-11-02T10:22:58.001Z",
   "markets": [
     {
       "id": "bim",
@@ -10,7 +10,7 @@
       "logoUrl": "https://cdn2.bim.com.tr/templates/images/header-aktuel.png",
       "category": "Süpermarket",
       "description": "Toptan Fiyatına Perakende Satış",
-      "catalogCount": 9
+      "catalogCount": 8
     },
     {
       "id": "a101",
@@ -683,44 +683,6 @@
             "bim_04_kasim_carsamba_2026_11_04_p1_16",
             "bim_04_kasim_carsamba_2026_11_04_p1_17",
             "bim_04_kasim_carsamba_2026_11_04_p1_18"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "title": "ÇOK AL AZ ÖDE BİM Aktüel",
-      "subtitle": "ÇOK AL AZ ÖDE İndirimli Ürün Kataloğu",
-      "badge": "Aktüel",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "coverImageUrl": "https://cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg",
-      "pageCount": 2,
-      "status": "ACTIVE",
-      "isFeatured": true,
-      "pages": [
-        {
-          "pageNumber": 1,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_2ae72a02-0023-474c-917e-521f2860ca11.jpg",
-          "productIds": [
-            "bim_cok_al_az_ode_2026_10_26_p1_1",
-            "bim_cok_al_az_ode_2026_10_26_p1_2",
-            "bim_cok_al_az_ode_2026_10_26_p1_3",
-            "bim_cok_al_az_ode_2026_10_26_p1_4",
-            "bim_cok_al_az_ode_2026_10_26_p1_5"
-          ]
-        },
-        {
-          "pageNumber": 2,
-          "imageUrl": "https://cdn1.bim.com.tr/uploads/afisler/e8f50e82-e8b2-47ee-a9de-7431860d2dba.jpg",
-          "thumbnailUrl": "https://cdn1.bim.com.tr/uploads/afisler/k_e8f50e82-e8b2-47ee-a9de-7431860d2dba.jpg",
-          "productIds": [
-            "bim_cok_al_az_ode_2026_10_26_p2_1",
-            "bim_cok_al_az_ode_2026_10_26_p2_2",
-            "bim_cok_al_az_ode_2026_10_26_p2_3",
-            "bim_cok_al_az_ode_2026_10_26_p2_4"
           ]
         }
       ]
@@ -7622,150 +7584,6 @@
       "startDate": "2026-11-04",
       "endDate": "2026-11-10",
       "isPopular": true
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p1_1",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 1,
-      "name": "Meyve Nektarı Kayısı 200 ml",
-      "brand": "Jucy",
-      "price": 62.5,
-      "originalPrice": null,
-      "unit": "6 Adet",
-      "category": "İçecek",
-      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg&crop=280,216,17,570&w=300&precrop&output=jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": false
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p1_2",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 1,
-      "name": "Meyve Nektarı Şeftali 200 ml",
-      "brand": "Jucy",
-      "price": 62.5,
-      "originalPrice": null,
-      "unit": "6 Adet",
-      "category": "İçecek",
-      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg&crop=280,214,323,572&w=300&precrop&output=jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": false
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p1_3",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 1,
-      "name": "Meyve Nektarı Vişne 200 ml",
-      "brand": "Jucy",
-      "price": 85,
-      "originalPrice": null,
-      "unit": "6 Adet",
-      "category": "İçecek",
-      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg&crop=295,214,630,572&w=300&precrop&output=jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": false
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p1_4",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 1,
-      "name": "Şeftali Aromalı Soğuk Çay 330 ml",
-      "brand": "Teatone",
-      "price": 122.5,
-      "originalPrice": null,
-      "unit": "6 Adet",
-      "category": "İçecek",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_9846_27_0093_vector-smart-object.jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": true
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p1_5",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 1,
-      "name": "Gazlı İçecek Şekersiz Kola 330 ml",
-      "brand": "Le'Cola",
-      "price": 115,
-      "originalPrice": null,
-      "unit": "6 Adet",
-      "category": "İçecek",
-      "imageUrl": "https://images.weserv.nl/?url=cdn1.bim.com.tr/uploads/afisler/2ae72a02-0023-474c-917e-521f2860ca11.jpg&crop=273,248,511,825&w=300&precrop&output=jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": true
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p2_1",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 2,
-      "name": "Hazır Kahve 3ü1 Arada Fındıklı 18 g",
-      "brand": "VİP",
-      "price": 54,
-      "originalPrice": null,
-      "unit": "Adet",
-      "category": "İçecek",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1701_kucuk_543X467_145_indr_0029_vector-smart-object.jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": false
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p2_2",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 2,
-      "name": "Hazır Kahve 2si1 Arada 12 g",
-      "brand": "VİP",
-      "price": 54,
-      "originalPrice": null,
-      "unit": "Adet",
-      "category": "İçecek",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1692_kucuk_543X467_2476_27_0062_vector-smart-object.jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": false
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p2_3",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 2,
-      "name": "Hazır Kahve 3ü1 Arada Klasik 18 g",
-      "brand": "VİP",
-      "price": 54,
-      "originalPrice": null,
-      "unit": "Adet",
-      "category": "İçecek",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1701_kucuk_543X467_145_indr_0029_vector-smart-object.jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": false
-    },
-    {
-      "id": "bim_cok_al_az_ode_2026_10_26_p2_4",
-      "catalogId": "bim_cok_al_az_ode_2026_10_26",
-      "marketId": "bim",
-      "pageNumber": 2,
-      "name": "Hazır Kahve Latte 17 g",
-      "brand": "VİP",
-      "price": 54,
-      "originalPrice": null,
-      "unit": "Adet",
-      "category": "İçecek",
-      "imageUrl": "https://cdn1.bim.com.tr/uploads/aktuel-urunler/1701_kucuk_543X467_145_indr_0029_vector-smart-object.jpg",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-01",
-      "isPopular": false
     },
     {
       "id": "a101-rio-FXd2cv08vphACPVJ-p1-1",
