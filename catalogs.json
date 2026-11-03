@@ -1,6 +1,6 @@
 {
-  "version": 279,
-  "lastUpdated": "2026-11-03T12:45:22.661Z",
+  "version": 280,
+  "lastUpdated": "2026-11-03T13:56:41.226Z",
   "markets": [
     {
       "id": "bim",
@@ -529,8 +529,8 @@
     {
       "id": "a101-rio-FXd2cv08vphACPVJ",
       "marketId": "a101",
-      "title": "17 Eylül Tarihinden İtibaren A101 Aktüel",
-      "subtitle": "17 Eylül Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
+      "title": "29 Ekim 17 Eylül Tarihinden İtibaren A101 Aktüel",
+      "subtitle": "29 Ekim Aldın Aldın Fırsatları & Kampanyalı Aktüel Ürün Kataloğu",
       "badge": "Aldın Aldın",
       "startDate": "2026-10-29",
       "endDate": "2026-11-04",
