@@ -1,6 +1,6 @@
 {
-  "version": 385,
-  "lastUpdated": "2026-11-24T19:02:43.173Z",
+  "version": 386,
+  "lastUpdated": "2026-11-25T12:05:30.821Z",
   "markets": [
     {
       "id": "bim",
@@ -20,7 +20,7 @@
       "logoUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/dikey-kapida-logo_256x256.png",
       "category": "Süpermarket",
       "description": "Harca Harca Bitmez",
-      "catalogCount": 1
+      "catalogCount": 2
     },
     {
       "id": "sok",
@@ -156,7 +156,7 @@
     {
       "id": "a101-rio-VqtTZGhtiFIwPAsM",
       "marketId": "a101",
-      "title": "19-25 Eylül A101 Artı Fırsatları",
+      "title": "21-27 Kasım A101 Artı Fırsatları",
       "subtitle": "A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları",
       "badge": "A101 Artı",
       "startDate": "2026-11-21",
@@ -224,6 +224,27 @@
           "pageNumber": 10,
           "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_3840x3840.png",
           "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/b4hvfpsGAd_1024x1024.png",
+          "productIds": []
+        }
+      ]
+    },
+    {
+      "id": "a101-rio-gMxymcNksUtjQle6",
+      "marketId": "a101",
+      "title": "25-28 Kasım A101 Artı Fırsatları",
+      "subtitle": "A101 Plus Sadakat & Artı Para Nakit İade Kampanyaları",
+      "badge": "A101 Artı",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-28",
+      "coverImageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/sb0LWIcfLb_3840x3840.png",
+      "pageCount": 1,
+      "status": "ACTIVE",
+      "isFeatured": true,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "imageUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/sb0LWIcfLb_3840x3840.png",
+          "thumbnailUrl": "https://cdn2.a101.com.tr/dbmk89vnr/CALL/Image/get/sb0LWIcfLb_1024x1024.png",
           "productIds": []
         }
       ]
